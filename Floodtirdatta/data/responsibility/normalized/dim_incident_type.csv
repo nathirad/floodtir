@@ -1,0 +1,11 @@
+﻿incident_type_key,incident_type_code,incident_type_name_th,candidate_lookup_strategy,routing_status,is_official_legal_assignment
+road_flooding_local_system,road_flooding_local_system,น้ำท่วมถนนหรือซอยในระบบระบายน้ำท้องถิ่น,district_polygon_then_asset_owner,requires_verified_raci,0
+road_flooding_main_system,road_flooding_main_system,น้ำท่วมถนนสายหลักหรือระบบท่อระบายน้ำหลัก,pipe_service_area_then_asset_owner,requires_verified_raci,0
+main_road_pipe_blockage,main_road_pipe_blockage,ท่อระบายน้ำถนนสายหลักอุดตันหรือระบายผิดปกติ,pipe_service_area_then_asset_owner,requires_verified_raci,0
+sump_failure,sump_failure,บ่อสูบน้ำหรือระบบปลายท่อขัดข้อง,asset_owner_then_pipe_service_area,requires_verified_raci,0
+canal_obstruction,canal_obstruction,คลองอุดตัน มีขยะ วัชพืช หรือสิ่งกีดขวาง,canal_service_area_then_asset_owner,requires_verified_raci,0
+canal_overflow,canal_overflow,น้ำล้นคลองหรือระดับคลองกระทบพื้นที่,canal_service_area_then_water_control,requires_verified_raci,0
+canal_infrastructure,canal_infrastructure,เขื่อนริมคลองหรือโครงสร้างคลองชำรุด,asset_owner_then_canal_service_area,requires_verified_raci,0
+pump_gate_tunnel_failure,pump_gate_tunnel_failure,สถานีสูบน้ำ ประตูระบายน้ำ หรืออุโมงค์ขัดข้อง,asset_owner_then_water_control,requires_verified_raci,0
+high_tide_or_external_water,high_tide_or_external_water,น้ำทะเลหนุน น้ำเหนือ หรือน้ำภายนอกพื้นที่,water_control_then_district_coordination,requires_verified_raci,0
+life_safety_rescue,life_safety_rescue,เหตุช่วยชีวิตหรืออพยพประชาชนจากน้ำท่วม,incident_command_requires_verified_raci,requires_verified_raci,0

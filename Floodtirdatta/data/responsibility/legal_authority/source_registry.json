@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:19Z",
+    "source_count": 2
+  },
+  "sources": [
+    {
+      "source_id": "disaster-prevention-act-2550",
+      "title_th": "พระราชบัญญัติป้องกันและบรรเทาสาธารณภัย พ.ศ. 2550",
+      "document_type": "act",
+      "issuing_authority": "รัฐสภา",
+      "official_landing_url": "https://webportal.bangkok.go.th/law/page/sub/19678/",
+      "source_url": "https://webportal.bangkok.go.th/upload/user/00000121/File2020/fire-2.pdf",
+      "local_path": "data/responsibility/legal_authority/raw/disaster_prevention_act_2550.pdf",
+      "expected_sha256": "496ba630e7d6fc77f185e2abd5c929836aeb112a8e059e8a5cace87fac37c9db",
+      "expected_page_count": 18,
+      "gazette_reference": "เล่ม 124 ตอนที่ 52 ก หน้า 1 วันที่ 7 กันยายน 2550",
+      "published_date": "2007-09-07",
+      "source_copy_status": "official_bma_legal_office_copy",
+      "canonical_gazette_original": false,
+      "requires_gazette_crosscheck": true,
+      "currency_status": "requires_legal_review",
+      "contains_personal_data": false,
+      "actual_sha256": "496ba630e7d6fc77f185e2abd5c929836aeb112a8e059e8a5cace87fac37c9db",
+      "actual_page_count": 18,
+      "local_file_size_bytes": 171898,
+      "verification_status": "pending_legal_review",
+      "is_official_legal_assignment": false,
+      "may_auto_dispatch": false,
+      "legal_source_hash_sha256": "538be17d765cfccb9d8cc1533150ddbf9c0a0282d16e9bff1585e516a33a002a"
+    },
+    {
+      "source_id": "bma-administration-act-2528-consolidated",
+      "title_th": "พระราชบัญญัติระเบียบบริหารราชการกรุงเทพมหานคร พ.ศ. 2528 ฉบับรวม",
+      "document_type": "consolidated_act_copy",
+      "issuing_authority": "รัฐสภา",
+      "official_landing_url": "https://webportal.bangkok.go.th/law/page/sub/22566",
+      "source_url": "https://webportal.bangkok.go.th/upload/user/00000121/File2020/lawHeadPDF.pdf",
+      "local_path": "data/responsibility/legal_authority/raw/bma_administration_act_2528_consolidated.pdf",
+      "expected_sha256": "f2612d70bd6df8d12b66adc4e0c32eba628e0ac77d86dd480486a3ba603e8219",
+      "expected_page_count": 39,
+      "gazette_reference": "ฉบับฐาน เล่ม 102 ตอนที่ 115 ฉบับพิเศษ หน้า 1 วันที่ 31 สิงหาคม 2528",
+      "published_date": "1985-08-31",
+      "consolidated_through": "พระราชบัญญัติระเบียบบริหารราชการกรุงเทพมหานคร (ฉบับที่ 6) พ.ศ. 2562",
+      "source_copy_status": "official_bma_legal_office_consolidated_copy",
+      "canonical_gazette_original": false,
+      "requires_gazette_crosscheck": true,
+      "currency_status": "requires_legal_review",
+      "contains_personal_data": false,
+      "actual_sha256": "f2612d70bd6df8d12b66adc4e0c32eba628e0ac77d86dd480486a3ba603e8219",
+      "actual_page_count": 39,
+      "local_file_size_bytes": 327361,
+      "verification_status": "pending_legal_review",
+      "is_official_legal_assignment": false,
+      "may_auto_dispatch": false,
+      "legal_source_hash_sha256": "edf4c85c78b6f2878ff1917411fd3aaa984ae510af301ed3a78a6732f2c5fbd1"
+    }
+  ]
+}

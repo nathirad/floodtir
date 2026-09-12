@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agency mission duty extracted from official document",
+  "type": "object",
+  "required": [
+    "mission_duty_hash_sha256",
+    "mission_duty_id",
+    "source_document_id",
+    "source_pdf_pages",
+    "mission_items_th",
+    "verification_status"
+  ],
+  "properties": {
+    "mission_duty_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "verification_status": {
+      "const": "pending_legal_review"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    },
+    "contains_personal_data": {
+      "const": false
+    }
+  }
+}

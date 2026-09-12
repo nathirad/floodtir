@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "built_at": "2026-06-27T05:42:51Z",
+    "source_catalog_count": 283,
+    "source_latest_count": 283,
+    "method": "For each river/canal group with >=2 catalog stations, sort by dominant latitude/longitude axis and connect adjacent stations.",
+    "water_quantity_note": "Edge metrics are proxies from point water levels, not true water volume or flow."
+  },
+  "summary": {
+    "edge_count": 126,
+    "river_group_count": 55,
+    "total_length_km": 371.8933,
+    "risk_score_max": 0.9047,
+    "risk_score_avg": 0.706,
+    "missing_proxy_water_level_count": 0
+  },
+  "top_river_edge_counts": {
+    "คลองแสนแสบ": 10,
+    "คลองสามเสน": 8,
+    "คลองบางซื่อ": 6,
+    "คลองเปรมประชากร": 6,
+    "คลองประเวศบุรีรมย์": 5,
+    "คลองพระยาสุเรนทร์": 5,
+    "คลองทวีวัฒนา": 4,
+    "คลองลาดพร้าว": 4,
+    "คลองบางจาก": 3,
+    "คลองบางนา": 3,
+    "คลองบางนางจีน": 3,
+    "คลองบางพรม": 3,
+    "คลองบางเชือกหนัง": 3,
+    "คลองผดุงกรุงเกษม": 3,
+    "คลองภาษีเจริญ": 3,
+    "คลองเคล็ด": 3,
+    "คูน้ำวิภาวดี": 3,
+    "คลองชวดใหญ่": 2,
+    "คลองบางบอน": 2,
+    "คลองบางอ้อ": 2
+  },
+  "highest_risk_edges": [
+    {
+      "edge_id": "edge-080",
+      "river_name_th": "คลองลำปลาทิว",
+      "risk_score": 0.9047,
+      "from_station_id": 135,
+      "to_station_id": 132
+    },
+    {
+      "edge_id": "edge-121",
+      "river_name_th": "คลองแสนแสบ",
+      "risk_score": 0.8952,
+      "from_station_id": 29,
+      "to_station_id": 25
+    },
+    {
+      "edge_id": "edge-122",
+      "river_name_th": "คลองแสนแสบ",
+      "risk_score": 0.8952,
+      "from_station_id": 25,
+      "to_station_id": 60
+    },
+    {
+      "edge_id": "edge-047",
+      "river_name_th": "คลองบางแวก",
+      "risk_score": 0.8852,
+      "from_station_id": 18,
+      "to_station_id": 17
+    },
+    {
+      "edge_id": "edge-048",
+      "river_name_th": "คลองบางแวก",
+      "risk_score": 0.8852,
+      "from_station_id": 17,
+      "to_station_id": 16
+    },
+    {
+      "edge_id": "edge-094",
+      "river_name_th": "คลองสี่",
+      "risk_score": 0.8785,
+      "from_station_id": 202,
+      "to_station_id": 203
+    },
+    {
+      "edge_id": "edge-062",
+      "river_name_th": "คลองพระยาสุเรนทร์",
+      "risk_score": 0.878,
+      "from_station_id": 124,
+      "to_station_id": 125
+    },
+    {
+      "edge_id": "edge-063",
+      "river_name_th": "คลองพระยาสุเรนทร์",
+      "risk_score": 0.878,
+      "from_station_id": 125,
+      "to_station_id": 126
+    },
+    {
+      "edge_id": "edge-033",
+      "river_name_th": "คลองบางบอน",
+      "risk_score": 0.876,
+      "from_station_id": 112,
+      "to_station_id": 243
+    },
+    {
+      "edge_id": "edge-072",
+      "river_name_th": "คลองลาดบัวขาว",
+      "risk_score": 0.8726,
+      "from_station_id": 177,
+      "to_station_id": 176
+    },
+    {
+      "edge_id": "edge-073",
+      "river_name_th": "คลองลาดบัวขาว",
+      "risk_score": 0.8726,
+      "from_station_id": 176,
+      "to_station_id": 175
+    },
+    {
+      "edge_id": "edge-014",
+      "river_name_th": "คลองทวีวัฒนา",
+      "risk_score": 0.8662,
+      "from_station_id": 242,
+      "to_station_id": 110
+    },
+    {
+      "edge_id": "edge-015",
+      "river_name_th": "คลองทวีวัฒนา",
+      "risk_score": 0.8662,
+      "from_station_id": 110,
+      "to_station_id": 241
+    },
+    {
+      "edge_id": "edge-050",
+      "river_name_th": "คลองประเวศบุรีรมย์",
+      "risk_score": 0.864,
+      "from_station_id": 42,
+      "to_station_id": 40
+    },
+    {
+      "edge_id": "edge-036",
+      "river_name_th": "คลองบางพรม",
+      "risk_score": 0.863,
+      "from_station_id": 11,
+      "to_station_id": 10
+    },
+    {
+      "edge_id": "edge-037",
+      "river_name_th": "คลองบางพรม",
+      "risk_score": 0.863,
+      "from_station_id": 10,
+      "to_station_id": 9
+    },
+    {
+      "edge_id": "edge-038",
+      "river_name_th": "คลองบางพรม",
+      "risk_score": 0.863,
+      "from_station_id": 9,
+      "to_station_id": 8
+    },
+    {
+      "edge_id": "edge-085",
+      "river_name_th": "คลองสาม",
+      "risk_score": 0.8625,
+      "from_station_id": 201,
+      "to_station_id": 200
+    },
+    {
+      "edge_id": "edge-064",
+      "river_name_th": "คลองพระยาสุเรนทร์",
+      "risk_score": 0.861,
+      "from_station_id": 126,
+      "to_station_id": 20
+    },
+    {
+      "edge_id": "edge-079",
+      "river_name_th": "คลองลำชะล่า",
+      "risk_score": 0.8588,
+      "from_station_id": 154,
+      "to_station_id": 24
+    }
+  ]
+}

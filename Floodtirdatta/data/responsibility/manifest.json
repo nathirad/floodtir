@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "scope": "Bangkok flood responsibility hash indexes"
+  },
+  "layers": {
+    "candidate": {
+      "status": "candidate_unverified",
+      "assignment_count": 8112,
+      "district_agency_responsibility_summary_count": 872,
+      "directory": "candidate/",
+      "may_be_used_as_legal_assignment": false
+    },
+    "inputs": {
+      "status": "manual_official_evidence_required",
+      "directory": "inputs/",
+      "purpose": "Controlled intake for legal and ownership evidence."
+    },
+    "review": {
+      "status": "manual_review_required",
+      "record_count": 418,
+      "directory": "review/",
+      "contains_placeholders": false
+    },
+    "evidence": {
+      "status": "official_document_evidence_pending_legal_review",
+      "document_count": 7,
+      "mission_duty_count": 11,
+      "sop_process_count": 7,
+      "district_process_count": 50,
+      "data_source_count": 35,
+      "directory": "evidence/",
+      "may_be_used_as_legal_assignment": false
+    },
+    "acquisition": {
+      "status": "public_evidence_acquired_with_open_gaps",
+      "source_count": 7,
+      "asset_owner_status_count": 247,
+      "spatial_conflict_status_count": 171,
+      "district_sop_availability_count": 50,
+      "directory": "acquisition/",
+      "may_be_used_as_legal_assignment": false,
+      "may_auto_dispatch": false
+    },
+    "legal_authority": {
+      "status": "public_statutory_evidence_pending_legal_review",
+      "source_count": 2,
+      "role_count": 6,
+      "provision_count": 15,
+      "district_candidate_count": 50,
+      "review_queue_count": 17,
+      "verified_legal_assignment_count": 0,
+      "verified_dispatch_authorization_count": 0,
+      "directory": "legal_authority/",
+      "may_be_used_as_legal_assignment": false,
+      "may_auto_dispatch": false
+    },
+    "verified": {
+      "status": "awaiting_verified_legal_inputs",
+      "assignment_count": 0,
+      "dispatch_authorization_count": 0,
+      "directory": "verified/",
+      "contains_only_reviewed_assignments": true,
+      "currently_usable": false
+    },
+    "security": {
+      "status": "controls_active_with_open_findings",
+      "ingestion_risk_report": "security/ingestion_risk_report.json",
+      "directory": "security/"
+    },
+    "analytics": {
+      "status": "derived_analytical_artifacts_ready",
+      "prepared_directory": "prepared/",
+      "normalized_directory": "normalized/",
+      "visualization_directory": "visualization/",
+      "normalization_passed": true,
+      "source_fingerprint_sha256": "f2f6ab426ad9d3185238aaca1c08f78f53dade509c37c07c59b379e8afb88e25",
+      "frontend_artifact": false,
+      "operational_dispatch_input": false
+    }
+  },
+  "separation_rule": "Candidate assignments are never promoted automatically. Verified outputs are built only from independently reviewed inputs."
+}

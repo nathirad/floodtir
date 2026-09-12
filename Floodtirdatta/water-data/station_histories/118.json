@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "source": "StationDetail HTML Highcharts Date.UTC data",
+    "station_id": 118,
+    "scraped_at": "2026-06-26T17:49:55Z",
+    "timezone_note": "Timestamps are extracted from JavaScript Date.UTC calls and kept as UTC.",
+    "series_count": 1,
+    "source_url": "https://weather.bangkok.go.th/water/StationDetail?id=118"
+  },
+  "series": [
+    {
+      "series_index": 0,
+      "name_expression": "series1",
+      "unit": "m.MSL",
+      "point_count": 33,
+      "points": [
+        {
+          "observed_at_utc": "2026-06-25T10:25:00Z",
+          "value_m_msl": 0.09
+        },
+        {
+          "observed_at_utc": "2026-06-25T12:45:00Z",
+          "value_m_msl": 0.11
+        },
+        {
+          "observed_at_utc": "2026-06-25T14:50:00Z",
+          "value_m_msl": 0.05
+        },
+        {
+          "observed_at_utc": "2026-06-25T17:10:00Z",
+          "value_m_msl": -0.05
+        },
+        {
+          "observed_at_utc": "2026-06-25T19:05:00Z",
+          "value_m_msl": 0.13
+        },
+        {
+          "observed_at_utc": "2026-06-25T21:20:00Z",
+          "value_m_msl": 0.95
+        },
+        {
+          "observed_at_utc": "2026-06-25T23:50:00Z",
+          "value_m_msl": 0.91
+        },
+        {
+          "observed_at_utc": "2026-06-26T02:35:00Z",
+          "value_m_msl": 0.77
+        },
+        {
+          "observed_at_utc": "2026-06-26T04:55:00Z",
+          "value_m_msl": 0.67
+        },
+        {
+          "observed_at_utc": "2026-06-26T07:15:00Z",
+          "value_m_msl": 0.67
+        },
+        {
+          "observed_at_utc": "2026-06-26T09:45:00Z",
+          "value_m_msl": 0.56
+        },
+        {
+          "observed_at_utc": "2026-06-26T11:25:00Z",
+          "value_m_msl": 0.54
+        },
+        {
+          "observed_at_utc": "2026-06-26T11:45:00Z",
+          "value_m_msl": 0.54
+        },
+        {
+          "observed_at_utc": "2026-06-26T11:55:00Z",
+          "value_m_msl": 0.54
+        },
+        {
+          "observed_at_utc": "2026-06-26T12:20:00Z",
+          "value_m_msl": 0.53
+        },
+        {
+          "observed_at_utc": "2026-06-26T13:10:00Z",
+          "value_m_msl": 0.52
+        },
+        {
+          "observed_at_utc": "2026-06-26T13:30:00Z",
+          "value_m_msl": 0.55
+        },
+        {
+          "observed_at_utc": "2026-06-26T13:50:00Z",
+          "value_m_msl": 0.52
+        },
+        {
+          "observed_at_utc": "2026-06-26T15:00:00Z",
+          "value_m_msl": 0.48
+        },
+        {
+          "observed_at_utc": "2026-06-26T15:40:00Z",
+          "value_m_msl": 0.47
+        },
+        {
+          "observed_at_utc": "2026-06-26T15:45:00Z",
+          "value_m_msl": 0.46
+        },
+        {
+          "observed_at_utc": "2026-06-26T15:50:00Z",
+          "value_m_msl": 0.46
+        },
+        {
+          "observed_at_utc": "2026-06-26T16:15:00Z",
+          "value_m_msl": 0.47
+        },
+        {
+          "observed_at_utc": "2026-06-26T16:20:00Z",
+          "value_m_msl": 0.49
+        },
+        {
+          "observed_at_utc": "2026-06-26T17:00:00Z",
+          "value_m_msl": 0.44
+        },
+        {
+          "observed_at_utc": "2026-06-26T17:05:00Z",
+          "value_m_msl": 0.43
+        },
+        {
+          "observed_at_utc": "2026-06-26T17:25:00Z",
+          "value_m_msl": 0.46
+        },
+        {
+          "observed_at_utc": "2026-06-26T18:10:00Z",
+          "value_m_msl": 0.44
+        },
+        {
+          "observed_at_utc": "2026-06-26T18:25:00Z",
+          "value_m_msl": 0.43
+        },
+        {
+          "observed_at_utc": "2026-06-26T18:30:00Z",
+          "value_m_msl": 0.43
+        },
+        {
+          "observed_at_utc": "2026-06-26T19:15:00Z",
+          "value_m_msl": 0.47
+        },
+        {
+          "observed_at_utc": "2026-06-26T19:45:00Z",
+          "value_m_msl": 0.48
+        },
+        {
+          "observed_at_utc": "2026-06-26T20:00:00Z",
+          "value_m_msl": 0.45
+        }
+      ]
+    }
+  ]
+}

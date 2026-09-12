@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified legal basis input",
+  "type": "object",
+  "required": [
+    "legal_basis_id",
+    "document_title",
+    "issuing_authority",
+    "document_type",
+    "section_or_page",
+    "effective_from",
+    "effective_to",
+    "source_url",
+    "document_sha256",
+    "verification_status",
+    "verified_by",
+    "verified_at",
+    "approved_by",
+    "approved_at"
+  ],
+  "properties": {
+    "legal_basis_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "section_or_page": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "document_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "verification_status": {
+      "const": "verified"
+    },
+    "verified_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verified_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approved_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approved_at": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

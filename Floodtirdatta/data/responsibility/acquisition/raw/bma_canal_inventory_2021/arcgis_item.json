@@ -1,0 +1,55 @@
+{
+  "id": "5660ebcb73ef4f31a6b019f82ac30ca2",
+  "owner": "gid_publisher6",
+  "orgId": "0123456789ABCDEF",
+  "created": 1630911438773,
+  "modified": 1630911444652,
+  "guid": null,
+  "name": "ตารางแสดงข้อมูล_คลอง_คู_ลำราง_ของกรุงเทพมหานคร.zip",
+  "title": "ตารางแสดงข้อมูล คลอง คู ลำราง ของกรุงเทพมหานคร",
+  "type": "CSV Collection",
+  "typeKeywords": [
+    "CSV Collection",
+    "export:dbc1f3dbf7bd410f9cb0473bc2b7cd7d",
+    "modified:1630570586969"
+  ],
+  "description": "ตารางแสดงข้อมูล คลอง คู ลำราง ของกรุงเทพมหานคร    <div><div>รายการที่เกี่ยวข้อง<\/div><div>  1.<a href='https://bmagis.bangkok.go.th/portal/sharing/rest/content/items/78ac7b4991e3427ca0e1f454c2eac61f/data' target='_blank'>Metadata<\/a><\/div><div>  2. <a href='https://bmagis.bangkok.go.th/portal/sharing/rest/content/items/6564e53b7ec7457e87d2860dbd368445/data' target='_blank'>Data Dictionary<\/a><\/div><\/div><br />",
+  "tags": ["Urban Elements"],
+  "snippet": null,
+  "thumbnail": null,
+  "documentation": null,
+  "extent": [
+    [
+      -180,
+      -90
+    ],
+    [
+      180,
+      90
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "None",
+  "accessInformation": null,
+  "licenseInfo": null,
+  "culture": "en-us",
+  "properties": null,
+  "url": null,
+  "proxyFilter": null,
+  "access": "public",
+  "size": 52141,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 2,
+  "scoreCompleteness": 26,
+  "groupDesignations": null
+}

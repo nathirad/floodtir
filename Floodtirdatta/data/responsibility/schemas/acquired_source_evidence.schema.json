@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Acquired official-source evidence record",
+  "type": "object",
+  "required": [
+    "acquired_source_hash_sha256",
+    "source_id",
+    "source_kind",
+    "source_url",
+    "evidence_status",
+    "is_asset_ownership_certificate",
+    "is_dispatch_authorization",
+    "requires_human_review"
+  ],
+  "properties": {
+    "acquired_source_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "evidence_status": {
+      "enum": [
+        "resolved",
+        "candidate",
+        "not_publicly_available",
+        "requires_agency_confirmation"
+      ]
+    },
+    "is_asset_ownership_certificate": {
+      "const": false
+    },
+    "is_dispatch_authorization": {
+      "const": false
+    }
+  }
+}

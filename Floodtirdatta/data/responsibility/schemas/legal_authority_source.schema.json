@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legal authority source evidence",
+  "type": "object",
+  "required": [
+    "legal_source_hash_sha256",
+    "source_id",
+    "source_url",
+    "local_path",
+    "actual_sha256",
+    "actual_page_count",
+    "currency_status",
+    "verification_status",
+    "may_auto_dispatch"
+  ],
+  "properties": {
+    "legal_source_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "actual_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "currency_status": {
+      "const": "requires_legal_review"
+    },
+    "verification_status": {
+      "const": "pending_legal_review"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    },
+    "may_auto_dispatch": {
+      "const": false
+    },
+    "contains_personal_data": {
+      "const": false
+    }
+  }
+}

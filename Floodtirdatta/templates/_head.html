@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="th"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Floodtir — Bangkok Full Drainage & Flood Map (BMA SEDGIS)</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--text:#e6edf3;--muted:#8b949e;
+--safe:#2ea043;--warn:#d29922;--danger:#da3633;--accent:#388bfd;--purple:#a371f7;--cyan:#39c5cf;--pink:#f778ba;--orange:#ff9f1c}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:var(--bg);color:var(--text);
+font-family:system-ui,"Segoe UI",Tahoma,sans-serif}
+#wrap{display:flex;height:100%}#map{flex:1}
+#side{width:312px;background:var(--panel);border-left:1px solid var(--line);padding:14px;overflow:auto}
+h1{font-size:16px;margin:0 0 2px}.sub{color:var(--muted);font-size:11px;margin-bottom:12px;line-height:1.5}
+.card{background:#0d1117;border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-bottom:10px}
+.card h3{margin:0 0 8px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.lyr{display:flex;align-items:center;gap:8px;font-size:12.5px;padding:3px 0;cursor:pointer}
+.lyr input{cursor:pointer}.cnt{margin-left:auto;color:var(--muted);font-size:11px}
+.dot{width:12px;height:12px;border-radius:50%;display:inline-block;border:2px solid #fff;flex:none}
+.bar{width:14px;height:0;border-top-width:3px;border-top-style:solid;display:inline-block;flex:none}
+.sq{width:12px;height:12px;display:inline-block;border:1px solid #fff;flex:none}
+.leaflet-popup-content{font-size:13px;line-height:1.5;max-width:260px}
+.leaflet-popup-content b{color:#0d1117}
+.stat{font-size:20px;font-weight:700}.statlbl{font-size:10.5px;color:var(--muted)}
+.statgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.btns{display:flex;gap:6px;margin-top:6px}
+button{background:#21262d;color:var(--text);border:1px solid var(--line);border-radius:6px;padding:5px 9px;font-size:11px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+#pipenote{font-size:11px;color:var(--warn);margin-top:6px;display:none}
+@keyframes canalFlow {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+.flow-canal {
+  stroke-dasharray: 6, 8;
+  animation: canalFlow 1.2s steps(12) infinite;
+  marker-end: url(#arrow);
+}
+.canal-top5-label{background:rgba(13,17,23,.9);border:1.5px solid #da3633;border-radius:5px;color:#e6edf3;font-size:11.5px;padding:3px 8px;white-space:nowrap;pointer-events:none;box-shadow:0 2px 6px rgba(0,0,0,.5)}
+.canal-top5-label::before{display:none}
+.canal-rank-badge{color:#da3633;font-weight:700;font-size:13px}
+</style></head><body>
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M 2 2.5 L 8 5 L 2 7.5 z" fill="#39c5cf" />
+    </marker>
+  </defs>
+</svg>
+<div id="wrap"><div id="map">
+<div id="zoom-badge" style="position:absolute;bottom:28px;left:10px;z-index:1000;background:rgba(13,17,23,0.85);border:1px solid var(--line);border-radius:6px;padding:4px 9px;font-size:11.5px;color:var(--muted);pointer-events:none;backdrop-filter:blur(4px)">
+  Z<span id="zoom-val" style="color:var(--text);font-weight:700;margin-left:2px">—</span>
+  <span id="zoom-lvl" style="color:var(--cyan);margin-left:5px;font-size:10px"></span>
+</div>
+</div>
+<div id="side">
+<h1>🌊 Floodtir · Bangkok</h1>
+<div class="sub">Full drainage & flood network · BMA SEDGIS open ArcGIS + Thaiwater.<br>Snapshot cached locally; drainage pipes stream live from server.</div>
+<div class="card"><h3>Overview</h3><div class="statgrid" id="stats"></div></div>
+<div class="card"><h3>Layers (click to toggle)</h3><div id="layers"></div>
+<div class="btns"><button id="all">Show all</button><button id="none">Hide all</button></div>
+<div id="pipenote">Zoom in (level ≥15) to stream drainage pipes for the current view.</div></div>
+<div class="card"><h3>Road-flood sensors</h3>
+<div class="lyr"><span class="dot" style="background:var(--safe)"></span>Dry (0 cm)</div>
+<div class="lyr"><span class="dot" style="background:var(--warn)"></span>Shallow (&lt;10 cm)</div>
+<div class="lyr"><span class="dot" style="background:var(--danger)"></span>Flooded (≥10 cm)</div>
+<div class="lyr"><span class="dot" style="background:var(--muted)"></span>Offline</div></div>
+<div class="card" id="canal-mode-card" style="display:none"><h3>แสดงสีคลอง (Canal Mode)</h3>
+<div class="lyr"><input type="radio" name="canal-style-mode" id="mode-hierarchy" checked style="cursor:pointer"/><label for="mode-hierarchy" style="cursor:pointer">ลำดับชั้น (Hierarchy)</label></div>
+<div class="lyr"><input type="radio" name="canal-style-mode" id="mode-status" style="cursor:pointer"/><label for="mode-status" style="cursor:pointer">สถานะระดับน้ำ (Status)</label></div>
+<div class="lyr"><input type="radio" name="canal-style-mode" id="mode-capacity" style="cursor:pointer"/><label for="mode-capacity" style="cursor:pointer">ระดับน้ำ/ความจุ (Capacity)</label></div>
+<div style="margin-top:8px;border-top:1px solid var(--line);padding-top:7px;font-size:10.5px;color:var(--muted)">
+<div style="font-weight:600;margin-bottom:5px;color:var(--text)">ขนาดเส้น = ขนาดคลอง (zoom≥14)</div>
+<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><span style="display:inline-block;width:26px;height:6px;background:var(--cyan);border-radius:2px"></span>ใหญ่ (≥15 ม.)</div>
+<div style="display:flex;align-items:center;gap:6px;margin-bottom:8px"><span style="display:inline-block;width:26px;height:2px;background:#0e7490;border-radius:2px"></span>เล็ก (&lt;8 ม.)</div>
+<div id="cap-legend" style="display:none"><div style="font-weight:600;margin-bottom:4px;color:var(--text)">สีเส้น = % ความจุ</div>
+<div class="lyr"><span class="bar" style="border-top-color:var(--safe)"></span>&lt;50% ปกติ</div>
+<div class="lyr"><span class="bar" style="border-top-color:var(--warn)"></span>50–80% เฝ้าระวัง</div>
+<div class="lyr"><span class="bar" style="border-top-color:var(--danger)"></span>&gt;80% ใกล้เต็ม</div></div>
+<div id="sts-legend" style="display:none"><div style="font-weight:600;margin-bottom:4px;color:var(--text)">สีเส้น = สถานะน้ำ</div>
+<div class="lyr"><span class="bar" style="border-top-color:var(--safe)"></span>ปกติ</div>
+<div class="lyr"><span class="bar" style="border-top-color:var(--warn)"></span>เฝ้าระวัง</div>
+<div class="lyr"><span class="bar" style="border-top-color:var(--danger)"></span>วิกฤต</div></div>
+<button id="danger-view-btn" onclick="toggleDangerView()" style="margin-top:6px;width:100%;background:#1c1e24;border:1.5px solid var(--danger);color:var(--danger);border-radius:5px;padding:5px 8px;font-size:11px;cursor:pointer;text-align:left;transition:background .15s">⚠ แสดงสายน้ำอันตราย</button>
+<div style="font-size:10px;color:var(--muted);margin-top:3px;line-height:1.5"><span style="color:var(--danger)">█</span> คอขวด &nbsp;<span style="color:var(--warn)">█</span> รับน้ำล้น &nbsp;<span style="color:var(--orange)">█</span> ต้นน้ำ</div>
+</div></div>
+</div></div>
+<script>

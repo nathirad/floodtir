@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "scope": "Scraping, source lineage, and hash ingestion",
+    "data_source_count": 35
+  },
+  "summary": {
+    "finding_count": 10,
+    "open_count": 4,
+    "fixed_count": 4,
+    "partial_count": 2
+  },
+  "findings": [
+    {
+      "finding_id": "ING-001",
+      "severity": "critical",
+      "status": "fixed",
+      "title": "TLS certificate verification was disabled",
+      "evidence": "scripts/run_scraper.py changed to secure defaults",
+      "control": "Use system CA validation; never install an unverified global SSL context."
+    },
+    {
+      "finding_id": "ING-002",
+      "severity": "high",
+      "status": "fixed",
+      "title": "Redirect and response origin were not validated",
+      "evidence": "Scraper validates HTTPS/exact host before following a redirect and rechecks the final URL",
+      "control": "Validate requested and final URL against allowlist."
+    },
+    {
+      "finding_id": "ING-003",
+      "severity": "high",
+      "status": "partially_resolved",
+      "title": "SEDGIS layer provenance is partially resolved",
+      "evidence": "Exact canal item, service, and source URLs plus item timestamps were acquired. The checked-in GeoJSON still lacks a matching upstream export checksum and a formal published license.",
+      "control": "Re-export each layer with an immutable raw manifest and obtain a formal license statement before production use."
+    },
+    {
+      "finding_id": "ING-004",
+      "severity": "high",
+      "status": "open",
+      "title": "Asset owner values remain unresolved",
+      "evidence": "247 source records require manual owner review.",
+      "control": "Obtain certified asset owner/custodian registry."
+    },
+    {
+      "finding_id": "ING-005",
+      "severity": "high",
+      "status": "open",
+      "title": "Source district text conflicts with polygon",
+      "evidence": "171 records have spatial conflicts.",
+      "control": "Resolve against authoritative district geometry."
+    },
+    {
+      "finding_id": "ING-006",
+      "severity": "medium",
+      "status": "fixed_for_future_fetches",
+      "title": "Raw source response integrity was not recorded",
+      "evidence": "New scraper outputs source_response_sha256; existing snapshots predate this control.",
+      "control": "Retain raw response hash and fetched timestamp."
+    },
+    {
+      "finding_id": "ING-007",
+      "severity": "medium",
+      "status": "fixed",
+      "title": "Response size, MIME, and UTF-8 were not strict",
+      "evidence": "Scraper now limits response bytes and validates content type and strict UTF-8.",
+      "control": "Fail closed on malformed or oversized responses."
+    },
+    {
+      "finding_id": "ING-008",
+      "severity": "medium",
+      "status": "fixed",
+      "title": "Empty history parse could be treated as success",
+      "evidence": "Zero-series history and mismatched cached station IDs now fail validation.",
+      "control": "Quarantine parser-empty histories as source errors."
+    },
+    {
+      "finding_id": "ING-009",
+      "severity": "medium",
+      "status": "open",
+      "title": "Official mission evidence is not legal approval",
+      "evidence": "Mission/SOP evidence and district processes remain pending legal and district confirmation.",
+      "control": "Two-person legal review before verified promotion."
+    },
+    {
+      "finding_id": "ING-010",
+      "severity": "medium",
+      "status": "open",
+      "title": "Integrity manifest is unsigned",
+      "evidence": "signature_status is unsigned",
+      "control": "Sign releases with a managed key or CI attestation."
+    }
+  ]
+}

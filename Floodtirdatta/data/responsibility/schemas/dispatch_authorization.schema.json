@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified dispatch authorization",
+  "type": "object",
+  "required": [
+    "authorization_hash_sha256",
+    "authorization_source_id",
+    "actor_role_code",
+    "actor_agency_id",
+    "target_agency_id",
+    "permitted_action",
+    "district_code",
+    "incident_type_code",
+    "legal_basis_id",
+    "effective_from",
+    "effective_to",
+    "verified_by",
+    "verified_at",
+    "approved_by",
+    "approved_at",
+    "change_reason",
+    "verification_status",
+    "is_official_authorization"
+  ],
+  "properties": {
+    "authorization_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "permitted_action": {
+      "enum": [
+        "approve_dispatch",
+        "assign_case",
+        "override_route",
+        "route_case",
+        "verify_assignment",
+        "view_candidate"
+      ]
+    },
+    "verification_status": {
+      "const": "verified"
+    },
+    "is_official_authorization": {
+      "const": true
+    }
+  }
+}

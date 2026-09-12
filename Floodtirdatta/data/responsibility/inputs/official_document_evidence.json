@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "captured_at": "2026-06-29T07:02:26Z",
+    "scope": "Official Bangkok flood-response mission and SOP evidence",
+    "extraction_method": "pdftotext_layout_plus_visual_page_review",
+    "binary_policy": "PDF binaries are not committed; official URLs, file metadata, content SHA-256, and page locators are retained.",
+    "privacy_policy": "Named officials, signatures, and personal contact data are excluded. Agency and role evidence only.",
+    "legal_notice": "These are document extracts pending legal review, not verified legal assignments or dispatch authority."
+  },
+  "documents": [
+    {
+      "document_id": "bma-flood-action-plan-2569-pdf",
+      "legal_basis_reference_id": "bma-flood-plan-2569",
+      "title_th": "แผนปฏิบัติการป้องกันและแก้ไขปัญหาน้ำท่วมกรุงเทพมหานคร ประจำปี 2569",
+      "publisher_th": "สำนักการระบายน้ำ กรุงเทพมหานคร",
+      "document_type": "official_operational_plan",
+      "period": "2569",
+      "landing_page_url": "https://dds.bangkok.go.th/content/doc3/index.php",
+      "source_url": "https://dds.bangkok.go.th/content/doc_download_count.php?id=11290",
+      "source_access_status": "downloaded",
+      "fetched_at": "2026-06-29T07:02:26Z",
+      "mime_type": "application/pdf",
+      "page_count": 322,
+      "file_size_bytes": 161119984,
+      "document_sha256": "9f0e54addb0c11e17c249166cd738cf4bf1b671a4acfcff32d4bf8dbe85044c2",
+      "local_binary_committed": false,
+      "extraction_method": "pdftotext_layout_plus_visual_page_review"
+    },
+    {
+      "document_id": "bma-disaster-prevention-plan-2564-2570-pdf",
+      "legal_basis_reference_id": "bma-disaster-plan-2564-2570",
+      "title_th": "แผนการป้องกันและบรรเทาสาธารณภัยกรุงเทพมหานคร พ.ศ. 2564-2570",
+      "publisher_th": "กรุงเทพมหานคร",
+      "document_type": "official_disaster_plan",
+      "period": "2564-2570",
+      "landing_page_url": "https://budget.bangkok.go.th/main/topic.php?topic_id=3151",
+      "source_url": "https://budget.bangkok.go.th/main/upload/2567/02/topic954_2024_02_16_10_23_03.pdf",
+      "source_access_status": "downloaded",
+      "fetched_at": "2026-06-29T07:02:26Z",
+      "mime_type": "application/pdf",
+      "page_count": 142,
+      "file_size_bytes": 10526574,
+      "document_sha256": "3cac6f9ceed904b75ea45deb89c505c6fba1193683e58f4674a2818050ee1b67",
+      "local_binary_committed": false,
+      "extraction_method": "pdftotext_layout_plus_visual_page_review"
+    },
+    {
+      "document_id": "dds-flood-prevention-operations-manual-pdf",
+      "legal_basis_reference_id": "dds-official-duties",
+      "title_th": "คู่มือการปฏิบัติงานของสำนักการระบายน้ำ ด้านป้องกันและแก้ไขปัญหาน้ำท่วม",
+      "publisher_th": "สำนักการระบายน้ำ กรุงเทพมหานคร",
+      "document_type": "official_operating_manual",
+      "period": "2564",
+      "source_url": "https://officialadmin.bangkok.go.th/public/upload_fm/ITA/O13/O13_19_2%20%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%81%E0%B9%89%E0%B9%84%E0%B8%82%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%97%E0%B9%88%E0%B8%A7%E0%B8%A1.pdf",
+      "source_access_status": "downloaded",
+      "fetched_at": "2026-06-29T07:02:26Z",
+      "mime_type": "application/pdf",
+      "page_count": 240,
+      "file_size_bytes": 8120766,
+      "document_sha256": "ece17321a885c2266fb60321d499d40c0ff9170b7e1f54ae2644d7707c295b43",
+      "local_binary_committed": false,
+      "extraction_method": "pdftotext_layout_plus_visual_page_review"
+    },
+    {
+      "document_id": "bma-district-public-works-manual-2568-pdf",
+      "legal_basis_reference_id": "bma-district-public-works-duties",
+      "title_th": "คู่มือการปฏิบัติงานของฝ่ายโยธา สำนักงานเขต",
+      "publisher_th": "กรุงเทพมหานคร",
+      "document_type": "official_district_operating_manual",
+      "period": "2568",
+      "source_url": "https://webportal.bangkok.go.th/public/user_files_editor/68/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%87%E0%B8%B2%E0%B8%99%2068/%E0%B8%9D%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%82%E0%B8%A2%E0%B8%98%E0%B8%B2.pdf",
+      "source_access_status": "downloaded",
+      "fetched_at": "2026-06-29T07:02:26Z",
+      "mime_type": "application/pdf",
+      "page_count": 137,
+      "file_size_bytes": 2277248,
+      "document_sha256": "e1c1a311a8b6f302844b6e1eac862bd9131f4c9f3de55d7fbf90b6ffc34c9997",
+      "local_binary_committed": false,
+      "extraction_method": "pdftotext_layout_plus_visual_page_review"
+    },
+    {
+      "document_id": "bma-authority-announcement-62-pdf",
+      "legal_basis_reference_id": "bma-organization-authority-index",
+      "title_th": "ประกาศกรุงเทพมหานคร เรื่อง การแบ่งส่วนราชการภายในหน่วยงานและการกำหนดอำนาจหน้าที่ของส่วนราชการกรุงเทพมหานคร ฉบับที่ 62",
+      "publisher_th": "กรุงเทพมหานคร",
+      "document_type": "official_authority_announcement",
+      "landing_page_url": "https://webportal.bangkok.go.th/dindaeng/page/sub/15529/Authority-and-Responsibilities",
+      "source_url": "https://infocenter.oic.go.th/FILEWEB/CABINFOCENTER9/DRAWER063/GENERAL/DATA0000/00000549.PDF",
+      "source_access_status": "blocked_http_418",
+      "fetched_at": "2026-06-29T07:02:26Z",
+      "mime_type": "application/pdf",
+      "page_count": null,
+      "file_size_bytes": null,
+      "document_sha256": null,
+      "local_binary_committed": false,
+      "extraction_method": "not_extracted",
+      "review_note": "Official landing page is available, but the PDF endpoint returned HTTP 418. No content hash or extracted claim is recorded."
+    },
+    {
+      "document_id": "bang-kho-laem-flood-response-plan-2563-pdf",
+      "legal_basis_reference_id": "bma-disaster-plan-2564-2570",
+      "title_th": "แผนปฏิบัติการป้องกันและบรรเทาภัยจากอุทกภัย ประจำปี พ.ศ. 2563 สำนักงานเขตบางคอแหลม",
+      "publisher_th": "สำนักงานเขตบางคอแหลม กรุงเทพมหานคร",
+      "document_type": "official_historical_district_flood_sop",
+      "period": "2563",
+      "landing_page_url": "https://webportal.bangkok.go.th/bangkholaem/page/sub/21163/%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%89%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%89%E0%B8%B4%E0%B8%99",
+      "source_url": "https://webportal.bangkok.go.th/upload/user/00000071/GECC/Plan5.pdf",
+      "source_access_status": "downloaded",
+      "fetched_at": "2026-06-29T19:48:22Z",
+      "mime_type": "application/pdf",
+      "page_count": 7,
+      "file_size_bytes": 260894,
+      "document_sha256": "1b9815e200d2dae8e9c1882c448b6d5e260c9f8d7bfda3b1441d2696d6b7a6f7",
+      "local_binary_committed": false,
+      "extraction_method": "pdftotext_layout_plus_visual_page_review",
+      "review_note": "Official district-specific SOP evidence. It is historical and cannot be treated as the currently effective Bang Kho Laem order without district confirmation."
+    },
+    {
+      "document_id": "bma-integrated-flood-inspection-report-2566-pdf",
+      "legal_basis_reference_id": "bma-flood-plan-2569",
+      "title_th": "รายงานการตรวจราชการแบบบูรณาการ การป้องกันและแก้ไขปัญหาน้ำท่วม รอบที่ 1-2/2566",
+      "publisher_th": "คณะผู้ตรวจราชการกรุงเทพมหานคร และกองงานผู้ตรวจราชการ สำนักปลัดกรุงเทพมหานคร",
+      "document_type": "official_flood_readiness_inspection_report",
+      "period": "2566",
+      "source_url": "https://webportal.bangkok.go.th/public/user_files_editor/312/Documents/Report_256602.pdf",
+      "source_access_status": "downloaded",
+      "fetched_at": "2026-06-29T19:48:22Z",
+      "mime_type": "application/pdf",
+      "page_count": 86,
+      "file_size_bytes": 2755710,
+      "document_sha256": "d8eb3966d3e4057a243d51fa0fb286c07cb0a77b0bf83bba834067abfd891831",
+      "local_binary_committed": false,
+      "extraction_method": "pdftotext_layout_plus_visual_page_review",
+      "review_note": "PDF page 16 states that all 50 district offices had prepared flood prevention and response action plans. The report proves plan existence in 2566, not current contents or current approval."
+    }
+  ],
+  "mission_duties": [
+    {
+      "mission_duty_id": "flood-plan-2569-bma-dds",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 1",
+      "agency_id": "bma-dds",
+      "agency_name_th": "สำนักการระบายน้ำ",
+      "mission_items_th": [
+        "แจ้งจุดเสี่ยงน้ำท่วมในถนนสายหลัก",
+        "แก้ไขจุดเสี่ยง",
+        "ลดระดับน้ำในคลอง แก้มลิง และบ่อสูบน้ำตามแผน",
+        "เตรียมเจ้าหน้าที่ เครื่องมือ อุปกรณ์ และเครื่องสูบน้ำ",
+        "รายงานข้อมูลสถานการณ์น้ำและสภาพอากาศ",
+        "สนับสนุนเครื่องสูบน้ำตามคำขอของสำนักงานเขต"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-districts",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 2",
+      "agency_selector": "bma-district-*",
+      "agency_name_th": "สำนักงานเขต",
+      "mission_items_th": [
+        "จัดเจ้าหน้าที่ออกปฏิบัติงานเมื่อฝนตกในพื้นที่",
+        "ผู้อำนวยการเขตสั่งการแก้ไขปัญหา",
+        "รายงานสถานการณ์ฝนตกและจุดน้ำท่วม",
+        "ตรวจสอบและติดตามพื้นที่ลุ่มต่ำหรือจุดเสี่ยงน้ำท่วม",
+        "ตรวจสอบแผนและกำหนดจุดติดตั้งเครื่องสูบน้ำ"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-finance",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 3",
+      "agency_id": "bma-finance",
+      "agency_name_th": "สำนักการคลัง",
+      "mission_items_th": [
+        "ช่วยเหลือประชาชนกรณีรถยนต์ขัดข้อง",
+        "จัดรถลากจูง",
+        "อำนวยความสะดวกในการจราจร"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-public-works",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 4",
+      "agency_id": "bma-public-works",
+      "agency_name_th": "สำนักการโยธา",
+      "mission_items_th": [
+        "ตรวจสอบสภาพผิวจราจรและจัดหน่วยซ่อมแซมเร่งด่วน",
+        "สนับสนุนเครื่องมือ วัสดุ และอุปกรณ์",
+        "ตรวจสอบและเฝ้าระวังเสาไฟฟ้า อาคารสูง และป้ายโฆษณา"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-municipal",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 5",
+      "agency_id": "bma-municipal",
+      "agency_name_th": "สำนักเทศกิจ",
+      "mission_items_th": [
+        "จัดสายตรวจและลงพื้นที่",
+        "จัดรถบริการรับส่งประชาชน"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-ddpm",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 6",
+      "agency_id": "bma-ddpm",
+      "agency_name_th": "สำนักป้องกันและบรรเทาสาธารณภัย",
+      "mission_items_th": [
+        "ช่วยเหลือประชาชนที่ได้รับผลกระทบจากน้ำท่วมหรือมีระดับน้ำสูง",
+        "สนับสนุนเครื่องมือและวัสดุอุปกรณ์",
+        "จัดหน่วยขนน้ำและสนับสนุนสำนักงานเขต"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-traffic",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 7",
+      "agency_id": "bma-traffic",
+      "agency_name_th": "สำนักการจราจรและขนส่ง",
+      "mission_items_th": [
+        "ตรวจสอบแก้ไขระบบสัญญาณไฟและป้ายจราจร",
+        "สนับสนุนข้อมูลจากกล้อง CCTV",
+        "ตรวจสอบความพร้อมของระบบวิทยุ TRUNK RADIO"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-public-relations",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 8",
+      "agency_id": "bma-public-relations",
+      "agency_name_th": "สำนักงานประชาสัมพันธ์",
+      "mission_items_th": [
+        "ประชาสัมพันธ์สถานการณ์ฝนตก จุดเสี่ยง และเส้นทางน้ำท่วม",
+        "เตือนประชาชนให้ย้ายสิ่งของหรือเตรียมอพยพ",
+        "แจ้งประเด็นผลกระทบจากปัญหาน้ำท่วมของประชาชน"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-budget",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 9",
+      "agency_id": "bma-budget",
+      "agency_name_th": "สำนักงบประมาณกรุงเทพมหานคร",
+      "mission_items_th": [
+        "สนับสนุนการจัดหากระสอบทราย",
+        "สนับสนุนงบประมาณแก้ไขปัญหาน้ำท่วม"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-health",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 10",
+      "agency_id": "bma-health",
+      "agency_name_th": "สำนักอนามัย",
+      "mission_items_th": [
+        "ให้คำแนะนำด้านสุขภาพอนามัยและการป้องกันโรค",
+        "สนับสนุนยา เวชภัณฑ์ และวัสดุอุปกรณ์",
+        "จัดหน่วยบริการสาธารณสุขเคลื่อนที่",
+        "จัดหน่วยแพทย์เคลื่อนที่"
+      ]
+    },
+    {
+      "mission_duty_id": "flood-plan-2569-bma-environment",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6],
+      "source_locator_th": "ตารางภารกิจหน้าที่ตามแผนปฏิบัติการ ลำดับ 11",
+      "agency_id": "bma-environment",
+      "agency_name_th": "สำนักสิ่งแวดล้อม",
+      "mission_items_th": [
+        "รณรงค์การทิ้งขยะและจัดเก็บขยะชิ้นใหญ่ในชุมชนและหมู่บ้าน",
+        "ดูแลต้นไม้ไม่ให้หักโค่น"
+      ]
+    }
+  ],
+  "sop_processes": [
+    {
+      "sop_process_id": "bma-flood-plan-command-and-coordination",
+      "source_document_id": "bma-flood-action-plan-2569-pdf",
+      "source_pdf_pages": [6, 7, 8, 9],
+      "printed_pages": ["ภารกิจหน้าที่", "คำสั่งและโครงสร้างศูนย์อำนวยการ"],
+      "title_th": "การอำนวยการและประสานภารกิจแก้ไขปัญหาน้ำท่วม",
+      "owner_agency_ids": ["bma-dds"],
+      "trigger_th": "เกิดหรือคาดว่าจะเกิดฝนตกหนัก น้ำท่วม หรือจุดเสี่ยงที่ต้องประสานหลายหน่วยงาน",
+      "steps": [
+        {"sequence": 1, "action_th": "ติดตาม ประเมิน และรายงานสถานการณ์น้ำและฝน"},
+        {"sequence": 2, "action_th": "แจ้งจุดเสี่ยงและเตรียมกำลัง เครื่องมือ และเครื่องสูบน้ำ"},
+        {"sequence": 3, "action_th": "ประสานสำนักงานเขตและหน่วยสนับสนุนตามภารกิจ"},
+        {"sequence": 4, "action_th": "ควบคุมการปฏิบัติและรายงานผลต่อศูนย์อำนวยการ"}
+      ]
+    },
+    {
+      "sop_process_id": "dds-prevent-waterlogging-and-flooding",
+      "source_document_id": "dds-flood-prevention-operations-manual-pdf",
+      "source_pdf_pages": [88, 89, 90, 91, 92],
+      "printed_pages": ["80", "81", "82", "83", "84"],
+      "title_th": "กระบวนการป้องกันปัญหาน้ำท่วมขังและน้ำท่วม",
+      "owner_agency_ids": ["bma-dds"],
+      "trigger_th": "การเตรียมความพร้อมและดำเนินมาตรการป้องกันก่อนเกิดปัญหาน้ำท่วม",
+      "steps": [
+        {"sequence": 1, "action_th": "จัดทำแผนและกำหนดมาตรการป้องกัน"},
+        {"sequence": 2, "action_th": "ทบทวนและอนุมัติแผน"},
+        {"sequence": 3, "action_th": "ดำเนินการตามแผน"},
+        {"sequence": 4, "action_th": "ตรวจสอบ ติดตาม และรายงานผล"},
+        {"sequence": 5, "action_th": "ประเมินผลและปรับปรุง"}
+      ],
+      "service_timing_th": "คู่มือระบุช่วงดำเนินงานเป็นรอบ 30 วันในหลายขั้น และประเมินผลรายเดือน"
+    },
+    {
+      "sop_process_id": "dds-resolve-waterlogging-and-flooding",
+      "source_document_id": "dds-flood-prevention-operations-manual-pdf",
+      "source_pdf_pages": [93, 94, 95, 96, 97, 98],
+      "printed_pages": ["85", "86", "87", "88", "89"],
+      "title_th": "กระบวนการแก้ไขปัญหาน้ำท่วมขังและน้ำท่วม",
+      "owner_agency_ids": ["bma-dds"],
+      "trigger_th": "พบหรือได้รับแจ้งปัญหาน้ำท่วมขังหรือน้ำท่วมในระบบที่รับผิดชอบ",
+      "steps": [
+        {"sequence": 1, "action_th": "วิเคราะห์ปัญหาและวางแผนแก้ไข"},
+        {"sequence": 2, "action_th": "ดำเนินการแก้ไขและควบคุมระบบระบายน้ำ"},
+        {"sequence": 3, "action_th": "ตรวจสอบและติดตามผลอย่างต่อเนื่อง"},
+        {"sequence": 4, "action_th": "รายงานผลการปฏิบัติ"},
+        {"sequence": 5, "action_th": "ประเมินผลและกำหนดการปรับปรุง"}
+      ],
+      "service_timing_th": "คู่มือระบุการวางแผน 15 วัน การปฏิบัติและติดตามต่อเนื่อง และการประเมินผล 30 วัน"
+    },
+    {
+      "sop_process_id": "district-public-works-flood-response",
+      "source_document_id": "bma-district-public-works-manual-2568-pdf",
+      "source_pdf_pages": [116, 117],
+      "printed_pages": ["109", "110"],
+      "title_th": "การปฏิบัติงานป้องกันและแก้ไขปัญหาน้ำท่วมของฝ่ายโยธา",
+      "owner_agency_ids": [],
+      "owner_agency_selector": "bma-district-*",
+      "trigger_th": "พบปัญหาหรือได้รับแจ้งเหตุเกี่ยวกับน้ำท่วมในพื้นที่สำนักงานเขต",
+      "steps": [
+        {"sequence": 1, "action_th": "สำรวจและตรวจสอบพื้นที่", "target_duration_days": 2},
+        {"sequence": 2, "action_th": "เตรียมการปฏิบัติงาน วัสดุ อุปกรณ์ และกำลังเจ้าหน้าที่", "target_duration_days": 2},
+        {"sequence": 3, "action_th": "ดำเนินการแก้ไขและรายงานผล", "target_duration_days": 3}
+      ],
+      "responsible_roles_th": [
+        "เจ้าหน้าที่กลุ่มงานระบายน้ำ",
+        "หัวหน้ากลุ่มงานระบายน้ำ",
+        "หัวหน้าฝ่ายโยธา"
+      ]
+    },
+    {
+      "sop_process_id": "district-disaster-command-lifecycle",
+      "source_document_id": "bma-disaster-prevention-plan-2564-2570-pdf",
+      "source_pdf_pages": [46, 58, 62],
+      "printed_pages": ["35", "47", "51"],
+      "title_th": "การอำนวยการป้องกันและบรรเทาสาธารณภัยระดับสำนักงานเขต",
+      "owner_agency_ids": [],
+      "owner_agency_selector": "bma-district-*",
+      "trigger_th": "เกิดหรือคาดว่าจะเกิดสาธารณภัยในพื้นที่เขต",
+      "steps": [
+        {"sequence": 1, "action_th": "เฝ้าระวัง ประเมินความเสี่ยง และจัดทำแผนระดับเขต"},
+        {"sequence": 2, "action_th": "เสนอจัดตั้งศูนย์บัญชาการเหตุการณ์สำนักงานเขต"},
+        {"sequence": 3, "action_th": "ผู้อำนวยการเขตควบคุม สั่งการ ระดมทรัพยากร และประสานหน่วยงานในพื้นที่"},
+        {"sequence": 4, "action_th": "สำรวจความเสียหาย ช่วยเหลือ ฟื้นฟู และรายงานผลหลังเกิดภัย"}
+      ]
+    },
+    {
+      "sop_process_id": "dds-disaster-flood-lifecycle",
+      "source_document_id": "bma-disaster-prevention-plan-2564-2570-pdf",
+      "source_pdf_pages": [47],
+      "printed_pages": ["36"],
+      "title_th": "บทบาทสำนักการระบายน้ำก่อน ขณะ และหลังเกิดอุทกภัย",
+      "owner_agency_ids": ["bma-dds"],
+      "trigger_th": "การเตรียมพร้อม รับมือ และฟื้นฟูจากอุทกภัยในกรุงเทพมหานคร",
+      "steps": [
+        {"sequence": 1, "action_th": "ประเมินความเสี่ยง จัดทำแผน เฝ้าระวัง และแจ้งเตือน"},
+        {"sequence": 2, "action_th": "สำรวจจุดเสี่ยงร่วมกับสำนักงานเขตและเตรียมทรัพยากร"},
+        {"sequence": 3, "action_th": "จัดหน่วยปฏิบัติการแก้ไขน้ำท่วมและร่วมศูนย์บัญชาการเมื่อเหตุรุนแรง"},
+        {"sequence": 4, "action_th": "ติดตั้ง ซ่อม และบำรุงรักษาเครื่องสูบน้ำ เครื่องจักร และยานพาหนะ"},
+        {"sequence": 5, "action_th": "ร่วมฟื้นฟูสิ่งเสียหายและสภาพแวดล้อมหลังเกิดภัย"}
+      ]
+    },
+    {
+      "sop_process_id": "bang-kho-laem-district-flood-lifecycle-2563",
+      "source_document_id": "bang-kho-laem-flood-response-plan-2563-pdf",
+      "source_pdf_pages": [2, 3, 4, 5, 6],
+      "printed_pages": ["2", "3", "4", "5", "6"],
+      "title_th": "กระบวนการป้องกัน รับมือ และฟื้นฟูอุทกภัยของสำนักงานเขตบางคอแหลม",
+      "owner_agency_ids": ["bma-district-1031"],
+      "district_code": "1031",
+      "district_name_th": "บางคอแหลม",
+      "document_period": "2563",
+      "current_validity_status": "requires_agency_confirmation",
+      "trigger_th": "ก่อนเกิดภัย ขณะเกิดอุทกภัย และภายหลังภัยผ่านพ้นในพื้นที่เขตบางคอแหลม",
+      "steps": [
+        {
+          "sequence": 1,
+          "phase": "before",
+          "action_th": "ฝ่ายปกครองจัดทำแผน แจ้งเตือน และรวบรวมรายงานจากทุกฝ่าย"
+        },
+        {
+          "sequence": 2,
+          "phase": "before",
+          "action_th": "ฝ่ายโยธาสำรวจจุดเสี่ยง กำหนดเส้นทางอพยพ เตรียม BEST เครื่องจักร และอุปกรณ์"
+        },
+        {
+          "sequence": 3,
+          "phase": "during",
+          "action_th": "ฝ่ายปกครองจัดตั้งศูนย์บัญชาการเหตุการณ์สำนักงานเขตและประสานหน่วยงานที่เกี่ยวข้อง"
+        },
+        {
+          "sequence": 4,
+          "phase": "during",
+          "action_th": "ฝ่ายโยธาจัด BEST และกำลังช่วยเหลือ เฝ้าระวัง ประเมินความเสียหาย และประสานการกู้ภัย"
+        },
+        {
+          "sequence": 5,
+          "phase": "after",
+          "action_th": "ฝ่ายโยธาประเมินความเสียหาย สนับสนุนการฟื้นฟู และส่งข้อมูลให้ฝ่ายปกครองออกหนังสือรับรองผู้ประสบภัย"
+        },
+        {
+          "sequence": 6,
+          "phase": "after",
+          "action_th": "ฝ่ายสนับสนุนช่วยการอพยพ ความปลอดภัย สุขภาพ ที่พักพิง ความสะอาด และการฟื้นฟูประชาชน"
+        }
+      ],
+      "responsible_roles_th": [
+        "ฝ่ายปกครอง",
+        "ฝ่ายโยธา/หน่วย BEST",
+        "ฝ่ายเทศกิจ",
+        "ฝ่ายทะเบียน",
+        "ฝ่ายรักษาความสะอาดและสวนสาธารณะ",
+        "ฝ่ายพัฒนาชุมชนและสวัสดิการสังคม",
+        "ฝ่ายสิ่งแวดล้อมและสุขาภิบาล",
+        "ฝ่ายการศึกษา",
+        "ฝ่ายการคลัง",
+        "ฝ่ายรายได้"
+      ],
+      "applicability_note": "ใช้เป็นหลักฐาน SOP รายเขตในอดีตและตัวอย่างโครงสร้าง RACI เท่านั้น ต้องให้สำนักงานเขตยืนยันคำสั่งและฉบับที่มีผลปัจจุบันก่อน dispatch"
+    }
+  ]
+}

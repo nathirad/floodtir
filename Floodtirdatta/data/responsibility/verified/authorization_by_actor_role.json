@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "status": "awaiting_verified_legal_inputs",
+    "assignment_count": 0,
+    "dispatch_authorization_count": 0,
+    "legal_basis_count": 0,
+    "notice": "This layer is never populated from candidate assignments. It requires independently verified legal inputs."
+  },
+  "actor_roles": {}
+}

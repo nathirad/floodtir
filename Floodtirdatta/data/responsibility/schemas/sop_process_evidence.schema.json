@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SOP process extracted from official document",
+  "type": "object",
+  "required": [
+    "sop_process_hash_sha256",
+    "sop_process_id",
+    "source_document_id",
+    "source_pdf_pages",
+    "steps",
+    "verification_status"
+  ],
+  "properties": {
+    "sop_process_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "verification_status": {
+      "const": "pending_legal_review"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    },
+    "contains_personal_data": {
+      "const": false
+    }
+  }
+}

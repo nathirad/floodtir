@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-06-30T07:37:19Z",
+    "model": "star_like_analytical_model",
+    "scope": "Bangkok flood responsibility analysis",
+    "operational_use": false
+  },
+  "counts": {
+    "dim_district.csv": 50,
+    "dim_agency.csv": 70,
+    "dim_incident_type.csv": 10,
+    "dim_source.csv": 35,
+    "fact_district_agency_responsibility.csv": 872,
+    "fact_district_process_stage.csv": 300,
+    "fact_data_quality_issue.csv": 418
+  },
+  "checks": {
+    "dimension_counts_expected": true,
+    "responsibility_fact_count_is_872": true,
+    "process_stage_fact_count_is_300": true,
+    "quality_issue_fact_count_is_418": true,
+    "responsibility_district_keys_valid": true,
+    "responsibility_agency_keys_valid": true,
+    "process_stage_keys_unique": true,
+    "quality_issue_keys_unique": true,
+    "verified_fact_count_is_zero": true
+  },
+  "passed": true,
+  "join_keys": {
+    "district": "district_key",
+    "agency": "agency_key",
+    "incident_type": "incident_type_key",
+    "source": "source_key"
+  },
+  "status_rule": "Candidate and pending-review records remain unverified. Normalization never promotes legal or dispatch status."
+}

@@ -1,0 +1,4 @@
+data/responsibility/acquisition/raw/bma_canal_inventory_2021/*.csv -text -diff
+data/responsibility/acquisition/raw/bma_canal_inventory_2021/*.ini -text -diff
+data/responsibility/acquisition/raw/bma_canal_inventory_2021/*.zip binary
+data/responsibility/legal_authority/raw/*.pdf binary

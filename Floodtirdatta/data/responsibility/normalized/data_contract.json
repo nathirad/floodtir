@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "model": "star_like_analytical_model"
+  },
+  "prepared": {
+    "district_flood_operations.jsonl": {
+      "grain": "one Bangkok district office",
+      "primary_key": "district_code",
+      "record_count": 50
+    },
+    "agency_flood_missions.jsonl": {
+      "grain": "one agency and source mission",
+      "primary_key": "prepared_record_hash_sha256",
+      "record_count": 60
+    },
+    "data_quality_issues.jsonl": {
+      "grain": "one unresolved source issue",
+      "primary_key": "quality_issue_hash_sha256",
+      "record_count": 418
+    }
+  },
+  "normalized": {
+    "dim_district.csv": {
+      "grain": "one Bangkok district",
+      "primary_key": "district_key"
+    },
+    "dim_agency.csv": {
+      "grain": "one agency or operational unit",
+      "primary_key": "agency_key",
+      "foreign_keys": {
+        "district_code": "dim_district.district_key"
+      }
+    },
+    "dim_incident_type.csv": {
+      "grain": "one normalized flood incident type",
+      "primary_key": "incident_type_key"
+    },
+    "dim_source.csv": {
+      "grain": "one source-lineage record",
+      "primary_key": "source_key"
+    },
+    "fact_district_agency_responsibility.csv": {
+      "grain": "district + agency + responsibility scope + role + optional incident type",
+      "primary_key": "responsibility_fact_key",
+      "foreign_keys": {
+        "district_key": "dim_district.district_key",
+        "agency_key": "dim_agency.agency_key",
+        "incident_type_key": "dim_incident_type.incident_type_key"
+      }
+    },
+    "fact_district_process_stage.csv": {
+      "grain": "one process stage per Bangkok district",
+      "primary_key": "process_stage_fact_key",
+      "foreign_keys": {
+        "district_key": "dim_district.district_key",
+        "district_agency_key": "dim_agency.agency_key"
+      }
+    },
+    "fact_data_quality_issue.csv": {
+      "grain": "one unresolved source issue",
+      "primary_key": "quality_issue_fact_key",
+      "foreign_keys": {
+        "district_key": "dim_district.district_key"
+      }
+    }
+  },
+  "null_policy": {
+    "incident_type_key": "Null is allowed when a responsibility row is not incident-specific.",
+    "district_key": "Quality issues may be null only when no district can be resolved; current prepared issues all have a selected district."
+  },
+  "status_policy": "Analytical transforms preserve source verification status and never create verified legal or dispatch records."
+}

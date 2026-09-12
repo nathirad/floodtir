@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "scope": "Bangkok flood statutory authority evidence",
+    "notice": "These are curated statutory evidence candidates. They require legal review and do not authorize automatic dispatch."
+  },
+  "sources": [
+    {
+      "source_id": "disaster-prevention-act-2550",
+      "title_th": "พระราชบัญญัติป้องกันและบรรเทาสาธารณภัย พ.ศ. 2550",
+      "document_type": "act",
+      "issuing_authority": "รัฐสภา",
+      "official_landing_url": "https://webportal.bangkok.go.th/law/page/sub/19678/",
+      "source_url": "https://webportal.bangkok.go.th/upload/user/00000121/File2020/fire-2.pdf",
+      "local_path": "data/responsibility/legal_authority/raw/disaster_prevention_act_2550.pdf",
+      "expected_sha256": "496ba630e7d6fc77f185e2abd5c929836aeb112a8e059e8a5cace87fac37c9db",
+      "expected_page_count": 18,
+      "gazette_reference": "เล่ม 124 ตอนที่ 52 ก หน้า 1 วันที่ 7 กันยายน 2550",
+      "published_date": "2007-09-07",
+      "source_copy_status": "official_bma_legal_office_copy",
+      "canonical_gazette_original": false,
+      "requires_gazette_crosscheck": true,
+      "currency_status": "requires_legal_review",
+      "contains_personal_data": false
+    },
+    {
+      "source_id": "bma-administration-act-2528-consolidated",
+      "title_th": "พระราชบัญญัติระเบียบบริหารราชการกรุงเทพมหานคร พ.ศ. 2528 ฉบับรวม",
+      "document_type": "consolidated_act_copy",
+      "issuing_authority": "รัฐสภา",
+      "official_landing_url": "https://webportal.bangkok.go.th/law/page/sub/22566",
+      "source_url": "https://webportal.bangkok.go.th/upload/user/00000121/File2020/lawHeadPDF.pdf",
+      "local_path": "data/responsibility/legal_authority/raw/bma_administration_act_2528_consolidated.pdf",
+      "expected_sha256": "f2612d70bd6df8d12b66adc4e0c32eba628e0ac77d86dd480486a3ba603e8219",
+      "expected_page_count": 39,
+      "gazette_reference": "ฉบับฐาน เล่ม 102 ตอนที่ 115 ฉบับพิเศษ หน้า 1 วันที่ 31 สิงหาคม 2528",
+      "published_date": "1985-08-31",
+      "consolidated_through": "พระราชบัญญัติระเบียบบริหารราชการกรุงเทพมหานคร (ฉบับที่ 6) พ.ศ. 2562",
+      "source_copy_status": "official_bma_legal_office_consolidated_copy",
+      "canonical_gazette_original": false,
+      "requires_gazette_crosscheck": true,
+      "currency_status": "requires_legal_review",
+      "contains_personal_data": false
+    }
+  ],
+  "roles": [
+    {
+      "actor_role_code": "bma_governor_disaster_director",
+      "actor_role_name_th": "ผู้ว่าราชการกรุงเทพมหานครในฐานะผู้อำนวยการกรุงเทพมหานคร",
+      "agency_id": "bma",
+      "role_scope": "bangkok_citywide"
+    },
+    {
+      "actor_role_code": "bma_permanent_secretary_deputy_disaster_director",
+      "actor_role_name_th": "ปลัดกรุงเทพมหานครในฐานะรองผู้อำนวยการกรุงเทพมหานคร",
+      "agency_id": "bma",
+      "role_scope": "bangkok_citywide"
+    },
+    {
+      "actor_role_code": "bma_district_director_assistant_disaster_director",
+      "actor_role_name_th": "ผู้อำนวยการเขตในฐานะผู้ช่วยผู้อำนวยการกรุงเทพมหานคร",
+      "agency_id": null,
+      "role_scope": "district"
+    },
+    {
+      "actor_role_code": "bma_bureau_director",
+      "actor_role_name_th": "ผู้อำนวยการสำนักหรือส่วนราชการที่มีฐานะเป็นสำนัก",
+      "agency_id": "bma",
+      "role_scope": "assigned_bureau"
+    },
+    {
+      "actor_role_code": "bma_disaster_officer",
+      "actor_role_name_th": "เจ้าพนักงานป้องกันและบรรเทาสาธารณภัยที่ได้รับแต่งตั้ง",
+      "agency_id": "bma",
+      "role_scope": "appointment_defined"
+    },
+    {
+      "actor_role_code": "bangkok_metropolitan_administration",
+      "actor_role_name_th": "กรุงเทพมหานคร",
+      "agency_id": "bma",
+      "role_scope": "bangkok_citywide"
+    }
+  ],
+  "provisions": [
+    {
+      "provision_id": "dpa2550-s32",
+      "source_id": "disaster-prevention-act-2550",
+      "section": "มาตรา 32",
+      "source_pdf_page": 12,
+      "actor_role_code": "bma_governor_disaster_director",
+      "authority_type": "statutory_role_and_duty",
+      "authority_scope": "bangkok_citywide",
+      "action_codes": [
+        "create_disaster_plan",
+        "provide_disaster_resources",
+        "provide_initial_relief",
+        "supervise_bma_disaster_response"
+      ],
+      "evidence_excerpt_th": "ให้ผู้ว่าราชการกรุงเทพมหานครเป็นผู้อำนวยการกรุงเทพมหานคร รับผิดชอบในการป้องกันและบรรเทาสาธารณภัยในเขตกรุงเทพมหานคร",
+      "legal_effect_candidate": "direct_statutory_role",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ตรวจฉบับแก้ไขและสถานะการใช้บังคับปัจจุบัน",
+        "แยกขอบเขตอำนาจทั่วไปออกจากสิทธิ์ dispatch ราย action"
+      ]
+    },
+    {
+      "provision_id": "dpa2550-s35",
+      "source_id": "disaster-prevention-act-2550",
+      "section": "มาตรา 35",
+      "source_pdf_page": 13,
+      "actor_role_code": "bma_permanent_secretary_deputy_disaster_director",
+      "authority_type": "statutory_deputy_role",
+      "authority_scope": "bangkok_citywide",
+      "action_codes": [
+        "assist_disaster_director",
+        "exercise_delegated_duties"
+      ],
+      "evidence_excerpt_th": "ให้ปลัดกรุงเทพมหานครเป็นรองผู้อำนวยการกรุงเทพมหานคร มีหน้าที่ช่วยเหลือผู้อำนวยการกรุงเทพมหานครและปฏิบัติหน้าที่อื่นตามที่มอบหมาย",
+      "legal_effect_candidate": "delegation_dependent",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องมีคำสั่งมอบหมายปัจจุบันสำหรับ action ที่จะใช้ในระบบ"
+      ]
+    },
+    {
+      "provision_id": "dpa2550-s36-p1",
+      "source_id": "disaster-prevention-act-2550",
+      "section": "มาตรา 36 วรรคหนึ่ง",
+      "source_pdf_page": 13,
+      "actor_role_code": "bma_district_director_assistant_disaster_director",
+      "authority_type": "district_statutory_role_and_duty",
+      "authority_scope": "district",
+      "action_codes": [
+        "perform_district_disaster_response",
+        "assist_disaster_director"
+      ],
+      "evidence_excerpt_th": "ให้ผู้อำนวยการเขตในแต่ละเขตเป็นผู้ช่วยผู้อำนวยการกรุงเทพมหานคร รับผิดชอบและปฏิบัติหน้าที่ในการป้องกันและบรรเทาสาธารณภัยในเขตของตน",
+      "legal_effect_candidate": "direct_statutory_role",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ยืนยันว่าประเภทเหตุที่รับเข้าระบบเข้าเกณฑ์สาธารณภัยตามกฎหมาย",
+        "ยืนยันคำสั่งและแผนปัจจุบันของแต่ละเขต"
+      ]
+    },
+    {
+      "provision_id": "dpa2550-s36-p2",
+      "source_id": "disaster-prevention-act-2550",
+      "section": "มาตรา 36 วรรคสอง",
+      "source_pdf_page": 13,
+      "actor_role_code": "bma_district_director_assistant_disaster_director",
+      "authority_type": "district_internal_command_authority",
+      "authority_scope": "district",
+      "action_codes": [
+        "command_bma_units_in_district",
+        "command_bma_disaster_personnel"
+      ],
+      "evidence_excerpt_th": "ผู้ช่วยผู้อำนวยการกรุงเทพมหานครมีอำนาจสั่งการส่วนราชการและหน่วยงานของกรุงเทพมหานครที่อยู่ในเขตพื้นที่ให้ช่วยเหลือหรือร่วมมือ และควบคุมกำกับเจ้าพนักงานและอาสาสมัคร",
+      "legal_effect_candidate": "direct_statutory_command_with_conditions",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ตรวจเงื่อนไขตามแผนป้องกันและบรรเทาสาธารณภัยกรุงเทพมหานคร",
+        "ห้ามตีความเป็นอำนาจสั่งหน่วยงานนอก กทม. หรือ action ที่กฎหมายอื่นจำกัด"
+      ]
+    },
+    {
+      "provision_id": "dpa2550-s37",
+      "source_id": "disaster-prevention-act-2550",
+      "section": "มาตรา 37",
+      "source_pdf_page": 14,
+      "actor_role_code": "bma_district_director_assistant_disaster_director",
+      "authority_type": "incident_response_duty",
+      "authority_scope": "district",
+      "action_codes": [
+        "initiate_disaster_response",
+        "notify_bma_command"
+      ],
+      "evidence_excerpt_th": "เมื่อเกิดหรือคาดว่าจะเกิดสาธารณภัย ให้ผู้ช่วยผู้อำนวยการกรุงเทพมหานครเข้าดำเนินการโดยเร็วและแจ้งผู้อำนวยการและรองผู้อำนวยการกรุงเทพมหานครทราบทันที",
+      "legal_effect_candidate": "direct_statutory_duty_with_cross_references",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องตรวจมาตรา 21 วรรคสอง และมาตรา 22, 24-30 ที่นำมาใช้โดยอนุโลม"
+      ]
+    },
+    {
+      "provision_id": "dpa2550-s38",
+      "source_id": "disaster-prevention-act-2550",
+      "section": "มาตรา 38",
+      "source_pdf_page": 14,
+      "actor_role_code": "bma_governor_disaster_director",
+      "authority_type": "cross_agency_assistance_request",
+      "authority_scope": "bangkok_citywide",
+      "action_codes": [
+        "request_state_agency_assistance"
+      ],
+      "evidence_excerpt_th": "เมื่อจำเป็นต้องได้รับความช่วยเหลือจากเจ้าหน้าที่หรือหน่วยงานของรัฐ ให้ผู้อำนวยการกรุงเทพมหานครแจ้งหน่วยงานนั้น และหน่วยงานที่ได้รับแจ้งมีหน้าที่ช่วยเหลือโดยเร็ว",
+      "legal_effect_candidate": "direct_statutory_request_authority",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องกำหนดช่องทาง ผู้มีสิทธิ์ส่งคำขอ และหลักฐานการแจ้งอย่างเป็นทางการ"
+      ]
+    },
+    {
+      "provision_id": "dpa2550-s39-5",
+      "source_id": "disaster-prevention-act-2550",
+      "section": "มาตรา 39 (5)",
+      "source_pdf_page": 14,
+      "actor_role_code": "bma_governor_disaster_director",
+      "authority_type": "appointment_authority",
+      "authority_scope": "bangkok_citywide",
+      "action_codes": [
+        "appoint_disaster_officers"
+      ],
+      "evidence_excerpt_th": "ผู้อำนวยการกรุงเทพมหานครมีอำนาจแต่งตั้งเจ้าพนักงานให้ปฏิบัติหน้าที่ได้ในเขตกรุงเทพมหานคร",
+      "legal_effect_candidate": "direct_statutory_appointment_authority",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องมีคำสั่งแต่งตั้งและขอบเขตหน้าที่ของเจ้าพนักงานราย role ก่อนใช้งาน"
+      ]
+    },
+    {
+      "provision_id": "bma2528-s49",
+      "source_id": "bma-administration-act-2528-consolidated",
+      "section": "มาตรา 49 (1), (2), (5), (7)",
+      "source_pdf_page": 11,
+      "actor_role_code": "bma_governor_disaster_director",
+      "authority_type": "bma_executive_authority",
+      "authority_scope": "bangkok_citywide",
+      "action_codes": [
+        "administer_bma",
+        "issue_bma_orders",
+        "issue_bma_regulations"
+      ],
+      "evidence_excerpt_th": "ผู้ว่าราชการกรุงเทพมหานครกำหนดนโยบายและบริหารราชการ สั่ง อนุญาต อนุมัติ วางระเบียบ และมีอำนาจหน้าที่อื่นตามกฎหมาย",
+      "legal_effect_candidate": "general_executive_authority",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ฐานอำนาจทั่วไปไม่แทนฐานอำนาจเฉพาะเรื่องหรือเงื่อนไขตามกฎหมายอื่น"
+      ]
+    },
+    {
+      "provision_id": "bma2528-s60",
+      "source_id": "bma-administration-act-2528-consolidated",
+      "section": "มาตรา 60",
+      "source_pdf_page": 15,
+      "actor_role_code": "bangkok_metropolitan_administration",
+      "authority_type": "organizational_structure",
+      "authority_scope": "bangkok_citywide",
+      "action_codes": [
+        "establish_bma_structure"
+      ],
+      "evidence_excerpt_th": "ระเบียบราชการกรุงเทพมหานครประกอบด้วยสำนักหรือส่วนราชการที่มีฐานะเป็นสำนักและสำนักงานเขต",
+      "legal_effect_candidate": "organizational_basis",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องจับคู่กับประกาศแบ่งส่วนราชการฉบับปัจจุบัน"
+      ]
+    },
+    {
+      "provision_id": "bma2528-s67",
+      "source_id": "bma-administration-act-2528-consolidated",
+      "section": "มาตรา 67",
+      "source_pdf_page": 16,
+      "actor_role_code": "bma_bureau_director",
+      "authority_type": "bureau_management_authority",
+      "authority_scope": "assigned_bureau",
+      "action_codes": [
+        "manage_bureau",
+        "exercise_law_or_order_defined_bureau_duties"
+      ],
+      "evidence_excerpt_th": "ผู้อำนวยการสำนักมีอำนาจหน้าที่ตามกฎหมายและตามคำสั่งของผู้ว่าราชการกรุงเทพมหานครและปลัดกรุงเทพมหานคร และรับผิดชอบควบคุมดูแลราชการประจำของสำนัก",
+      "legal_effect_candidate": "law_and_order_dependent",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องมีประกาศอำนาจหน้าที่ของสำนักและคำสั่งที่ใช้บังคับปัจจุบัน"
+      ]
+    },
+    {
+      "provision_id": "bma2528-s68",
+      "source_id": "bma-administration-act-2528-consolidated",
+      "section": "มาตรา 68",
+      "source_pdf_page": 16,
+      "actor_role_code": "bma_district_director_assistant_disaster_director",
+      "authority_type": "district_office_management_authority",
+      "authority_scope": "district",
+      "action_codes": [
+        "manage_district_office"
+      ],
+      "evidence_excerpt_th": "สำนักงานเขตมีผู้อำนวยการเขตเป็นผู้บังคับบัญชาข้าราชการและลูกจ้างกรุงเทพมหานคร รับผิดชอบการปฏิบัติราชการภายในเขต",
+      "legal_effect_candidate": "organizational_command_authority",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "อำนาจบริหารสำนักงานไม่เท่ากับอำนาจ dispatch ทุกประเภท"
+      ]
+    },
+    {
+      "provision_id": "bma2528-s69",
+      "source_id": "bma-administration-act-2528-consolidated",
+      "section": "มาตรา 69",
+      "source_pdf_page": 17,
+      "actor_role_code": "bma_district_director_assistant_disaster_director",
+      "authority_type": "district_director_authority",
+      "authority_scope": "district",
+      "action_codes": [
+        "exercise_statutory_district_powers",
+        "receive_delegated_authority"
+      ],
+      "evidence_excerpt_th": "ผู้อำนวยการเขตมีอำนาจหน้าที่ตามที่กฎหมายกำหนด และอำนาจหน้าที่ซึ่งผู้ว่าราชการกรุงเทพมหานครหรือปลัดกรุงเทพมหานครมอบหมาย",
+      "legal_effect_candidate": "law_or_delegation_dependent",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องระบุกฎหมายหรือคำสั่งมอบหมายราย action ไม่ใช้มาตรา 69 เพียงรายการเดียว"
+      ]
+    },
+    {
+      "provision_id": "bma2528-s70",
+      "source_id": "bma-administration-act-2528-consolidated",
+      "section": "มาตรา 70",
+      "source_pdf_page": 17,
+      "actor_role_code": "bma_governor_disaster_director",
+      "authority_type": "cross_district_assignment_authority",
+      "authority_scope": "cross_district",
+      "action_codes": [
+        "assign_cross_district_work"
+      ],
+      "evidence_excerpt_th": "ผู้ว่าราชการกรุงเทพมหานครอาจสั่งให้สำนักงานเขตหนึ่งปฏิบัติหน้าที่แทนสำนักงานเขตอื่นได้ โดยต้องประกาศคำสั่งในราชกิจจานุเบกษา",
+      "legal_effect_candidate": "order_and_gazette_dependent",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องมีคำสั่งเฉพาะและหลักฐานประกาศราชกิจจานุเบกษาก่อน route ข้ามเขต"
+      ]
+    },
+    {
+      "provision_id": "bma2528-s89-3",
+      "source_id": "bma-administration-act-2528-consolidated",
+      "section": "มาตรา 89 (3)",
+      "source_pdf_page": 22,
+      "actor_role_code": "bangkok_metropolitan_administration",
+      "authority_type": "local_government_statutory_duty",
+      "authority_scope": "bangkok_citywide",
+      "action_codes": [
+        "perform_disaster_prevention"
+      ],
+      "evidence_excerpt_th": "ให้กรุงเทพมหานครมีอำนาจหน้าที่ดำเนินกิจการในเขตกรุงเทพมหานครเรื่องการป้องกันและบรรเทาสาธารณภัย",
+      "legal_effect_candidate": "direct_local_government_duty",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "ต้องจับคู่กับกฎหมายเฉพาะด้านสาธารณภัยและแผนปัจจุบัน"
+      ]
+    },
+    {
+      "provision_id": "bma2528-s89-6",
+      "source_id": "bma-administration-act-2528-consolidated",
+      "section": "มาตรา 89 (6)",
+      "source_pdf_page": 22,
+      "actor_role_code": "bangkok_metropolitan_administration",
+      "authority_type": "local_government_drainage_duty",
+      "authority_scope": "bangkok_citywide",
+      "action_codes": [
+        "maintain_waterways_and_drainage"
+      ],
+      "evidence_excerpt_th": "ให้กรุงเทพมหานครมีอำนาจหน้าที่ดำเนินกิจการเรื่องการจัดให้มีและบำรุงรักษาทางบก ทางน้ำ และทางระบายน้ำ",
+      "legal_effect_candidate": "direct_local_government_duty",
+      "requires_action_specific_order": true,
+      "review_questions": [
+        "มาตรานี้ไม่ระบุเจ้าของทรัพย์สินหรือหน่วยงานปฏิบัติราย asset"
+      ]
+    }
+  ]
+}

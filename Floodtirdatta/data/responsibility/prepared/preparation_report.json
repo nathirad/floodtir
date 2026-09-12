@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-06-30T07:37:19Z",
+    "scope": "Responsibility analytical data preparation"
+  },
+  "counts": {
+    "district_operations": 50,
+    "agency_missions": 60,
+    "quality_issues": 418
+  },
+  "issue_type_counts": {
+    "district_spatial_conflict": 171,
+    "unresolved_asset_owner": 247
+  },
+  "checks": {
+    "district_count_is_50": true,
+    "district_codes_unique": true,
+    "district_processes_have_six_stages": true,
+    "agency_mission_count_is_60": true,
+    "agency_missions_have_source": true,
+    "quality_issue_count_is_418": true,
+    "quality_issue_hashes_unique": true,
+    "no_placeholder_quality_issues": true,
+    "no_verified_claims_created": true
+  },
+  "passed": true,
+  "preparation_actions": [
+    "Trimmed and collapsed whitespace in display text.",
+    "Expanded the common district mission to 50 explicit agencies.",
+    "Joined district process, agency profile, and service areas.",
+    "Unified owner and spatial conflicts into one issue contract.",
+    "Preserved source hashes and review status without promotion."
+  ]
+}

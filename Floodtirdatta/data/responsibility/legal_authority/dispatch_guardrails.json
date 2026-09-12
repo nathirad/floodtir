@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:19Z",
+    "scope": "Legal-authority decision support"
+  },
+  "allowed_before_legal_approval": [
+    "display_candidate_authority",
+    "prepare_review_packet",
+    "propose_human_routing",
+    "record_source_provenance"
+  ],
+  "prohibited_without_verified_action_specific_authorization": [
+    "auto_dispatch",
+    "close_road",
+    "enter_private_property",
+    "evacuate_people",
+    "operate_drainage_asset",
+    "override_incident_command",
+    "spend_emergency_funds"
+  ],
+  "rules": {
+    "candidate_never_implies_legal_liability": true,
+    "statutory_role_never_implies_application_permission": true,
+    "district_match_never_proves_asset_ownership": true,
+    "person_name_not_required_for_role_authority": true,
+    "verified_layer_requires_two_person_approval": true,
+    "automatic_promotion_to_verified": false
+  },
+  "guardrail_hash_sha256": "54a72b17442227fdbaccf546b7f1403767ab82ee6954f2e6048dab0959fd38f0"
+}

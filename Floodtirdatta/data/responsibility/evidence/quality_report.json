@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "status": "official_document_evidence_pending_legal_review",
+    "document_count": 7,
+    "downloaded_document_count": 6,
+    "mission_duty_count": 11,
+    "sop_process_count": 7,
+    "district_process_count": 50,
+    "data_source_count": 35
+  },
+  "checks": {
+    "document_ids_unique": true,
+    "document_evidence_hashes_unique": true,
+    "downloaded_documents_have_content_hash": true,
+    "mission_duty_count_is_11": true,
+    "mission_duty_ids_unique": true,
+    "mission_duty_hashes_unique": true,
+    "sop_process_count_is_7": true,
+    "sop_process_ids_unique": true,
+    "sop_process_hashes_unique": true,
+    "all_records_pending_legal_review": true,
+    "no_personal_data_in_extractions": true,
+    "input_validation_has_no_errors": true,
+    "district_process_covers_all_50_districts": true,
+    "district_process_hashes_unique": true,
+    "all_district_processes_require_confirmation": true,
+    "data_source_hashes_unique": true,
+    "all_data_sources_use_https": true
+  },
+  "validation_errors": [],
+  "passed": true,
+  "notice": "Extracted duties and SOP steps are traceable official-document evidence, not verified legal assignments or dispatch authority."
+}

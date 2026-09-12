@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified flood responsibility assignment",
+  "type": "object",
+  "required": [
+    "responsibility_hash_sha256",
+    "assignment_source_id",
+    "entity_type",
+    "entity_id",
+    "district_code",
+    "spatial_hash",
+    "spatial_hash_precision",
+    "incident_type_code",
+    "severity_code",
+    "agency_id",
+    "responsibility_role",
+    "legal_basis_id",
+    "effective_from",
+    "effective_to",
+    "evidence_text",
+    "verified_by",
+    "verified_at",
+    "approved_by",
+    "approved_at",
+    "change_reason",
+    "verification_status",
+    "is_official_legal_assignment"
+  ],
+  "properties": {
+    "responsibility_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "spatial_hash": {
+      "type": "string",
+      "pattern": "^[0123456789bcdefghjkmnpqrstuvwxyz]{6,7}$"
+    },
+    "spatial_hash_precision": {
+      "enum": [
+        6,
+        7
+      ]
+    },
+    "verification_status": {
+      "const": "verified"
+    },
+    "is_official_legal_assignment": {
+      "const": true
+    }
+  }
+}

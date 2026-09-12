@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legal and operational reference identity",
+  "type": "object",
+  "required": [
+    "legal_reference_hash_sha256",
+    "legal_basis_id",
+    "url",
+    "source_class",
+    "verification_status"
+  ],
+  "properties": {
+    "legal_reference_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "is_document_content_hash": {
+      "const": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agency incident capability candidate",
+  "type": "object",
+  "required": [
+    "capability_hash_sha256",
+    "district_code",
+    "incident_type_code",
+    "agency_id",
+    "legal_basis_reference_id",
+    "verification_status"
+  ],
+  "properties": {
+    "capability_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "verification_status": {
+      "const": "official_reference_unverified"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    }
+  }
+}

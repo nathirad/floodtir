@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "scope": "Official-source acquisition and unresolved-gap status",
+    "operational_use": false
+  },
+  "counts": {
+    "source_evidence": 7,
+    "asset_owner_status": 247,
+    "spatial_conflict_status": 171,
+    "district_sop_availability": 50,
+    "gap_resolution": 9,
+    "agency_data_requests": 7
+  },
+  "status_counts": {
+    "candidate": 106,
+    "not_publicly_available": 2,
+    "requires_agency_confirmation": 369
+  },
+  "checks": {
+    "input_validation_has_no_errors": true,
+    "source_ids_unique": true,
+    "source_hashes_unique": true,
+    "owner_review_count_preserved": true,
+    "no_owner_record_falsely_resolved": true,
+    "spatial_conflict_count_preserved": true,
+    "district_sop_covers_all_50_districts": true,
+    "all_resolution_statuses_allowed": true,
+    "no_placeholder_records": true,
+    "request_packet_requires_no_personal_data": true
+  },
+  "validation_errors": [],
+  "passed": true,
+  "notice": "Acquired public evidence reduces provenance gaps but does not create asset ownership certificates, current district approval, dispatch authority, or a project signing identity."
+}

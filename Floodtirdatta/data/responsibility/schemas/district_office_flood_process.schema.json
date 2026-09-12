@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "District office common flood process candidate",
+  "type": "object",
+  "required": [
+    "district_process_hash_sha256",
+    "district_code",
+    "district_agency_id",
+    "process_stages",
+    "source_hashes_sha256",
+    "verification_status",
+    "requires_district_confirmation"
+  ],
+  "properties": {
+    "district_process_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_hashes_sha256": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "minItems": 3,
+      "uniqueItems": true
+    },
+    "verification_status": {
+      "const": "pending_district_confirmation"
+    },
+    "district_specific_order_available": {
+      "const": false
+    },
+    "district_specific_sop_verified": {
+      "const": false
+    },
+    "requires_district_confirmation": {
+      "const": true
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    }
+  }
+}

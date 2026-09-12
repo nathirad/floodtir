@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "District and agency responsibility summary",
+  "type": "object",
+  "required": [
+    "district_agency_responsibility_hash_sha256",
+    "district_code",
+    "agency_id",
+    "responsibility_scope",
+    "responsibility_role",
+    "source_record_count",
+    "source_hashes_sha256",
+    "verification_status",
+    "is_official_legal_assignment",
+    "requires_human_approval"
+  ],
+  "properties": {
+    "district_agency_responsibility_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_hashes_sha256": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    },
+    "requires_human_approval": {
+      "const": true
+    }
+  }
+}

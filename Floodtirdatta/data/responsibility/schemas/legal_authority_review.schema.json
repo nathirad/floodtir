@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legal authority review task",
+  "type": "object",
+  "required": [
+    "legal_review_hash_sha256",
+    "review_type",
+    "source_id",
+    "review_question",
+    "review_status",
+    "required_reviewer_role",
+    "is_placeholder"
+  ],
+  "properties": {
+    "legal_review_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "review_status": {
+      "const": "open"
+    },
+    "required_reviewer_role": {
+      "const": "legal_reviewer"
+    },
+    "is_placeholder": {
+      "const": false
+    }
+  }
+}

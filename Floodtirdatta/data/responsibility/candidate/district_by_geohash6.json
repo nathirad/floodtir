@@ -1,0 +1,7365 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:24Z",
+    "precision": 6,
+    "use": "district jurisdiction fallback for a new report coordinate",
+    "legal_notice": "Operational routing candidate, not legal liability."
+  },
+  "cells": {
+    "w4rksz": [
+      "bma-district-1021"
+    ],
+    "w4rktp": [
+      "bma-district-1021"
+    ],
+    "w4rktr": [
+      "bma-district-1021"
+    ],
+    "w4rkub": [
+      "bma-district-1021"
+    ],
+    "w4rkuc": [
+      "bma-district-1021"
+    ],
+    "w4rkuf": [
+      "bma-district-1021"
+    ],
+    "w4rkug": [
+      "bma-district-1021"
+    ],
+    "w4rkuu": [
+      "bma-district-1021"
+    ],
+    "w4rkuv": [
+      "bma-district-1021"
+    ],
+    "w4rkuy": [
+      "bma-district-1021"
+    ],
+    "w4rkuz": [
+      "bma-district-1021"
+    ],
+    "w4rkv0": [
+      "bma-district-1021"
+    ],
+    "w4rkv1": [
+      "bma-district-1021"
+    ],
+    "w4rkv2": [
+      "bma-district-1021"
+    ],
+    "w4rkv3": [
+      "bma-district-1021"
+    ],
+    "w4rkv4": [
+      "bma-district-1021"
+    ],
+    "w4rkv5": [
+      "bma-district-1021"
+    ],
+    "w4rkv6": [
+      "bma-district-1021"
+    ],
+    "w4rkv7": [
+      "bma-district-1021"
+    ],
+    "w4rkv8": [
+      "bma-district-1021"
+    ],
+    "w4rkv9": [
+      "bma-district-1021"
+    ],
+    "w4rkvb": [
+      "bma-district-1021"
+    ],
+    "w4rkvc": [
+      "bma-district-1021"
+    ],
+    "w4rkvd": [
+      "bma-district-1021"
+    ],
+    "w4rkve": [
+      "bma-district-1021"
+    ],
+    "w4rkvf": [
+      "bma-district-1021"
+    ],
+    "w4rkvg": [
+      "bma-district-1021"
+    ],
+    "w4rkvh": [
+      "bma-district-1021"
+    ],
+    "w4rkvj": [
+      "bma-district-1021"
+    ],
+    "w4rkvk": [
+      "bma-district-1021"
+    ],
+    "w4rkvm": [
+      "bma-district-1021"
+    ],
+    "w4rkvn": [
+      "bma-district-1021"
+    ],
+    "w4rkvp": [
+      "bma-district-1021"
+    ],
+    "w4rkvq": [
+      "bma-district-1021"
+    ],
+    "w4rkvr": [
+      "bma-district-1021"
+    ],
+    "w4rkvs": [
+      "bma-district-1021"
+    ],
+    "w4rkvt": [
+      "bma-district-1021"
+    ],
+    "w4rkvu": [
+      "bma-district-1021"
+    ],
+    "w4rkvv": [
+      "bma-district-1021"
+    ],
+    "w4rkvw": [
+      "bma-district-1021"
+    ],
+    "w4rkvx": [
+      "bma-district-1021"
+    ],
+    "w4rkvy": [
+      "bma-district-1021"
+    ],
+    "w4rkvz": [
+      "bma-district-1021"
+    ],
+    "w4rme9": [
+      "bma-district-1050"
+    ],
+    "w4rmec": [
+      "bma-district-1050"
+    ],
+    "w4rmed": [
+      "bma-district-1050"
+    ],
+    "w4rmee": [
+      "bma-district-1050"
+    ],
+    "w4rmef": [
+      "bma-district-1050"
+    ],
+    "w4rmeg": [
+      "bma-district-1050"
+    ],
+    "w4rmek": [
+      "bma-district-1050"
+    ],
+    "w4rmem": [
+      "bma-district-1050"
+    ],
+    "w4rmeq": [
+      "bma-district-1023"
+    ],
+    "w4rmer": [
+      "bma-district-1023"
+    ],
+    "w4rmes": [
+      "bma-district-1050"
+    ],
+    "w4rmet": [
+      "bma-district-1050"
+    ],
+    "w4rmeu": [
+      "bma-district-1050"
+    ],
+    "w4rmev": [
+      "bma-district-1050"
+    ],
+    "w4rmew": [
+      "bma-district-1023",
+      "bma-district-1050"
+    ],
+    "w4rmex": [
+      "bma-district-1023"
+    ],
+    "w4rmey": [
+      "bma-district-1050"
+    ],
+    "w4rmez": [
+      "bma-district-1023",
+      "bma-district-1050"
+    ],
+    "w4rmg2": [
+      "bma-district-1023"
+    ],
+    "w4rmg3": [
+      "bma-district-1023"
+    ],
+    "w4rmg4": [
+      "bma-district-1023"
+    ],
+    "w4rmg5": [
+      "bma-district-1023"
+    ],
+    "w4rmg6": [
+      "bma-district-1023"
+    ],
+    "w4rmg7": [
+      "bma-district-1023"
+    ],
+    "w4rmg8": [
+      "bma-district-1023"
+    ],
+    "w4rmg9": [
+      "bma-district-1023"
+    ],
+    "w4rmgb": [
+      "bma-district-1023"
+    ],
+    "w4rmgc": [
+      "bma-district-1023"
+    ],
+    "w4rmgd": [
+      "bma-district-1023"
+    ],
+    "w4rmge": [
+      "bma-district-1023"
+    ],
+    "w4rmgf": [
+      "bma-district-1023"
+    ],
+    "w4rmgg": [
+      "bma-district-1023"
+    ],
+    "w4rmgh": [
+      "bma-district-1023"
+    ],
+    "w4rmgj": [
+      "bma-district-1023"
+    ],
+    "w4rmgk": [
+      "bma-district-1023"
+    ],
+    "w4rmgm": [
+      "bma-district-1023"
+    ],
+    "w4rmgn": [
+      "bma-district-1023"
+    ],
+    "w4rmgp": [
+      "bma-district-1023"
+    ],
+    "w4rmgq": [
+      "bma-district-1023"
+    ],
+    "w4rmgr": [
+      "bma-district-1023"
+    ],
+    "w4rmgs": [
+      "bma-district-1023"
+    ],
+    "w4rmgt": [
+      "bma-district-1023"
+    ],
+    "w4rmgu": [
+      "bma-district-1023"
+    ],
+    "w4rmgv": [
+      "bma-district-1023"
+    ],
+    "w4rmgw": [
+      "bma-district-1023"
+    ],
+    "w4rmgx": [
+      "bma-district-1023"
+    ],
+    "w4rmgy": [
+      "bma-district-1023"
+    ],
+    "w4rmgz": [
+      "bma-district-1023"
+    ],
+    "w4rmhe": [
+      "bma-district-1021"
+    ],
+    "w4rmhm": [
+      "bma-district-1021"
+    ],
+    "w4rmhq": [
+      "bma-district-1021"
+    ],
+    "w4rmhr": [
+      "bma-district-1021"
+    ],
+    "w4rmhs": [
+      "bma-district-1021"
+    ],
+    "w4rmht": [
+      "bma-district-1021"
+    ],
+    "w4rmhu": [
+      "bma-district-1021"
+    ],
+    "w4rmhv": [
+      "bma-district-1021"
+    ],
+    "w4rmhw": [
+      "bma-district-1021"
+    ],
+    "w4rmhx": [
+      "bma-district-1021"
+    ],
+    "w4rmhy": [
+      "bma-district-1021"
+    ],
+    "w4rmhz": [
+      "bma-district-1021"
+    ],
+    "w4rmj0": [
+      "bma-district-1021"
+    ],
+    "w4rmj1": [
+      "bma-district-1021"
+    ],
+    "w4rmj2": [
+      "bma-district-1021"
+    ],
+    "w4rmj3": [
+      "bma-district-1021"
+    ],
+    "w4rmj4": [
+      "bma-district-1021"
+    ],
+    "w4rmj5": [
+      "bma-district-1021"
+    ],
+    "w4rmj6": [
+      "bma-district-1021"
+    ],
+    "w4rmj7": [
+      "bma-district-1021"
+    ],
+    "w4rmj8": [
+      "bma-district-1021"
+    ],
+    "w4rmj9": [
+      "bma-district-1021"
+    ],
+    "w4rmjd": [
+      "bma-district-1021"
+    ],
+    "w4rmje": [
+      "bma-district-1021"
+    ],
+    "w4rmjh": [
+      "bma-district-1021"
+    ],
+    "w4rmjj": [
+      "bma-district-1021"
+    ],
+    "w4rmjk": [
+      "bma-district-1021"
+    ],
+    "w4rmjm": [
+      "bma-district-1021"
+    ],
+    "w4rmjn": [
+      "bma-district-1021"
+    ],
+    "w4rmjp": [
+      "bma-district-1021"
+    ],
+    "w4rmjq": [
+      "bma-district-1021"
+    ],
+    "w4rmjr": [
+      "bma-district-1021"
+    ],
+    "w4rmjs": [
+      "bma-district-1021"
+    ],
+    "w4rmjt": [
+      "bma-district-1021"
+    ],
+    "w4rmjw": [
+      "bma-district-1021"
+    ],
+    "w4rmjx": [
+      "bma-district-1021"
+    ],
+    "w4rmk2": [
+      "bma-district-1021"
+    ],
+    "w4rmk3": [
+      "bma-district-1021"
+    ],
+    "w4rmk5": [
+      "bma-district-1021"
+    ],
+    "w4rmk6": [
+      "bma-district-1021"
+    ],
+    "w4rmk7": [
+      "bma-district-1021"
+    ],
+    "w4rmk8": [
+      "bma-district-1021"
+    ],
+    "w4rmk9": [
+      "bma-district-1021"
+    ],
+    "w4rmkb": [
+      "bma-district-1021"
+    ],
+    "w4rmkc": [
+      "bma-district-1021"
+    ],
+    "w4rmkd": [
+      "bma-district-1021"
+    ],
+    "w4rmke": [
+      "bma-district-1021"
+    ],
+    "w4rmkf": [
+      "bma-district-1021"
+    ],
+    "w4rmkg": [
+      "bma-district-1021"
+    ],
+    "w4rmkh": [
+      "bma-district-1021"
+    ],
+    "w4rmkj": [
+      "bma-district-1021"
+    ],
+    "w4rmkk": [
+      "bma-district-1021"
+    ],
+    "w4rmkm": [
+      "bma-district-1021"
+    ],
+    "w4rmkn": [
+      "bma-district-1021"
+    ],
+    "w4rmkp": [
+      "bma-district-1021"
+    ],
+    "w4rmkq": [
+      "bma-district-1021"
+    ],
+    "w4rmkr": [
+      "bma-district-1021"
+    ],
+    "w4rmks": [
+      "bma-district-1021"
+    ],
+    "w4rmkt": [
+      "bma-district-1021"
+    ],
+    "w4rmku": [
+      "bma-district-1021"
+    ],
+    "w4rmkv": [
+      "bma-district-1021"
+    ],
+    "w4rmkw": [
+      "bma-district-1021"
+    ],
+    "w4rmkx": [
+      "bma-district-1021"
+    ],
+    "w4rmky": [
+      "bma-district-1021"
+    ],
+    "w4rmkz": [
+      "bma-district-1021"
+    ],
+    "w4rmm0": [
+      "bma-district-1021"
+    ],
+    "w4rmm1": [
+      "bma-district-1021"
+    ],
+    "w4rmm2": [
+      "bma-district-1021"
+    ],
+    "w4rmm3": [
+      "bma-district-1021"
+    ],
+    "w4rmm4": [
+      "bma-district-1021"
+    ],
+    "w4rmm5": [
+      "bma-district-1021"
+    ],
+    "w4rmm6": [
+      "bma-district-1021"
+    ],
+    "w4rmm7": [
+      "bma-district-1021"
+    ],
+    "w4rmm8": [
+      "bma-district-1021"
+    ],
+    "w4rmm9": [
+      "bma-district-1021"
+    ],
+    "w4rmmd": [
+      "bma-district-1021"
+    ],
+    "w4rmme": [
+      "bma-district-1021"
+    ],
+    "w4rmmf": [
+      "bma-district-1021"
+    ],
+    "w4rmmg": [
+      "bma-district-1021"
+    ],
+    "w4rmmh": [
+      "bma-district-1021"
+    ],
+    "w4rmmj": [
+      "bma-district-1021"
+    ],
+    "w4rmmk": [
+      "bma-district-1021"
+    ],
+    "w4rmmm": [
+      "bma-district-1021"
+    ],
+    "w4rmmn": [
+      "bma-district-1021"
+    ],
+    "w4rmmp": [
+      "bma-district-1021"
+    ],
+    "w4rmmq": [
+      "bma-district-1021"
+    ],
+    "w4rmmr": [
+      "bma-district-1021"
+    ],
+    "w4rmms": [
+      "bma-district-1021"
+    ],
+    "w4rmmt": [
+      "bma-district-1021"
+    ],
+    "w4rmmu": [
+      "bma-district-1021"
+    ],
+    "w4rmmv": [
+      "bma-district-1021"
+    ],
+    "w4rmmw": [
+      "bma-district-1021"
+    ],
+    "w4rmmx": [
+      "bma-district-1021"
+    ],
+    "w4rmmy": [
+      "bma-district-1021"
+    ],
+    "w4rmmz": [
+      "bma-district-1021"
+    ],
+    "w4rmq5": [
+      "bma-district-1021"
+    ],
+    "w4rmq7": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmq9": [
+      "bma-district-1049"
+    ],
+    "w4rmqc": [
+      "bma-district-1049"
+    ],
+    "w4rmqd": [
+      "bma-district-1049"
+    ],
+    "w4rmqe": [
+      "bma-district-1049"
+    ],
+    "w4rmqf": [
+      "bma-district-1049"
+    ],
+    "w4rmqg": [
+      "bma-district-1049"
+    ],
+    "w4rmqh": [
+      "bma-district-1021"
+    ],
+    "w4rmqj": [
+      "bma-district-1021"
+    ],
+    "w4rmqk": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmqm": [
+      "bma-district-1021"
+    ],
+    "w4rmqn": [
+      "bma-district-1021"
+    ],
+    "w4rmqp": [
+      "bma-district-1021"
+    ],
+    "w4rmqq": [
+      "bma-district-1021"
+    ],
+    "w4rmqr": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmqs": [
+      "bma-district-1049"
+    ],
+    "w4rmqt": [
+      "bma-district-1049"
+    ],
+    "w4rmqu": [
+      "bma-district-1049"
+    ],
+    "w4rmqv": [
+      "bma-district-1049"
+    ],
+    "w4rmqw": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmqx": [
+      "bma-district-1049"
+    ],
+    "w4rmqy": [
+      "bma-district-1049"
+    ],
+    "w4rmqz": [
+      "bma-district-1049"
+    ],
+    "w4rmr5": [
+      "bma-district-1049"
+    ],
+    "w4rmrh": [
+      "bma-district-1049"
+    ],
+    "w4rmrj": [
+      "bma-district-1049"
+    ],
+    "w4rmrk": [
+      "bma-district-1049"
+    ],
+    "w4rmrm": [
+      "bma-district-1049"
+    ],
+    "w4rmrn": [
+      "bma-district-1049"
+    ],
+    "w4rmrp": [
+      "bma-district-1049"
+    ],
+    "w4rmrq": [
+      "bma-district-1049"
+    ],
+    "w4rmrr": [
+      "bma-district-1049"
+    ],
+    "w4rms0": [
+      "bma-district-1050"
+    ],
+    "w4rms1": [
+      "bma-district-1050"
+    ],
+    "w4rms2": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rms3": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rms4": [
+      "bma-district-1050"
+    ],
+    "w4rms5": [
+      "bma-district-1050"
+    ],
+    "w4rms6": [
+      "bma-district-1050"
+    ],
+    "w4rms7": [
+      "bma-district-1050"
+    ],
+    "w4rms8": [
+      "bma-district-1021"
+    ],
+    "w4rms9": [
+      "bma-district-1021"
+    ],
+    "w4rmsb": [
+      "bma-district-1021"
+    ],
+    "w4rmsc": [
+      "bma-district-1021"
+    ],
+    "w4rmsd": [
+      "bma-district-1021"
+    ],
+    "w4rmse": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rmsf": [
+      "bma-district-1021"
+    ],
+    "w4rmsg": [
+      "bma-district-1021"
+    ],
+    "w4rmsh": [
+      "bma-district-1050"
+    ],
+    "w4rmsj": [
+      "bma-district-1050"
+    ],
+    "w4rmsk": [
+      "bma-district-1050"
+    ],
+    "w4rmsm": [
+      "bma-district-1050"
+    ],
+    "w4rmsn": [
+      "bma-district-1050"
+    ],
+    "w4rmsp": [
+      "bma-district-1050"
+    ],
+    "w4rmsq": [
+      "bma-district-1050"
+    ],
+    "w4rmsr": [
+      "bma-district-1050"
+    ],
+    "w4rmss": [
+      "bma-district-1050"
+    ],
+    "w4rmst": [
+      "bma-district-1050"
+    ],
+    "w4rmsu": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rmsv": [
+      "bma-district-1050"
+    ],
+    "w4rmsw": [
+      "bma-district-1050"
+    ],
+    "w4rmsx": [
+      "bma-district-1050"
+    ],
+    "w4rmsy": [
+      "bma-district-1050"
+    ],
+    "w4rmsz": [
+      "bma-district-1050"
+    ],
+    "w4rmt0": [
+      "bma-district-1021"
+    ],
+    "w4rmt1": [
+      "bma-district-1021"
+    ],
+    "w4rmt2": [
+      "bma-district-1021"
+    ],
+    "w4rmt3": [
+      "bma-district-1021"
+    ],
+    "w4rmt4": [
+      "bma-district-1021"
+    ],
+    "w4rmt5": [
+      "bma-district-1021"
+    ],
+    "w4rmt6": [
+      "bma-district-1021"
+    ],
+    "w4rmt7": [
+      "bma-district-1021"
+    ],
+    "w4rmt8": [
+      "bma-district-1021"
+    ],
+    "w4rmt9": [
+      "bma-district-1021"
+    ],
+    "w4rmtb": [
+      "bma-district-1021"
+    ],
+    "w4rmtc": [
+      "bma-district-1021"
+    ],
+    "w4rmtd": [
+      "bma-district-1021"
+    ],
+    "w4rmte": [
+      "bma-district-1021"
+    ],
+    "w4rmtf": [
+      "bma-district-1021"
+    ],
+    "w4rmtg": [
+      "bma-district-1021"
+    ],
+    "w4rmth": [
+      "bma-district-1021"
+    ],
+    "w4rmtj": [
+      "bma-district-1021"
+    ],
+    "w4rmtk": [
+      "bma-district-1021"
+    ],
+    "w4rmtm": [
+      "bma-district-1021"
+    ],
+    "w4rmtn": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rmtp": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rmtq": [
+      "bma-district-1021"
+    ],
+    "w4rmtr": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rmts": [
+      "bma-district-1021"
+    ],
+    "w4rmtt": [
+      "bma-district-1021"
+    ],
+    "w4rmtu": [
+      "bma-district-1021"
+    ],
+    "w4rmtv": [
+      "bma-district-1021"
+    ],
+    "w4rmtw": [
+      "bma-district-1021"
+    ],
+    "w4rmtx": [
+      "bma-district-1021"
+    ],
+    "w4rmty": [
+      "bma-district-1021",
+      "bma-district-1035"
+    ],
+    "w4rmtz": [
+      "bma-district-1021",
+      "bma-district-1035"
+    ],
+    "w4rmu0": [
+      "bma-district-1023",
+      "bma-district-1050"
+    ],
+    "w4rmu1": [
+      "bma-district-1023"
+    ],
+    "w4rmu2": [
+      "bma-district-1040",
+      "bma-district-1050"
+    ],
+    "w4rmu3": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rmu4": [
+      "bma-district-1023"
+    ],
+    "w4rmu5": [
+      "bma-district-1023"
+    ],
+    "w4rmu6": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rmu7": [
+      "bma-district-1040"
+    ],
+    "w4rmu8": [
+      "bma-district-1040",
+      "bma-district-1050"
+    ],
+    "w4rmu9": [
+      "bma-district-1040",
+      "bma-district-1050"
+    ],
+    "w4rmub": [
+      "bma-district-1050"
+    ],
+    "w4rmuc": [
+      "bma-district-1040",
+      "bma-district-1050"
+    ],
+    "w4rmud": [
+      "bma-district-1040"
+    ],
+    "w4rmue": [
+      "bma-district-1040"
+    ],
+    "w4rmuf": [
+      "bma-district-1040",
+      "bma-district-1050"
+    ],
+    "w4rmug": [
+      "bma-district-1040"
+    ],
+    "w4rmuh": [
+      "bma-district-1023"
+    ],
+    "w4rmuj": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rmuk": [
+      "bma-district-1040"
+    ],
+    "w4rmum": [
+      "bma-district-1040"
+    ],
+    "w4rmun": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rmup": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rmuq": [
+      "bma-district-1040"
+    ],
+    "w4rmur": [
+      "bma-district-1040"
+    ],
+    "w4rmus": [
+      "bma-district-1040"
+    ],
+    "w4rmut": [
+      "bma-district-1040"
+    ],
+    "w4rmuu": [
+      "bma-district-1040"
+    ],
+    "w4rmuv": [
+      "bma-district-1040"
+    ],
+    "w4rmuw": [
+      "bma-district-1040"
+    ],
+    "w4rmux": [
+      "bma-district-1040"
+    ],
+    "w4rmuy": [
+      "bma-district-1040"
+    ],
+    "w4rmuz": [
+      "bma-district-1040"
+    ],
+    "w4rmv0": [
+      "bma-district-1050"
+    ],
+    "w4rmv1": [
+      "bma-district-1050"
+    ],
+    "w4rmv2": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rmv3": [
+      "bma-district-1050"
+    ],
+    "w4rmv4": [
+      "bma-district-1040",
+      "bma-district-1050"
+    ],
+    "w4rmv5": [
+      "bma-district-1040",
+      "bma-district-1050"
+    ],
+    "w4rmv6": [
+      "bma-district-1050"
+    ],
+    "w4rmv7": [
+      "bma-district-1050"
+    ],
+    "w4rmv8": [
+      "bma-district-1021"
+    ],
+    "w4rmv9": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rmvb": [
+      "bma-district-1021",
+      "bma-district-1035"
+    ],
+    "w4rmvc": [
+      "bma-district-1021",
+      "bma-district-1035"
+    ],
+    "w4rmvd": [
+      "bma-district-1021",
+      "bma-district-1050"
+    ],
+    "w4rmve": [
+      "bma-district-1035",
+      "bma-district-1050"
+    ],
+    "w4rmvf": [
+      "bma-district-1021",
+      "bma-district-1035"
+    ],
+    "w4rmvg": [
+      "bma-district-1035"
+    ],
+    "w4rmvh": [
+      "bma-district-1040"
+    ],
+    "w4rmvj": [
+      "bma-district-1040"
+    ],
+    "w4rmvk": [
+      "bma-district-1022",
+      "bma-district-1050"
+    ],
+    "w4rmvm": [
+      "bma-district-1022"
+    ],
+    "w4rmvn": [
+      "bma-district-1040"
+    ],
+    "w4rmvp": [
+      "bma-district-1040"
+    ],
+    "w4rmvq": [
+      "bma-district-1022"
+    ],
+    "w4rmvr": [
+      "bma-district-1022"
+    ],
+    "w4rmvs": [
+      "bma-district-1022",
+      "bma-district-1035",
+      "bma-district-1050"
+    ],
+    "w4rmvt": [
+      "bma-district-1035"
+    ],
+    "w4rmvu": [
+      "bma-district-1035"
+    ],
+    "w4rmvv": [
+      "bma-district-1035"
+    ],
+    "w4rmvw": [
+      "bma-district-1035"
+    ],
+    "w4rmvx": [
+      "bma-district-1022",
+      "bma-district-1035"
+    ],
+    "w4rmvy": [
+      "bma-district-1035"
+    ],
+    "w4rmvz": [
+      "bma-district-1022",
+      "bma-district-1035"
+    ],
+    "w4rmw0": [
+      "bma-district-1021"
+    ],
+    "w4rmw1": [
+      "bma-district-1021"
+    ],
+    "w4rmw2": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmw3": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmw4": [
+      "bma-district-1021"
+    ],
+    "w4rmw5": [
+      "bma-district-1021"
+    ],
+    "w4rmw6": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmw7": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmw8": [
+      "bma-district-1049"
+    ],
+    "w4rmw9": [
+      "bma-district-1049"
+    ],
+    "w4rmwb": [
+      "bma-district-1049"
+    ],
+    "w4rmwc": [
+      "bma-district-1049"
+    ],
+    "w4rmwd": [
+      "bma-district-1049"
+    ],
+    "w4rmwe": [
+      "bma-district-1049"
+    ],
+    "w4rmwf": [
+      "bma-district-1049"
+    ],
+    "w4rmwg": [
+      "bma-district-1049"
+    ],
+    "w4rmwh": [
+      "bma-district-1021"
+    ],
+    "w4rmwj": [
+      "bma-district-1021"
+    ],
+    "w4rmwk": [
+      "bma-district-1021",
+      "bma-district-1049"
+    ],
+    "w4rmwm": [
+      "bma-district-1049"
+    ],
+    "w4rmwn": [
+      "bma-district-1021",
+      "bma-district-1035"
+    ],
+    "w4rmwp": [
+      "bma-district-1035"
+    ],
+    "w4rmwq": [
+      "bma-district-1035",
+      "bma-district-1049"
+    ],
+    "w4rmwr": [
+      "bma-district-1035",
+      "bma-district-1049"
+    ],
+    "w4rmws": [
+      "bma-district-1049"
+    ],
+    "w4rmwt": [
+      "bma-district-1049"
+    ],
+    "w4rmwu": [
+      "bma-district-1049"
+    ],
+    "w4rmwv": [
+      "bma-district-1049"
+    ],
+    "w4rmww": [
+      "bma-district-1024",
+      "bma-district-1049"
+    ],
+    "w4rmwx": [
+      "bma-district-1024",
+      "bma-district-1049"
+    ],
+    "w4rmwy": [
+      "bma-district-1024"
+    ],
+    "w4rmwz": [
+      "bma-district-1024"
+    ],
+    "w4rmx0": [
+      "bma-district-1049"
+    ],
+    "w4rmx1": [
+      "bma-district-1049"
+    ],
+    "w4rmx2": [
+      "bma-district-1049"
+    ],
+    "w4rmx3": [
+      "bma-district-1049"
+    ],
+    "w4rmx4": [
+      "bma-district-1049"
+    ],
+    "w4rmx5": [
+      "bma-district-1049"
+    ],
+    "w4rmx6": [
+      "bma-district-1049"
+    ],
+    "w4rmx7": [
+      "bma-district-1049"
+    ],
+    "w4rmxh": [
+      "bma-district-1049"
+    ],
+    "w4rmxj": [
+      "bma-district-1049"
+    ],
+    "w4rmxk": [
+      "bma-district-1049"
+    ],
+    "w4rmxm": [
+      "bma-district-1049"
+    ],
+    "w4rmxn": [
+      "bma-district-1049"
+    ],
+    "w4rmxp": [
+      "bma-district-1024",
+      "bma-district-1049"
+    ],
+    "w4rmxq": [
+      "bma-district-1049"
+    ],
+    "w4rmxr": [
+      "bma-district-1024"
+    ],
+    "w4rmy0": [
+      "bma-district-1035"
+    ],
+    "w4rmy1": [
+      "bma-district-1035"
+    ],
+    "w4rmy2": [
+      "bma-district-1035"
+    ],
+    "w4rmy3": [
+      "bma-district-1035"
+    ],
+    "w4rmy4": [
+      "bma-district-1035"
+    ],
+    "w4rmy5": [
+      "bma-district-1035"
+    ],
+    "w4rmy6": [
+      "bma-district-1035"
+    ],
+    "w4rmy7": [
+      "bma-district-1035"
+    ],
+    "w4rmy8": [
+      "bma-district-1024",
+      "bma-district-1035"
+    ],
+    "w4rmy9": [
+      "bma-district-1024",
+      "bma-district-1035"
+    ],
+    "w4rmyb": [
+      "bma-district-1024"
+    ],
+    "w4rmyc": [
+      "bma-district-1024"
+    ],
+    "w4rmyd": [
+      "bma-district-1024",
+      "bma-district-1035"
+    ],
+    "w4rmye": [
+      "bma-district-1024",
+      "bma-district-1035"
+    ],
+    "w4rmyf": [
+      "bma-district-1024"
+    ],
+    "w4rmyg": [
+      "bma-district-1024",
+      "bma-district-1031"
+    ],
+    "w4rmyh": [
+      "bma-district-1035"
+    ],
+    "w4rmyj": [
+      "bma-district-1035"
+    ],
+    "w4rmyk": [
+      "bma-district-1035"
+    ],
+    "w4rmym": [
+      "bma-district-1015",
+      "bma-district-1035"
+    ],
+    "w4rmyn": [
+      "bma-district-1035"
+    ],
+    "w4rmyp": [
+      "bma-district-1035"
+    ],
+    "w4rmyq": [
+      "bma-district-1015",
+      "bma-district-1035"
+    ],
+    "w4rmyr": [
+      "bma-district-1015",
+      "bma-district-1035"
+    ],
+    "w4rmys": [
+      "bma-district-1024"
+    ],
+    "w4rmyt": [
+      "bma-district-1015"
+    ],
+    "w4rmyu": [
+      "bma-district-1024",
+      "bma-district-1031"
+    ],
+    "w4rmyv": [
+      "bma-district-1031"
+    ],
+    "w4rmyw": [
+      "bma-district-1015"
+    ],
+    "w4rmyx": [
+      "bma-district-1015"
+    ],
+    "w4rmyy": [
+      "bma-district-1015",
+      "bma-district-1031"
+    ],
+    "w4rmyz": [
+      "bma-district-1015",
+      "bma-district-1018",
+      "bma-district-1031"
+    ],
+    "w4rmz0": [
+      "bma-district-1024"
+    ],
+    "w4rmz1": [
+      "bma-district-1024"
+    ],
+    "w4rmz2": [
+      "bma-district-1024"
+    ],
+    "w4rmz3": [
+      "bma-district-1024"
+    ],
+    "w4rmz4": [
+      "bma-district-1024"
+    ],
+    "w4rmz5": [
+      "bma-district-1031"
+    ],
+    "w4rmz6": [
+      "bma-district-1012",
+      "bma-district-1024"
+    ],
+    "w4rmz7": [
+      "bma-district-1012",
+      "bma-district-1031"
+    ],
+    "w4rmz8": [
+      "bma-district-1012"
+    ],
+    "w4rmz9": [
+      "bma-district-1012"
+    ],
+    "w4rmzb": [
+      "bma-district-1012"
+    ],
+    "w4rmzc": [
+      "bma-district-1012"
+    ],
+    "w4rmzd": [
+      "bma-district-1012"
+    ],
+    "w4rmze": [
+      "bma-district-1012"
+    ],
+    "w4rmzf": [
+      "bma-district-1012"
+    ],
+    "w4rmzg": [
+      "bma-district-1012"
+    ],
+    "w4rmzh": [
+      "bma-district-1031"
+    ],
+    "w4rmzj": [
+      "bma-district-1031"
+    ],
+    "w4rmzk": [
+      "bma-district-1031"
+    ],
+    "w4rmzm": [
+      "bma-district-1031"
+    ],
+    "w4rmzn": [
+      "bma-district-1031"
+    ],
+    "w4rmzp": [
+      "bma-district-1031"
+    ],
+    "w4rmzq": [
+      "bma-district-1028",
+      "bma-district-1031"
+    ],
+    "w4rmzr": [
+      "bma-district-1028",
+      "bma-district-1031"
+    ],
+    "w4rmzs": [
+      "bma-district-1012",
+      "bma-district-1031"
+    ],
+    "w4rmzt": [
+      "bma-district-1012",
+      "bma-district-1031"
+    ],
+    "w4rmzu": [
+      "bma-district-1012"
+    ],
+    "w4rmzv": [
+      "bma-district-1012"
+    ],
+    "w4rmzw": [
+      "bma-district-1012",
+      "bma-district-1028",
+      "bma-district-1031"
+    ],
+    "w4rmzx": [
+      "bma-district-1028"
+    ],
+    "w4rmzy": [
+      "bma-district-1012"
+    ],
+    "w4rmzz": [
+      "bma-district-1012",
+      "bma-district-1028"
+    ],
+    "w4rq50": [
+      "bma-district-1023"
+    ],
+    "w4rq51": [
+      "bma-district-1023"
+    ],
+    "w4rq52": [
+      "bma-district-1023"
+    ],
+    "w4rq53": [
+      "bma-district-1023"
+    ],
+    "w4rq55": [
+      "bma-district-1023"
+    ],
+    "w4rq56": [
+      "bma-district-1023"
+    ],
+    "w4rq57": [
+      "bma-district-1023"
+    ],
+    "w4rq58": [
+      "bma-district-1023"
+    ],
+    "w4rq59": [
+      "bma-district-1023"
+    ],
+    "w4rq5b": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rq5c": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rq5d": [
+      "bma-district-1023"
+    ],
+    "w4rq5e": [
+      "bma-district-1023"
+    ],
+    "w4rq5f": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rq5g": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rq5j": [
+      "bma-district-1048"
+    ],
+    "w4rq5k": [
+      "bma-district-1023"
+    ],
+    "w4rq5m": [
+      "bma-district-1048"
+    ],
+    "w4rq5n": [
+      "bma-district-1048"
+    ],
+    "w4rq5p": [
+      "bma-district-1048"
+    ],
+    "w4rq5q": [
+      "bma-district-1048"
+    ],
+    "w4rq5r": [
+      "bma-district-1048"
+    ],
+    "w4rq5s": [
+      "bma-district-1023"
+    ],
+    "w4rq5t": [
+      "bma-district-1040",
+      "bma-district-1048"
+    ],
+    "w4rq5u": [
+      "bma-district-1023",
+      "bma-district-1040"
+    ],
+    "w4rq5v": [
+      "bma-district-1040"
+    ],
+    "w4rq5w": [
+      "bma-district-1040",
+      "bma-district-1048"
+    ],
+    "w4rq5x": [
+      "bma-district-1040",
+      "bma-district-1048"
+    ],
+    "w4rq5y": [
+      "bma-district-1040"
+    ],
+    "w4rq5z": [
+      "bma-district-1040",
+      "bma-district-1048"
+    ],
+    "w4rq70": [
+      "bma-district-1048"
+    ],
+    "w4rq71": [
+      "bma-district-1048"
+    ],
+    "w4rq72": [
+      "bma-district-1048"
+    ],
+    "w4rq73": [
+      "bma-district-1048"
+    ],
+    "w4rq74": [
+      "bma-district-1048"
+    ],
+    "w4rq75": [
+      "bma-district-1048"
+    ],
+    "w4rq76": [
+      "bma-district-1048"
+    ],
+    "w4rq77": [
+      "bma-district-1048"
+    ],
+    "w4rq78": [
+      "bma-district-1048"
+    ],
+    "w4rq79": [
+      "bma-district-1048"
+    ],
+    "w4rq7b": [
+      "bma-district-1048"
+    ],
+    "w4rq7c": [
+      "bma-district-1048"
+    ],
+    "w4rq7d": [
+      "bma-district-1048"
+    ],
+    "w4rq7e": [
+      "bma-district-1048"
+    ],
+    "w4rq7f": [
+      "bma-district-1048"
+    ],
+    "w4rq7g": [
+      "bma-district-1048"
+    ],
+    "w4rq7h": [
+      "bma-district-1048"
+    ],
+    "w4rq7j": [
+      "bma-district-1048"
+    ],
+    "w4rq7k": [
+      "bma-district-1048"
+    ],
+    "w4rq7m": [
+      "bma-district-1048"
+    ],
+    "w4rq7n": [
+      "bma-district-1048"
+    ],
+    "w4rq7p": [
+      "bma-district-1048"
+    ],
+    "w4rq7q": [
+      "bma-district-1048"
+    ],
+    "w4rq7r": [
+      "bma-district-1048"
+    ],
+    "w4rq7s": [
+      "bma-district-1048"
+    ],
+    "w4rq7t": [
+      "bma-district-1048"
+    ],
+    "w4rq7u": [
+      "bma-district-1048"
+    ],
+    "w4rq7v": [
+      "bma-district-1048"
+    ],
+    "w4rq7w": [
+      "bma-district-1048"
+    ],
+    "w4rq7x": [
+      "bma-district-1048"
+    ],
+    "w4rq7y": [
+      "bma-district-1048"
+    ],
+    "w4rq7z": [
+      "bma-district-1048"
+    ],
+    "w4rqe0": [
+      "bma-district-1048"
+    ],
+    "w4rqe2": [
+      "bma-district-1048"
+    ],
+    "w4rqe8": [
+      "bma-district-1048"
+    ],
+    "w4rqeb": [
+      "bma-district-1048"
+    ],
+    "w4rqh0": [
+      "bma-district-1040"
+    ],
+    "w4rqh1": [
+      "bma-district-1040"
+    ],
+    "w4rqh2": [
+      "bma-district-1040"
+    ],
+    "w4rqh3": [
+      "bma-district-1040"
+    ],
+    "w4rqh4": [
+      "bma-district-1040"
+    ],
+    "w4rqh5": [
+      "bma-district-1040"
+    ],
+    "w4rqh6": [
+      "bma-district-1040"
+    ],
+    "w4rqh7": [
+      "bma-district-1040"
+    ],
+    "w4rqh8": [
+      "bma-district-1040"
+    ],
+    "w4rqh9": [
+      "bma-district-1040"
+    ],
+    "w4rqhb": [
+      "bma-district-1040"
+    ],
+    "w4rqhc": [
+      "bma-district-1040"
+    ],
+    "w4rqhd": [
+      "bma-district-1040"
+    ],
+    "w4rqhe": [
+      "bma-district-1040"
+    ],
+    "w4rqhf": [
+      "bma-district-1040"
+    ],
+    "w4rqhg": [
+      "bma-district-1040"
+    ],
+    "w4rqhh": [
+      "bma-district-1040"
+    ],
+    "w4rqhj": [
+      "bma-district-1040"
+    ],
+    "w4rqhk": [
+      "bma-district-1040"
+    ],
+    "w4rqhm": [
+      "bma-district-1040"
+    ],
+    "w4rqhn": [
+      "bma-district-1040"
+    ],
+    "w4rqhp": [
+      "bma-district-1040",
+      "bma-district-1048"
+    ],
+    "w4rqhq": [
+      "bma-district-1040"
+    ],
+    "w4rqhr": [
+      "bma-district-1040",
+      "bma-district-1048"
+    ],
+    "w4rqhs": [
+      "bma-district-1040"
+    ],
+    "w4rqht": [
+      "bma-district-1040"
+    ],
+    "w4rqhu": [
+      "bma-district-1040"
+    ],
+    "w4rqhv": [
+      "bma-district-1040"
+    ],
+    "w4rqhw": [
+      "bma-district-1040"
+    ],
+    "w4rqhx": [
+      "bma-district-1048"
+    ],
+    "w4rqhy": [
+      "bma-district-1019",
+      "bma-district-1040"
+    ],
+    "w4rqhz": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqj0": [
+      "bma-district-1040"
+    ],
+    "w4rqj1": [
+      "bma-district-1040"
+    ],
+    "w4rqj2": [
+      "bma-district-1022"
+    ],
+    "w4rqj3": [
+      "bma-district-1022"
+    ],
+    "w4rqj4": [
+      "bma-district-1022",
+      "bma-district-1040"
+    ],
+    "w4rqj5": [
+      "bma-district-1022",
+      "bma-district-1040"
+    ],
+    "w4rqj6": [
+      "bma-district-1022"
+    ],
+    "w4rqj7": [
+      "bma-district-1022"
+    ],
+    "w4rqj8": [
+      "bma-district-1022"
+    ],
+    "w4rqj9": [
+      "bma-district-1022"
+    ],
+    "w4rqjb": [
+      "bma-district-1022"
+    ],
+    "w4rqjc": [
+      "bma-district-1022"
+    ],
+    "w4rqjd": [
+      "bma-district-1022"
+    ],
+    "w4rqje": [
+      "bma-district-1022"
+    ],
+    "w4rqjf": [
+      "bma-district-1022"
+    ],
+    "w4rqjg": [
+      "bma-district-1022"
+    ],
+    "w4rqjh": [
+      "bma-district-1022",
+      "bma-district-1040"
+    ],
+    "w4rqjj": [
+      "bma-district-1022"
+    ],
+    "w4rqjk": [
+      "bma-district-1022"
+    ],
+    "w4rqjm": [
+      "bma-district-1019",
+      "bma-district-1022"
+    ],
+    "w4rqjn": [
+      "bma-district-1019",
+      "bma-district-1022"
+    ],
+    "w4rqjp": [
+      "bma-district-1019"
+    ],
+    "w4rqjq": [
+      "bma-district-1019"
+    ],
+    "w4rqjr": [
+      "bma-district-1019"
+    ],
+    "w4rqjs": [
+      "bma-district-1022"
+    ],
+    "w4rqjt": [
+      "bma-district-1019",
+      "bma-district-1022"
+    ],
+    "w4rqju": [
+      "bma-district-1022"
+    ],
+    "w4rqjv": [
+      "bma-district-1019",
+      "bma-district-1022"
+    ],
+    "w4rqjw": [
+      "bma-district-1019"
+    ],
+    "w4rqjx": [
+      "bma-district-1019"
+    ],
+    "w4rqjy": [
+      "bma-district-1019"
+    ],
+    "w4rqjz": [
+      "bma-district-1019"
+    ],
+    "w4rqk0": [
+      "bma-district-1048"
+    ],
+    "w4rqk1": [
+      "bma-district-1048"
+    ],
+    "w4rqk2": [
+      "bma-district-1048"
+    ],
+    "w4rqk3": [
+      "bma-district-1048"
+    ],
+    "w4rqk4": [
+      "bma-district-1048"
+    ],
+    "w4rqk5": [
+      "bma-district-1048"
+    ],
+    "w4rqk6": [
+      "bma-district-1048"
+    ],
+    "w4rqk7": [
+      "bma-district-1048"
+    ],
+    "w4rqk8": [
+      "bma-district-1048"
+    ],
+    "w4rqk9": [
+      "bma-district-1048"
+    ],
+    "w4rqkb": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqkc": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqkd": [
+      "bma-district-1048"
+    ],
+    "w4rqke": [
+      "bma-district-1048"
+    ],
+    "w4rqkf": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqkg": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqkh": [
+      "bma-district-1048"
+    ],
+    "w4rqkj": [
+      "bma-district-1048"
+    ],
+    "w4rqkk": [
+      "bma-district-1048"
+    ],
+    "w4rqkm": [
+      "bma-district-1048"
+    ],
+    "w4rqkn": [
+      "bma-district-1048"
+    ],
+    "w4rqkp": [
+      "bma-district-1048"
+    ],
+    "w4rqkq": [
+      "bma-district-1048"
+    ],
+    "w4rqkr": [
+      "bma-district-1048"
+    ],
+    "w4rqks": [
+      "bma-district-1048"
+    ],
+    "w4rqkt": [
+      "bma-district-1048"
+    ],
+    "w4rqku": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqkv": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqkw": [
+      "bma-district-1048"
+    ],
+    "w4rqkx": [
+      "bma-district-1048"
+    ],
+    "w4rqky": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqkz": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqm0": [
+      "bma-district-1019"
+    ],
+    "w4rqm1": [
+      "bma-district-1019"
+    ],
+    "w4rqm2": [
+      "bma-district-1019"
+    ],
+    "w4rqm3": [
+      "bma-district-1019"
+    ],
+    "w4rqm4": [
+      "bma-district-1019"
+    ],
+    "w4rqm5": [
+      "bma-district-1019"
+    ],
+    "w4rqm6": [
+      "bma-district-1019"
+    ],
+    "w4rqm7": [
+      "bma-district-1019"
+    ],
+    "w4rqm8": [
+      "bma-district-1019"
+    ],
+    "w4rqm9": [
+      "bma-district-1019"
+    ],
+    "w4rqmb": [
+      "bma-district-1019"
+    ],
+    "w4rqmc": [
+      "bma-district-1019",
+      "bma-district-1020"
+    ],
+    "w4rqmd": [
+      "bma-district-1019"
+    ],
+    "w4rqme": [
+      "bma-district-1019"
+    ],
+    "w4rqmf": [
+      "bma-district-1019",
+      "bma-district-1020"
+    ],
+    "w4rqmg": [
+      "bma-district-1019",
+      "bma-district-1020"
+    ],
+    "w4rqmh": [
+      "bma-district-1019"
+    ],
+    "w4rqmj": [
+      "bma-district-1019"
+    ],
+    "w4rqmk": [
+      "bma-district-1019"
+    ],
+    "w4rqmm": [
+      "bma-district-1019"
+    ],
+    "w4rqmn": [
+      "bma-district-1019"
+    ],
+    "w4rqmp": [
+      "bma-district-1019"
+    ],
+    "w4rqmq": [
+      "bma-district-1019"
+    ],
+    "w4rqmr": [
+      "bma-district-1019"
+    ],
+    "w4rqms": [
+      "bma-district-1019"
+    ],
+    "w4rqmt": [
+      "bma-district-1019"
+    ],
+    "w4rqmu": [
+      "bma-district-1019"
+    ],
+    "w4rqmv": [
+      "bma-district-1019"
+    ],
+    "w4rqmw": [
+      "bma-district-1019"
+    ],
+    "w4rqmx": [
+      "bma-district-1019"
+    ],
+    "w4rqmy": [
+      "bma-district-1019"
+    ],
+    "w4rqmz": [
+      "bma-district-1019"
+    ],
+    "w4rqn0": [
+      "bma-district-1022",
+      "bma-district-1035"
+    ],
+    "w4rqn1": [
+      "bma-district-1022",
+      "bma-district-1035"
+    ],
+    "w4rqn2": [
+      "bma-district-1015"
+    ],
+    "w4rqn3": [
+      "bma-district-1015",
+      "bma-district-1022"
+    ],
+    "w4rqn4": [
+      "bma-district-1016",
+      "bma-district-1022"
+    ],
+    "w4rqn5": [
+      "bma-district-1016",
+      "bma-district-1022"
+    ],
+    "w4rqn6": [
+      "bma-district-1016"
+    ],
+    "w4rqn7": [
+      "bma-district-1016"
+    ],
+    "w4rqn8": [
+      "bma-district-1015"
+    ],
+    "w4rqn9": [
+      "bma-district-1015"
+    ],
+    "w4rqnb": [
+      "bma-district-1018"
+    ],
+    "w4rqnc": [
+      "bma-district-1018"
+    ],
+    "w4rqnd": [
+      "bma-district-1015",
+      "bma-district-1016"
+    ],
+    "w4rqne": [
+      "bma-district-1015",
+      "bma-district-1016"
+    ],
+    "w4rqnf": [
+      "bma-district-1018"
+    ],
+    "w4rqng": [
+      "bma-district-1015",
+      "bma-district-1018"
+    ],
+    "w4rqnh": [
+      "bma-district-1016",
+      "bma-district-1022"
+    ],
+    "w4rqnj": [
+      "bma-district-1016",
+      "bma-district-1022"
+    ],
+    "w4rqnk": [
+      "bma-district-1016"
+    ],
+    "w4rqnm": [
+      "bma-district-1016"
+    ],
+    "w4rqnn": [
+      "bma-district-1019",
+      "bma-district-1020"
+    ],
+    "w4rqnp": [
+      "bma-district-1019",
+      "bma-district-1020"
+    ],
+    "w4rqnq": [
+      "bma-district-1020"
+    ],
+    "w4rqnr": [
+      "bma-district-1020"
+    ],
+    "w4rqns": [
+      "bma-district-1015",
+      "bma-district-1016"
+    ],
+    "w4rqnt": [
+      "bma-district-1015",
+      "bma-district-1016"
+    ],
+    "w4rqnu": [
+      "bma-district-1015",
+      "bma-district-1018"
+    ],
+    "w4rqnv": [
+      "bma-district-1001",
+      "bma-district-1013",
+      "bma-district-1015"
+    ],
+    "w4rqnw": [
+      "bma-district-1001",
+      "bma-district-1016",
+      "bma-district-1020"
+    ],
+    "w4rqnx": [
+      "bma-district-1001",
+      "bma-district-1020"
+    ],
+    "w4rqny": [
+      "bma-district-1001",
+      "bma-district-1013"
+    ],
+    "w4rqnz": [
+      "bma-district-1001"
+    ],
+    "w4rqp0": [
+      "bma-district-1018",
+      "bma-district-1028"
+    ],
+    "w4rqp1": [
+      "bma-district-1018"
+    ],
+    "w4rqp2": [
+      "bma-district-1028"
+    ],
+    "w4rqp3": [
+      "bma-district-1004",
+      "bma-district-1028"
+    ],
+    "w4rqp4": [
+      "bma-district-1018"
+    ],
+    "w4rqp5": [
+      "bma-district-1013",
+      "bma-district-1018"
+    ],
+    "w4rqp6": [
+      "bma-district-1004"
+    ],
+    "w4rqp7": [
+      "bma-district-1004",
+      "bma-district-1013"
+    ],
+    "w4rqp8": [
+      "bma-district-1028"
+    ],
+    "w4rqp9": [
+      "bma-district-1004",
+      "bma-district-1028"
+    ],
+    "w4rqpb": [
+      "bma-district-1012",
+      "bma-district-1028"
+    ],
+    "w4rqpc": [
+      "bma-district-1028"
+    ],
+    "w4rqpd": [
+      "bma-district-1004"
+    ],
+    "w4rqpe": [
+      "bma-district-1004",
+      "bma-district-1007"
+    ],
+    "w4rqpf": [
+      "bma-district-1004",
+      "bma-district-1028"
+    ],
+    "w4rqpg": [
+      "bma-district-1007"
+    ],
+    "w4rqph": [
+      "bma-district-1013",
+      "bma-district-1018"
+    ],
+    "w4rqpj": [
+      "bma-district-1008",
+      "bma-district-1013"
+    ],
+    "w4rqpk": [
+      "bma-district-1004",
+      "bma-district-1007",
+      "bma-district-1013"
+    ],
+    "w4rqpm": [
+      "bma-district-1007"
+    ],
+    "w4rqpn": [
+      "bma-district-1008",
+      "bma-district-1013"
+    ],
+    "w4rqpp": [
+      "bma-district-1008"
+    ],
+    "w4rqpq": [
+      "bma-district-1007",
+      "bma-district-1008"
+    ],
+    "w4rqpr": [
+      "bma-district-1007",
+      "bma-district-1008",
+      "bma-district-1037"
+    ],
+    "w4rqps": [
+      "bma-district-1004",
+      "bma-district-1007"
+    ],
+    "w4rqpt": [
+      "bma-district-1007"
+    ],
+    "w4rqpu": [
+      "bma-district-1007"
+    ],
+    "w4rqpv": [
+      "bma-district-1007"
+    ],
+    "w4rqpw": [
+      "bma-district-1007"
+    ],
+    "w4rqpx": [
+      "bma-district-1037"
+    ],
+    "w4rqpy": [
+      "bma-district-1007"
+    ],
+    "w4rqpz": [
+      "bma-district-1037"
+    ],
+    "w4rqq0": [
+      "bma-district-1019",
+      "bma-district-1020"
+    ],
+    "w4rqq1": [
+      "bma-district-1020"
+    ],
+    "w4rqq2": [
+      "bma-district-1020"
+    ],
+    "w4rqq3": [
+      "bma-district-1020"
+    ],
+    "w4rqq4": [
+      "bma-district-1020"
+    ],
+    "w4rqq5": [
+      "bma-district-1020"
+    ],
+    "w4rqq6": [
+      "bma-district-1020"
+    ],
+    "w4rqq7": [
+      "bma-district-1020"
+    ],
+    "w4rqq8": [
+      "bma-district-1001",
+      "bma-district-1020"
+    ],
+    "w4rqq9": [
+      "bma-district-1020",
+      "bma-district-1025"
+    ],
+    "w4rqqb": [
+      "bma-district-1001"
+    ],
+    "w4rqqc": [
+      "bma-district-1001",
+      "bma-district-1025"
+    ],
+    "w4rqqd": [
+      "bma-district-1020",
+      "bma-district-1025"
+    ],
+    "w4rqqe": [
+      "bma-district-1025"
+    ],
+    "w4rqqf": [
+      "bma-district-1001",
+      "bma-district-1025"
+    ],
+    "w4rqqg": [
+      "bma-district-1001",
+      "bma-district-1002",
+      "bma-district-1025"
+    ],
+    "w4rqqh": [
+      "bma-district-1019",
+      "bma-district-1020"
+    ],
+    "w4rqqj": [
+      "bma-district-1019",
+      "bma-district-1020"
+    ],
+    "w4rqqk": [
+      "bma-district-1020",
+      "bma-district-1025"
+    ],
+    "w4rqqm": [
+      "bma-district-1025"
+    ],
+    "w4rqqn": [
+      "bma-district-1019",
+      "bma-district-1025"
+    ],
+    "w4rqqp": [
+      "bma-district-1019"
+    ],
+    "w4rqqq": [
+      "bma-district-1025"
+    ],
+    "w4rqqs": [
+      "bma-district-1025"
+    ],
+    "w4rqqt": [
+      "bma-district-1025"
+    ],
+    "w4rqqu": [
+      "bma-district-1002",
+      "bma-district-1025"
+    ],
+    "w4rqqv": [
+      "bma-district-1025"
+    ],
+    "w4rqqw": [
+      "bma-district-1025"
+    ],
+    "w4rqqx": [
+      "bma-district-1025"
+    ],
+    "w4rqqy": [
+      "bma-district-1025"
+    ],
+    "w4rqqz": [
+      "bma-district-1025"
+    ],
+    "w4rqr0": [
+      "bma-district-1001",
+      "bma-district-1008"
+    ],
+    "w4rqr1": [
+      "bma-district-1001",
+      "bma-district-1002",
+      "bma-district-1008"
+    ],
+    "w4rqr2": [
+      "bma-district-1002",
+      "bma-district-1008",
+      "bma-district-1037"
+    ],
+    "w4rqr3": [
+      "bma-district-1002"
+    ],
+    "w4rqr4": [
+      "bma-district-1002"
+    ],
+    "w4rqr5": [
+      "bma-district-1002"
+    ],
+    "w4rqr6": [
+      "bma-district-1002"
+    ],
+    "w4rqr7": [
+      "bma-district-1002"
+    ],
+    "w4rqr8": [
+      "bma-district-1037"
+    ],
+    "w4rqr9": [
+      "bma-district-1037"
+    ],
+    "w4rqrb": [
+      "bma-district-1037"
+    ],
+    "w4rqrc": [
+      "bma-district-1014",
+      "bma-district-1026",
+      "bma-district-1037"
+    ],
+    "w4rqrd": [
+      "bma-district-1002",
+      "bma-district-1037"
+    ],
+    "w4rqre": [
+      "bma-district-1002",
+      "bma-district-1014",
+      "bma-district-1037"
+    ],
+    "w4rqrf": [
+      "bma-district-1014"
+    ],
+    "w4rqrg": [
+      "bma-district-1014"
+    ],
+    "w4rqrh": [
+      "bma-district-1002"
+    ],
+    "w4rqrj": [
+      "bma-district-1002",
+      "bma-district-1025"
+    ],
+    "w4rqrk": [
+      "bma-district-1002"
+    ],
+    "w4rqrm": [
+      "bma-district-1002"
+    ],
+    "w4rqrn": [
+      "bma-district-1002",
+      "bma-district-1025"
+    ],
+    "w4rqrp": [
+      "bma-district-1025"
+    ],
+    "w4rqrq": [
+      "bma-district-1002"
+    ],
+    "w4rqrr": [
+      "bma-district-1002",
+      "bma-district-1025"
+    ],
+    "w4rqrs": [
+      "bma-district-1002",
+      "bma-district-1014"
+    ],
+    "w4rqrt": [
+      "bma-district-1002",
+      "bma-district-1014"
+    ],
+    "w4rqru": [
+      "bma-district-1014"
+    ],
+    "w4rqrv": [
+      "bma-district-1014"
+    ],
+    "w4rqrw": [
+      "bma-district-1002"
+    ],
+    "w4rqrx": [
+      "bma-district-1002"
+    ],
+    "w4rqry": [
+      "bma-district-1014"
+    ],
+    "w4rqrz": [
+      "bma-district-1014",
+      "bma-district-1030"
+    ],
+    "w4rqs0": [
+      "bma-district-1048"
+    ],
+    "w4rqs2": [
+      "bma-district-1048"
+    ],
+    "w4rqs8": [
+      "bma-district-1048"
+    ],
+    "w4rqsb": [
+      "bma-district-1019",
+      "bma-district-1048"
+    ],
+    "w4rqt0": [
+      "bma-district-1019"
+    ],
+    "w4rqt2": [
+      "bma-district-1019"
+    ],
+    "w4rqwb": [
+      "bma-district-1025"
+    ],
+    "w4rqx0": [
+      "bma-district-1025"
+    ],
+    "w4rqx1": [
+      "bma-district-1025"
+    ],
+    "w4rqx2": [
+      "bma-district-1025",
+      "bma-district-1029"
+    ],
+    "w4rqx3": [
+      "bma-district-1025",
+      "bma-district-1029"
+    ],
+    "w4rqx5": [
+      "bma-district-1029"
+    ],
+    "w4rqx6": [
+      "bma-district-1025",
+      "bma-district-1029"
+    ],
+    "w4rqx7": [
+      "bma-district-1029"
+    ],
+    "w4rqx8": [
+      "bma-district-1029"
+    ],
+    "w4rqx9": [
+      "bma-district-1029"
+    ],
+    "w4rqxb": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqxc": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqxd": [
+      "bma-district-1029"
+    ],
+    "w4rqxe": [
+      "bma-district-1029"
+    ],
+    "w4rqxf": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqxg": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqxh": [
+      "bma-district-1029"
+    ],
+    "w4rqxk": [
+      "bma-district-1029"
+    ],
+    "w4rqxm": [
+      "bma-district-1029"
+    ],
+    "w4rqxq": [
+      "bma-district-1029"
+    ],
+    "w4rqxs": [
+      "bma-district-1029"
+    ],
+    "w4rqxt": [
+      "bma-district-1029"
+    ],
+    "w4rqxu": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqxv": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqxw": [
+      "bma-district-1029"
+    ],
+    "w4rqxx": [
+      "bma-district-1029"
+    ],
+    "w4rqxy": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqxz": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqz8": [
+      "bma-district-1029"
+    ],
+    "w4rqzb": [
+      "bma-district-1029",
+      "bma-district-1030"
+    ],
+    "w4rqzc": [
+      "bma-district-1029",
+      "bma-district-1030",
+      "bma-district-1041"
+    ],
+    "w4rqzf": [
+      "bma-district-1041"
+    ],
+    "w4rqzg": [
+      "bma-district-1041"
+    ],
+    "w4rt8z": [
+      "bma-district-1047"
+    ],
+    "w4rt9p": [
+      "bma-district-1047"
+    ],
+    "w4rt9q": [
+      "bma-district-1047"
+    ],
+    "w4rt9r": [
+      "bma-district-1047"
+    ],
+    "w4rt9u": [
+      "bma-district-1047"
+    ],
+    "w4rt9v": [
+      "bma-district-1047"
+    ],
+    "w4rt9w": [
+      "bma-district-1047"
+    ],
+    "w4rt9x": [
+      "bma-district-1047"
+    ],
+    "w4rt9y": [
+      "bma-district-1047"
+    ],
+    "w4rt9z": [
+      "bma-district-1047"
+    ],
+    "w4rtb1": [
+      "bma-district-1012"
+    ],
+    "w4rtb4": [
+      "bma-district-1012"
+    ],
+    "w4rtb5": [
+      "bma-district-1012"
+    ],
+    "w4rtbb": [
+      "bma-district-1047"
+    ],
+    "w4rtbc": [
+      "bma-district-1047"
+    ],
+    "w4rtbf": [
+      "bma-district-1047"
+    ],
+    "w4rtbg": [
+      "bma-district-1009"
+    ],
+    "w4rtbh": [
+      "bma-district-1012"
+    ],
+    "w4rtbj": [
+      "bma-district-1012"
+    ],
+    "w4rtbn": [
+      "bma-district-1012"
+    ],
+    "w4rtbp": [
+      "bma-district-1012",
+      "bma-district-1033"
+    ],
+    "w4rtbq": [
+      "bma-district-1033"
+    ],
+    "w4rtbr": [
+      "bma-district-1033"
+    ],
+    "w4rtbu": [
+      "bma-district-1009"
+    ],
+    "w4rtbv": [
+      "bma-district-1009",
+      "bma-district-1033"
+    ],
+    "w4rtbw": [
+      "bma-district-1033"
+    ],
+    "w4rtbx": [
+      "bma-district-1033"
+    ],
+    "w4rtby": [
+      "bma-district-1033"
+    ],
+    "w4rtbz": [
+      "bma-district-1033"
+    ],
+    "w4rtc0": [
+      "bma-district-1047"
+    ],
+    "w4rtc1": [
+      "bma-district-1047"
+    ],
+    "w4rtc2": [
+      "bma-district-1047"
+    ],
+    "w4rtc3": [
+      "bma-district-1047"
+    ],
+    "w4rtc4": [
+      "bma-district-1009",
+      "bma-district-1047"
+    ],
+    "w4rtc5": [
+      "bma-district-1009"
+    ],
+    "w4rtc6": [
+      "bma-district-1009",
+      "bma-district-1047"
+    ],
+    "w4rtc7": [
+      "bma-district-1009",
+      "bma-district-1047"
+    ],
+    "w4rtc8": [
+      "bma-district-1047"
+    ],
+    "w4rtc9": [
+      "bma-district-1047"
+    ],
+    "w4rtcb": [
+      "bma-district-1047"
+    ],
+    "w4rtcc": [
+      "bma-district-1047"
+    ],
+    "w4rtcd": [
+      "bma-district-1047"
+    ],
+    "w4rtce": [
+      "bma-district-1009",
+      "bma-district-1047"
+    ],
+    "w4rtcf": [
+      "bma-district-1009"
+    ],
+    "w4rtcg": [
+      "bma-district-1009"
+    ],
+    "w4rtch": [
+      "bma-district-1009"
+    ],
+    "w4rtcj": [
+      "bma-district-1009"
+    ],
+    "w4rtck": [
+      "bma-district-1009"
+    ],
+    "w4rtcm": [
+      "bma-district-1009"
+    ],
+    "w4rtcn": [
+      "bma-district-1009",
+      "bma-district-1033"
+    ],
+    "w4rtcp": [
+      "bma-district-1033",
+      "bma-district-1039"
+    ],
+    "w4rtcq": [
+      "bma-district-1009"
+    ],
+    "w4rtcr": [
+      "bma-district-1034",
+      "bma-district-1039"
+    ],
+    "w4rtcs": [
+      "bma-district-1009"
+    ],
+    "w4rtct": [
+      "bma-district-1009"
+    ],
+    "w4rtcu": [
+      "bma-district-1009"
+    ],
+    "w4rtcv": [
+      "bma-district-1009"
+    ],
+    "w4rtcw": [
+      "bma-district-1009"
+    ],
+    "w4rtcx": [
+      "bma-district-1034"
+    ],
+    "w4rtcy": [
+      "bma-district-1009",
+      "bma-district-1034"
+    ],
+    "w4rtcz": [
+      "bma-district-1034"
+    ],
+    "w4rtdh": [
+      "bma-district-1047"
+    ],
+    "w4rtdj": [
+      "bma-district-1047"
+    ],
+    "w4rtdm": [
+      "bma-district-1047"
+    ],
+    "w4rtdn": [
+      "bma-district-1047"
+    ],
+    "w4rtdp": [
+      "bma-district-1047"
+    ],
+    "w4rtdq": [
+      "bma-district-1047"
+    ],
+    "w4rtdr": [
+      "bma-district-1047"
+    ],
+    "w4rtdz": [
+      "bma-district-1032"
+    ],
+    "w4rten": [
+      "bma-district-1032"
+    ],
+    "w4rtep": [
+      "bma-district-1032"
+    ],
+    "w4rteq": [
+      "bma-district-1032"
+    ],
+    "w4rter": [
+      "bma-district-1032"
+    ],
+    "w4rtf0": [
+      "bma-district-1047"
+    ],
+    "w4rtf1": [
+      "bma-district-1032",
+      "bma-district-1047"
+    ],
+    "w4rtf2": [
+      "bma-district-1032",
+      "bma-district-1047"
+    ],
+    "w4rtf3": [
+      "bma-district-1032"
+    ],
+    "w4rtf4": [
+      "bma-district-1009",
+      "bma-district-1032"
+    ],
+    "w4rtf5": [
+      "bma-district-1009",
+      "bma-district-1032"
+    ],
+    "w4rtf6": [
+      "bma-district-1032"
+    ],
+    "w4rtf7": [
+      "bma-district-1032"
+    ],
+    "w4rtf8": [
+      "bma-district-1032"
+    ],
+    "w4rtf9": [
+      "bma-district-1032"
+    ],
+    "w4rtfb": [
+      "bma-district-1032"
+    ],
+    "w4rtfc": [
+      "bma-district-1032"
+    ],
+    "w4rtfd": [
+      "bma-district-1032"
+    ],
+    "w4rtfe": [
+      "bma-district-1032"
+    ],
+    "w4rtff": [
+      "bma-district-1032"
+    ],
+    "w4rtfg": [
+      "bma-district-1032"
+    ],
+    "w4rtfh": [
+      "bma-district-1009",
+      "bma-district-1032"
+    ],
+    "w4rtfj": [
+      "bma-district-1009",
+      "bma-district-1032"
+    ],
+    "w4rtfk": [
+      "bma-district-1032"
+    ],
+    "w4rtfm": [
+      "bma-district-1032"
+    ],
+    "w4rtfn": [
+      "bma-district-1032",
+      "bma-district-1034"
+    ],
+    "w4rtfp": [
+      "bma-district-1034"
+    ],
+    "w4rtfq": [
+      "bma-district-1032",
+      "bma-district-1034"
+    ],
+    "w4rtfr": [
+      "bma-district-1032",
+      "bma-district-1034"
+    ],
+    "w4rtfs": [
+      "bma-district-1032"
+    ],
+    "w4rtft": [
+      "bma-district-1032"
+    ],
+    "w4rtfu": [
+      "bma-district-1032"
+    ],
+    "w4rtfv": [
+      "bma-district-1032"
+    ],
+    "w4rtfw": [
+      "bma-district-1032"
+    ],
+    "w4rtfx": [
+      "bma-district-1032"
+    ],
+    "w4rtfy": [
+      "bma-district-1032"
+    ],
+    "w4rtfz": [
+      "bma-district-1032"
+    ],
+    "w4rtg0": [
+      "bma-district-1032"
+    ],
+    "w4rtg1": [
+      "bma-district-1032"
+    ],
+    "w4rtg2": [
+      "bma-district-1032"
+    ],
+    "w4rtg3": [
+      "bma-district-1032"
+    ],
+    "w4rtg4": [
+      "bma-district-1032"
+    ],
+    "w4rtg5": [
+      "bma-district-1032"
+    ],
+    "w4rtg6": [
+      "bma-district-1032"
+    ],
+    "w4rtg7": [
+      "bma-district-1032"
+    ],
+    "w4rtg8": [
+      "bma-district-1032"
+    ],
+    "w4rtg9": [
+      "bma-district-1032"
+    ],
+    "w4rtgd": [
+      "bma-district-1032"
+    ],
+    "w4rtge": [
+      "bma-district-1032"
+    ],
+    "w4rtgh": [
+      "bma-district-1032"
+    ],
+    "w4rtgj": [
+      "bma-district-1032"
+    ],
+    "w4rtgk": [
+      "bma-district-1032"
+    ],
+    "w4rtgm": [
+      "bma-district-1032"
+    ],
+    "w4rtgn": [
+      "bma-district-1032"
+    ],
+    "w4rtgp": [
+      "bma-district-1032"
+    ],
+    "w4rtgq": [
+      "bma-district-1032"
+    ],
+    "w4rtgr": [
+      "bma-district-1032"
+    ],
+    "w4rtgs": [
+      "bma-district-1032"
+    ],
+    "w4rtgt": [
+      "bma-district-1032"
+    ],
+    "w4rtgw": [
+      "bma-district-1032"
+    ],
+    "w4rtgx": [
+      "bma-district-1032"
+    ],
+    "w4rtvz": [
+      "bma-district-1011"
+    ],
+    "w4rtyp": [
+      "bma-district-1011"
+    ],
+    "w4rtyq": [
+      "bma-district-1011"
+    ],
+    "w4rtyr": [
+      "bma-district-1011"
+    ],
+    "w4rtyt": [
+      "bma-district-1011"
+    ],
+    "w4rtyu": [
+      "bma-district-1011"
+    ],
+    "w4rtyv": [
+      "bma-district-1011"
+    ],
+    "w4rtyw": [
+      "bma-district-1011"
+    ],
+    "w4rtyx": [
+      "bma-district-1011"
+    ],
+    "w4rtyy": [
+      "bma-district-1011"
+    ],
+    "w4rtyz": [
+      "bma-district-1011"
+    ],
+    "w4rtzh": [
+      "bma-district-1011"
+    ],
+    "w4rtzj": [
+      "bma-district-1011"
+    ],
+    "w4rtzn": [
+      "bma-district-1011"
+    ],
+    "w4rtzp": [
+      "bma-district-1011"
+    ],
+    "w4rw00": [
+      "bma-district-1012",
+      "bma-district-1033"
+    ],
+    "w4rw01": [
+      "bma-district-1012",
+      "bma-district-1028",
+      "bma-district-1033"
+    ],
+    "w4rw02": [
+      "bma-district-1033"
+    ],
+    "w4rw03": [
+      "bma-district-1033"
+    ],
+    "w4rw04": [
+      "bma-district-1007",
+      "bma-district-1028",
+      "bma-district-1033"
+    ],
+    "w4rw05": [
+      "bma-district-1007",
+      "bma-district-1033"
+    ],
+    "w4rw06": [
+      "bma-district-1033"
+    ],
+    "w4rw07": [
+      "bma-district-1033"
+    ],
+    "w4rw08": [
+      "bma-district-1033"
+    ],
+    "w4rw09": [
+      "bma-district-1033"
+    ],
+    "w4rw0b": [
+      "bma-district-1033"
+    ],
+    "w4rw0c": [
+      "bma-district-1033",
+      "bma-district-1039"
+    ],
+    "w4rw0d": [
+      "bma-district-1033",
+      "bma-district-1039"
+    ],
+    "w4rw0e": [
+      "bma-district-1033",
+      "bma-district-1039"
+    ],
+    "w4rw0f": [
+      "bma-district-1039"
+    ],
+    "w4rw0g": [
+      "bma-district-1039"
+    ],
+    "w4rw0h": [
+      "bma-district-1007",
+      "bma-district-1033"
+    ],
+    "w4rw0j": [
+      "bma-district-1007",
+      "bma-district-1033",
+      "bma-district-1039"
+    ],
+    "w4rw0k": [
+      "bma-district-1033",
+      "bma-district-1039"
+    ],
+    "w4rw0m": [
+      "bma-district-1039"
+    ],
+    "w4rw0n": [
+      "bma-district-1007",
+      "bma-district-1039"
+    ],
+    "w4rw0p": [
+      "bma-district-1037"
+    ],
+    "w4rw0q": [
+      "bma-district-1039"
+    ],
+    "w4rw0r": [
+      "bma-district-1017",
+      "bma-district-1037"
+    ],
+    "w4rw0s": [
+      "bma-district-1039"
+    ],
+    "w4rw0t": [
+      "bma-district-1039"
+    ],
+    "w4rw0u": [
+      "bma-district-1039"
+    ],
+    "w4rw0v": [
+      "bma-district-1039"
+    ],
+    "w4rw0w": [
+      "bma-district-1017"
+    ],
+    "w4rw0x": [
+      "bma-district-1017"
+    ],
+    "w4rw0y": [
+      "bma-district-1017"
+    ],
+    "w4rw0z": [
+      "bma-district-1017"
+    ],
+    "w4rw10": [
+      "bma-district-1033",
+      "bma-district-1039"
+    ],
+    "w4rw11": [
+      "bma-district-1039"
+    ],
+    "w4rw12": [
+      "bma-district-1034"
+    ],
+    "w4rw13": [
+      "bma-district-1034",
+      "bma-district-1039"
+    ],
+    "w4rw14": [
+      "bma-district-1039"
+    ],
+    "w4rw15": [
+      "bma-district-1039"
+    ],
+    "w4rw16": [
+      "bma-district-1034",
+      "bma-district-1039"
+    ],
+    "w4rw17": [
+      "bma-district-1034",
+      "bma-district-1039"
+    ],
+    "w4rw18": [
+      "bma-district-1034"
+    ],
+    "w4rw19": [
+      "bma-district-1034"
+    ],
+    "w4rw1b": [
+      "bma-district-1034"
+    ],
+    "w4rw1c": [
+      "bma-district-1034"
+    ],
+    "w4rw1d": [
+      "bma-district-1034"
+    ],
+    "w4rw1e": [
+      "bma-district-1034"
+    ],
+    "w4rw1f": [
+      "bma-district-1034"
+    ],
+    "w4rw1g": [
+      "bma-district-1034"
+    ],
+    "w4rw1h": [
+      "bma-district-1039"
+    ],
+    "w4rw1j": [
+      "bma-district-1034",
+      "bma-district-1039"
+    ],
+    "w4rw1k": [
+      "bma-district-1034",
+      "bma-district-1039"
+    ],
+    "w4rw1m": [
+      "bma-district-1034"
+    ],
+    "w4rw1n": [
+      "bma-district-1017",
+      "bma-district-1034"
+    ],
+    "w4rw1p": [
+      "bma-district-1017"
+    ],
+    "w4rw1q": [
+      "bma-district-1006",
+      "bma-district-1034"
+    ],
+    "w4rw1r": [
+      "bma-district-1006",
+      "bma-district-1017",
+      "bma-district-1045"
+    ],
+    "w4rw1s": [
+      "bma-district-1034"
+    ],
+    "w4rw1t": [
+      "bma-district-1034"
+    ],
+    "w4rw1u": [
+      "bma-district-1034"
+    ],
+    "w4rw1v": [
+      "bma-district-1034"
+    ],
+    "w4rw1w": [
+      "bma-district-1006",
+      "bma-district-1034"
+    ],
+    "w4rw1x": [
+      "bma-district-1006"
+    ],
+    "w4rw1y": [
+      "bma-district-1034"
+    ],
+    "w4rw1z": [
+      "bma-district-1006"
+    ],
+    "w4rw20": [
+      "bma-district-1026",
+      "bma-district-1037"
+    ],
+    "w4rw21": [
+      "bma-district-1014",
+      "bma-district-1026"
+    ],
+    "w4rw22": [
+      "bma-district-1017",
+      "bma-district-1026"
+    ],
+    "w4rw23": [
+      "bma-district-1026"
+    ],
+    "w4rw24": [
+      "bma-district-1014",
+      "bma-district-1026"
+    ],
+    "w4rw25": [
+      "bma-district-1014",
+      "bma-district-1026"
+    ],
+    "w4rw26": [
+      "bma-district-1026"
+    ],
+    "w4rw27": [
+      "bma-district-1026"
+    ],
+    "w4rw28": [
+      "bma-district-1017"
+    ],
+    "w4rw29": [
+      "bma-district-1017"
+    ],
+    "w4rw2b": [
+      "bma-district-1017"
+    ],
+    "w4rw2c": [
+      "bma-district-1017"
+    ],
+    "w4rw2d": [
+      "bma-district-1017",
+      "bma-district-1026"
+    ],
+    "w4rw2e": [
+      "bma-district-1017",
+      "bma-district-1026"
+    ],
+    "w4rw2f": [
+      "bma-district-1017"
+    ],
+    "w4rw2g": [
+      "bma-district-1017"
+    ],
+    "w4rw2h": [
+      "bma-district-1014"
+    ],
+    "w4rw2j": [
+      "bma-district-1014"
+    ],
+    "w4rw2k": [
+      "bma-district-1026"
+    ],
+    "w4rw2m": [
+      "bma-district-1014",
+      "bma-district-1026"
+    ],
+    "w4rw2n": [
+      "bma-district-1014"
+    ],
+    "w4rw2p": [
+      "bma-district-1014",
+      "bma-district-1030"
+    ],
+    "w4rw2q": [
+      "bma-district-1014",
+      "bma-district-1026"
+    ],
+    "w4rw2r": [
+      "bma-district-1026",
+      "bma-district-1030"
+    ],
+    "w4rw2s": [
+      "bma-district-1017",
+      "bma-district-1026"
+    ],
+    "w4rw2t": [
+      "bma-district-1017",
+      "bma-district-1026"
+    ],
+    "w4rw2u": [
+      "bma-district-1017"
+    ],
+    "w4rw2v": [
+      "bma-district-1017"
+    ],
+    "w4rw2w": [
+      "bma-district-1017",
+      "bma-district-1026"
+    ],
+    "w4rw2x": [
+      "bma-district-1017",
+      "bma-district-1026"
+    ],
+    "w4rw2y": [
+      "bma-district-1017"
+    ],
+    "w4rw2z": [
+      "bma-district-1017"
+    ],
+    "w4rw30": [
+      "bma-district-1017",
+      "bma-district-1045"
+    ],
+    "w4rw31": [
+      "bma-district-1017",
+      "bma-district-1045"
+    ],
+    "w4rw32": [
+      "bma-district-1006",
+      "bma-district-1045"
+    ],
+    "w4rw33": [
+      "bma-district-1045"
+    ],
+    "w4rw34": [
+      "bma-district-1017",
+      "bma-district-1045"
+    ],
+    "w4rw35": [
+      "bma-district-1045"
+    ],
+    "w4rw36": [
+      "bma-district-1045"
+    ],
+    "w4rw37": [
+      "bma-district-1045"
+    ],
+    "w4rw38": [
+      "bma-district-1006"
+    ],
+    "w4rw39": [
+      "bma-district-1045"
+    ],
+    "w4rw3b": [
+      "bma-district-1006"
+    ],
+    "w4rw3c": [
+      "bma-district-1006",
+      "bma-district-1045"
+    ],
+    "w4rw3d": [
+      "bma-district-1045"
+    ],
+    "w4rw3e": [
+      "bma-district-1045"
+    ],
+    "w4rw3f": [
+      "bma-district-1006",
+      "bma-district-1045"
+    ],
+    "w4rw3g": [
+      "bma-district-1006",
+      "bma-district-1045"
+    ],
+    "w4rw3h": [
+      "bma-district-1017",
+      "bma-district-1045"
+    ],
+    "w4rw3j": [
+      "bma-district-1045"
+    ],
+    "w4rw3k": [
+      "bma-district-1045"
+    ],
+    "w4rw3m": [
+      "bma-district-1045"
+    ],
+    "w4rw3n": [
+      "bma-district-1045"
+    ],
+    "w4rw3p": [
+      "bma-district-1038",
+      "bma-district-1045"
+    ],
+    "w4rw3q": [
+      "bma-district-1045"
+    ],
+    "w4rw3r": [
+      "bma-district-1038"
+    ],
+    "w4rw3s": [
+      "bma-district-1045"
+    ],
+    "w4rw3t": [
+      "bma-district-1045"
+    ],
+    "w4rw3u": [
+      "bma-district-1006",
+      "bma-district-1045"
+    ],
+    "w4rw3v": [
+      "bma-district-1006",
+      "bma-district-1045"
+    ],
+    "w4rw3w": [
+      "bma-district-1045"
+    ],
+    "w4rw3x": [
+      "bma-district-1045"
+    ],
+    "w4rw3y": [
+      "bma-district-1006",
+      "bma-district-1045"
+    ],
+    "w4rw3z": [
+      "bma-district-1006",
+      "bma-district-1045"
+    ],
+    "w4rw40": [
+      "bma-district-1034"
+    ],
+    "w4rw41": [
+      "bma-district-1034"
+    ],
+    "w4rw42": [
+      "bma-district-1032",
+      "bma-district-1034"
+    ],
+    "w4rw43": [
+      "bma-district-1032",
+      "bma-district-1034"
+    ],
+    "w4rw44": [
+      "bma-district-1034"
+    ],
+    "w4rw45": [
+      "bma-district-1034"
+    ],
+    "w4rw46": [
+      "bma-district-1032",
+      "bma-district-1034"
+    ],
+    "w4rw47": [
+      "bma-district-1032",
+      "bma-district-1034"
+    ],
+    "w4rw48": [
+      "bma-district-1032"
+    ],
+    "w4rw49": [
+      "bma-district-1032"
+    ],
+    "w4rw4b": [
+      "bma-district-1032"
+    ],
+    "w4rw4c": [
+      "bma-district-1032"
+    ],
+    "w4rw4d": [
+      "bma-district-1032"
+    ],
+    "w4rw4e": [
+      "bma-district-1032"
+    ],
+    "w4rw4f": [
+      "bma-district-1032"
+    ],
+    "w4rw4g": [
+      "bma-district-1032"
+    ],
+    "w4rw4h": [
+      "bma-district-1034"
+    ],
+    "w4rw4j": [
+      "bma-district-1034"
+    ],
+    "w4rw4k": [
+      "bma-district-1034"
+    ],
+    "w4rw4m": [
+      "bma-district-1006",
+      "bma-district-1034"
+    ],
+    "w4rw4n": [
+      "bma-district-1006",
+      "bma-district-1034"
+    ],
+    "w4rw4p": [
+      "bma-district-1006"
+    ],
+    "w4rw4q": [
+      "bma-district-1006",
+      "bma-district-1034"
+    ],
+    "w4rw4r": [
+      "bma-district-1006"
+    ],
+    "w4rw4s": [
+      "bma-district-1032",
+      "bma-district-1034"
+    ],
+    "w4rw4t": [
+      "bma-district-1006",
+      "bma-district-1044"
+    ],
+    "w4rw4u": [
+      "bma-district-1032"
+    ],
+    "w4rw4v": [
+      "bma-district-1044"
+    ],
+    "w4rw4w": [
+      "bma-district-1006",
+      "bma-district-1044"
+    ],
+    "w4rw4x": [
+      "bma-district-1006"
+    ],
+    "w4rw4y": [
+      "bma-district-1044"
+    ],
+    "w4rw4z": [
+      "bma-district-1006",
+      "bma-district-1044"
+    ],
+    "w4rw50": [
+      "bma-district-1032"
+    ],
+    "w4rw51": [
+      "bma-district-1032"
+    ],
+    "w4rw52": [
+      "bma-district-1032"
+    ],
+    "w4rw53": [
+      "bma-district-1032"
+    ],
+    "w4rw54": [
+      "bma-district-1032"
+    ],
+    "w4rw55": [
+      "bma-district-1032"
+    ],
+    "w4rw56": [
+      "bma-district-1032"
+    ],
+    "w4rw57": [
+      "bma-district-1032"
+    ],
+    "w4rw58": [
+      "bma-district-1032"
+    ],
+    "w4rw59": [
+      "bma-district-1011",
+      "bma-district-1032"
+    ],
+    "w4rw5c": [
+      "bma-district-1011"
+    ],
+    "w4rw5d": [
+      "bma-district-1011",
+      "bma-district-1032"
+    ],
+    "w4rw5e": [
+      "bma-district-1011",
+      "bma-district-1032"
+    ],
+    "w4rw5f": [
+      "bma-district-1011"
+    ],
+    "w4rw5g": [
+      "bma-district-1011"
+    ],
+    "w4rw5h": [
+      "bma-district-1032",
+      "bma-district-1044"
+    ],
+    "w4rw5j": [
+      "bma-district-1044"
+    ],
+    "w4rw5k": [
+      "bma-district-1044"
+    ],
+    "w4rw5m": [
+      "bma-district-1044"
+    ],
+    "w4rw5n": [
+      "bma-district-1044"
+    ],
+    "w4rw5p": [
+      "bma-district-1044"
+    ],
+    "w4rw5q": [
+      "bma-district-1044"
+    ],
+    "w4rw5r": [
+      "bma-district-1044"
+    ],
+    "w4rw5s": [
+      "bma-district-1011",
+      "bma-district-1044"
+    ],
+    "w4rw5t": [
+      "bma-district-1011",
+      "bma-district-1044"
+    ],
+    "w4rw5u": [
+      "bma-district-1011"
+    ],
+    "w4rw5v": [
+      "bma-district-1011"
+    ],
+    "w4rw5w": [
+      "bma-district-1011",
+      "bma-district-1044"
+    ],
+    "w4rw5x": [
+      "bma-district-1011",
+      "bma-district-1044"
+    ],
+    "w4rw5y": [
+      "bma-district-1011"
+    ],
+    "w4rw5z": [
+      "bma-district-1011"
+    ],
+    "w4rw60": [
+      "bma-district-1006"
+    ],
+    "w4rw61": [
+      "bma-district-1006"
+    ],
+    "w4rw62": [
+      "bma-district-1006"
+    ],
+    "w4rw63": [
+      "bma-district-1006"
+    ],
+    "w4rw64": [
+      "bma-district-1006"
+    ],
+    "w4rw65": [
+      "bma-district-1006"
+    ],
+    "w4rw66": [
+      "bma-district-1006"
+    ],
+    "w4rw67": [
+      "bma-district-1006",
+      "bma-district-1027"
+    ],
+    "w4rw68": [
+      "bma-district-1006"
+    ],
+    "w4rw69": [
+      "bma-district-1006"
+    ],
+    "w4rw6b": [
+      "bma-district-1044"
+    ],
+    "w4rw6c": [
+      "bma-district-1044"
+    ],
+    "w4rw6d": [
+      "bma-district-1006"
+    ],
+    "w4rw6e": [
+      "bma-district-1006",
+      "bma-district-1027"
+    ],
+    "w4rw6f": [
+      "bma-district-1044"
+    ],
+    "w4rw6g": [
+      "bma-district-1044"
+    ],
+    "w4rw6h": [
+      "bma-district-1006"
+    ],
+    "w4rw6j": [
+      "bma-district-1006"
+    ],
+    "w4rw6k": [
+      "bma-district-1006",
+      "bma-district-1027"
+    ],
+    "w4rw6m": [
+      "bma-district-1006",
+      "bma-district-1027"
+    ],
+    "w4rw6n": [
+      "bma-district-1006",
+      "bma-district-1027"
+    ],
+    "w4rw6p": [
+      "bma-district-1006",
+      "bma-district-1027"
+    ],
+    "w4rw6q": [
+      "bma-district-1027"
+    ],
+    "w4rw6r": [
+      "bma-district-1027"
+    ],
+    "w4rw6s": [
+      "bma-district-1027"
+    ],
+    "w4rw6t": [
+      "bma-district-1027"
+    ],
+    "w4rw6u": [
+      "bma-district-1027",
+      "bma-district-1044"
+    ],
+    "w4rw6v": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rw6w": [
+      "bma-district-1027"
+    ],
+    "w4rw6x": [
+      "bma-district-1027"
+    ],
+    "w4rw6y": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rw6z": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rw70": [
+      "bma-district-1044"
+    ],
+    "w4rw71": [
+      "bma-district-1044"
+    ],
+    "w4rw72": [
+      "bma-district-1044"
+    ],
+    "w4rw73": [
+      "bma-district-1044"
+    ],
+    "w4rw74": [
+      "bma-district-1044"
+    ],
+    "w4rw75": [
+      "bma-district-1044"
+    ],
+    "w4rw76": [
+      "bma-district-1044"
+    ],
+    "w4rw77": [
+      "bma-district-1044"
+    ],
+    "w4rw78": [
+      "bma-district-1011",
+      "bma-district-1044"
+    ],
+    "w4rw79": [
+      "bma-district-1044"
+    ],
+    "w4rw7b": [
+      "bma-district-1011"
+    ],
+    "w4rw7c": [
+      "bma-district-1011"
+    ],
+    "w4rw7d": [
+      "bma-district-1044"
+    ],
+    "w4rw7e": [
+      "bma-district-1044"
+    ],
+    "w4rw7f": [
+      "bma-district-1011",
+      "bma-district-1044"
+    ],
+    "w4rw7g": [
+      "bma-district-1011",
+      "bma-district-1044"
+    ],
+    "w4rw7h": [
+      "bma-district-1044"
+    ],
+    "w4rw7j": [
+      "bma-district-1043",
+      "bma-district-1044"
+    ],
+    "w4rw7k": [
+      "bma-district-1044"
+    ],
+    "w4rw7m": [
+      "bma-district-1044"
+    ],
+    "w4rw7n": [
+      "bma-district-1043"
+    ],
+    "w4rw7p": [
+      "bma-district-1043"
+    ],
+    "w4rw7q": [
+      "bma-district-1043",
+      "bma-district-1044"
+    ],
+    "w4rw7r": [
+      "bma-district-1043"
+    ],
+    "w4rw7s": [
+      "bma-district-1044"
+    ],
+    "w4rw7t": [
+      "bma-district-1044"
+    ],
+    "w4rw7u": [
+      "bma-district-1010",
+      "bma-district-1044"
+    ],
+    "w4rw7v": [
+      "bma-district-1010",
+      "bma-district-1044"
+    ],
+    "w4rw7w": [
+      "bma-district-1044"
+    ],
+    "w4rw7x": [
+      "bma-district-1010",
+      "bma-district-1044"
+    ],
+    "w4rw7y": [
+      "bma-district-1010"
+    ],
+    "w4rw7z": [
+      "bma-district-1010"
+    ],
+    "w4rw80": [
+      "bma-district-1030"
+    ],
+    "w4rw81": [
+      "bma-district-1030"
+    ],
+    "w4rw82": [
+      "bma-district-1030"
+    ],
+    "w4rw83": [
+      "bma-district-1030"
+    ],
+    "w4rw84": [
+      "bma-district-1030"
+    ],
+    "w4rw85": [
+      "bma-district-1030"
+    ],
+    "w4rw86": [
+      "bma-district-1030"
+    ],
+    "w4rw87": [
+      "bma-district-1030"
+    ],
+    "w4rw88": [
+      "bma-district-1017",
+      "bma-district-1026",
+      "bma-district-1030"
+    ],
+    "w4rw89": [
+      "bma-district-1030"
+    ],
+    "w4rw8b": [
+      "bma-district-1017",
+      "bma-district-1030"
+    ],
+    "w4rw8c": [
+      "bma-district-1030"
+    ],
+    "w4rw8d": [
+      "bma-district-1030"
+    ],
+    "w4rw8e": [
+      "bma-district-1030"
+    ],
+    "w4rw8f": [
+      "bma-district-1030"
+    ],
+    "w4rw8g": [
+      "bma-district-1030"
+    ],
+    "w4rw8h": [
+      "bma-district-1030"
+    ],
+    "w4rw8j": [
+      "bma-district-1030"
+    ],
+    "w4rw8k": [
+      "bma-district-1030"
+    ],
+    "w4rw8m": [
+      "bma-district-1030"
+    ],
+    "w4rw8n": [
+      "bma-district-1030"
+    ],
+    "w4rw8p": [
+      "bma-district-1030"
+    ],
+    "w4rw8q": [
+      "bma-district-1030"
+    ],
+    "w4rw8r": [
+      "bma-district-1030"
+    ],
+    "w4rw8s": [
+      "bma-district-1030"
+    ],
+    "w4rw8t": [
+      "bma-district-1030"
+    ],
+    "w4rw8u": [
+      "bma-district-1030"
+    ],
+    "w4rw8v": [
+      "bma-district-1030"
+    ],
+    "w4rw8w": [
+      "bma-district-1030"
+    ],
+    "w4rw8x": [
+      "bma-district-1030"
+    ],
+    "w4rw8y": [
+      "bma-district-1030"
+    ],
+    "w4rw8z": [
+      "bma-district-1030"
+    ],
+    "w4rw90": [
+      "bma-district-1038",
+      "bma-district-1045"
+    ],
+    "w4rw91": [
+      "bma-district-1038"
+    ],
+    "w4rw92": [
+      "bma-district-1038"
+    ],
+    "w4rw93": [
+      "bma-district-1038"
+    ],
+    "w4rw94": [
+      "bma-district-1038"
+    ],
+    "w4rw95": [
+      "bma-district-1038"
+    ],
+    "w4rw96": [
+      "bma-district-1038"
+    ],
+    "w4rw97": [
+      "bma-district-1038"
+    ],
+    "w4rw98": [
+      "bma-district-1006",
+      "bma-district-1038",
+      "bma-district-1045"
+    ],
+    "w4rw99": [
+      "bma-district-1006",
+      "bma-district-1038"
+    ],
+    "w4rw9b": [
+      "bma-district-1006"
+    ],
+    "w4rw9c": [
+      "bma-district-1006"
+    ],
+    "w4rw9d": [
+      "bma-district-1006",
+      "bma-district-1038"
+    ],
+    "w4rw9e": [
+      "bma-district-1038"
+    ],
+    "w4rw9f": [
+      "bma-district-1006",
+      "bma-district-1027"
+    ],
+    "w4rw9g": [
+      "bma-district-1006",
+      "bma-district-1027",
+      "bma-district-1038"
+    ],
+    "w4rw9h": [
+      "bma-district-1038"
+    ],
+    "w4rw9j": [
+      "bma-district-1038"
+    ],
+    "w4rw9k": [
+      "bma-district-1038"
+    ],
+    "w4rw9m": [
+      "bma-district-1038"
+    ],
+    "w4rw9n": [
+      "bma-district-1038"
+    ],
+    "w4rw9p": [
+      "bma-district-1038"
+    ],
+    "w4rw9q": [
+      "bma-district-1038"
+    ],
+    "w4rw9r": [
+      "bma-district-1038"
+    ],
+    "w4rw9s": [
+      "bma-district-1038"
+    ],
+    "w4rw9t": [
+      "bma-district-1038"
+    ],
+    "w4rw9u": [
+      "bma-district-1027",
+      "bma-district-1038"
+    ],
+    "w4rw9v": [
+      "bma-district-1027",
+      "bma-district-1038"
+    ],
+    "w4rw9w": [
+      "bma-district-1038"
+    ],
+    "w4rw9x": [
+      "bma-district-1038"
+    ],
+    "w4rw9y": [
+      "bma-district-1027",
+      "bma-district-1038"
+    ],
+    "w4rw9z": [
+      "bma-district-1038"
+    ],
+    "w4rwb0": [
+      "bma-district-1030"
+    ],
+    "w4rwb1": [
+      "bma-district-1030",
+      "bma-district-1041"
+    ],
+    "w4rwb2": [
+      "bma-district-1030"
+    ],
+    "w4rwb3": [
+      "bma-district-1030"
+    ],
+    "w4rwb4": [
+      "bma-district-1041"
+    ],
+    "w4rwb5": [
+      "bma-district-1041"
+    ],
+    "w4rwb6": [
+      "bma-district-1030",
+      "bma-district-1041"
+    ],
+    "w4rwb7": [
+      "bma-district-1041"
+    ],
+    "w4rwb8": [
+      "bma-district-1030"
+    ],
+    "w4rwb9": [
+      "bma-district-1030"
+    ],
+    "w4rwbb": [
+      "bma-district-1005",
+      "bma-district-1030"
+    ],
+    "w4rwbc": [
+      "bma-district-1005",
+      "bma-district-1030"
+    ],
+    "w4rwbd": [
+      "bma-district-1030",
+      "bma-district-1041"
+    ],
+    "w4rwbe": [
+      "bma-district-1041"
+    ],
+    "w4rwbf": [
+      "bma-district-1005",
+      "bma-district-1030",
+      "bma-district-1041"
+    ],
+    "w4rwbg": [
+      "bma-district-1005",
+      "bma-district-1041"
+    ],
+    "w4rwbh": [
+      "bma-district-1041"
+    ],
+    "w4rwbj": [
+      "bma-district-1041"
+    ],
+    "w4rwbk": [
+      "bma-district-1041"
+    ],
+    "w4rwbm": [
+      "bma-district-1041"
+    ],
+    "w4rwbn": [
+      "bma-district-1041"
+    ],
+    "w4rwbp": [
+      "bma-district-1041"
+    ],
+    "w4rwbq": [
+      "bma-district-1041"
+    ],
+    "w4rwbr": [
+      "bma-district-1041"
+    ],
+    "w4rwbs": [
+      "bma-district-1041"
+    ],
+    "w4rwbt": [
+      "bma-district-1041"
+    ],
+    "w4rwbu": [
+      "bma-district-1005",
+      "bma-district-1041"
+    ],
+    "w4rwbv": [
+      "bma-district-1005",
+      "bma-district-1041"
+    ],
+    "w4rwbw": [
+      "bma-district-1041"
+    ],
+    "w4rwbx": [
+      "bma-district-1041"
+    ],
+    "w4rwby": [
+      "bma-district-1005",
+      "bma-district-1041"
+    ],
+    "w4rwbz": [
+      "bma-district-1005",
+      "bma-district-1041"
+    ],
+    "w4rwc0": [
+      "bma-district-1005",
+      "bma-district-1038"
+    ],
+    "w4rwc1": [
+      "bma-district-1005"
+    ],
+    "w4rwc2": [
+      "bma-district-1038"
+    ],
+    "w4rwc3": [
+      "bma-district-1005",
+      "bma-district-1038"
+    ],
+    "w4rwc4": [
+      "bma-district-1005"
+    ],
+    "w4rwc5": [
+      "bma-district-1005"
+    ],
+    "w4rwc6": [
+      "bma-district-1005"
+    ],
+    "w4rwc7": [
+      "bma-district-1005"
+    ],
+    "w4rwc8": [
+      "bma-district-1038"
+    ],
+    "w4rwc9": [
+      "bma-district-1005",
+      "bma-district-1038"
+    ],
+    "w4rwcb": [
+      "bma-district-1005",
+      "bma-district-1038"
+    ],
+    "w4rwcc": [
+      "bma-district-1005"
+    ],
+    "w4rwcd": [
+      "bma-district-1005"
+    ],
+    "w4rwce": [
+      "bma-district-1005"
+    ],
+    "w4rwcf": [
+      "bma-district-1005"
+    ],
+    "w4rwcg": [
+      "bma-district-1005"
+    ],
+    "w4rwch": [
+      "bma-district-1005"
+    ],
+    "w4rwcj": [
+      "bma-district-1005"
+    ],
+    "w4rwck": [
+      "bma-district-1005"
+    ],
+    "w4rwcm": [
+      "bma-district-1005"
+    ],
+    "w4rwcn": [
+      "bma-district-1005"
+    ],
+    "w4rwcp": [
+      "bma-district-1005",
+      "bma-district-1041"
+    ],
+    "w4rwcq": [
+      "bma-district-1005"
+    ],
+    "w4rwcr": [
+      "bma-district-1005"
+    ],
+    "w4rwcs": [
+      "bma-district-1005"
+    ],
+    "w4rwct": [
+      "bma-district-1005"
+    ],
+    "w4rwcu": [
+      "bma-district-1005"
+    ],
+    "w4rwcv": [
+      "bma-district-1005"
+    ],
+    "w4rwcw": [
+      "bma-district-1005"
+    ],
+    "w4rwcx": [
+      "bma-district-1005",
+      "bma-district-1042"
+    ],
+    "w4rwcy": [
+      "bma-district-1005"
+    ],
+    "w4rwcz": [
+      "bma-district-1005",
+      "bma-district-1042"
+    ],
+    "w4rwd0": [
+      "bma-district-1006",
+      "bma-district-1027"
+    ],
+    "w4rwd1": [
+      "bma-district-1027"
+    ],
+    "w4rwd2": [
+      "bma-district-1027"
+    ],
+    "w4rwd3": [
+      "bma-district-1027"
+    ],
+    "w4rwd4": [
+      "bma-district-1027"
+    ],
+    "w4rwd5": [
+      "bma-district-1027"
+    ],
+    "w4rwd6": [
+      "bma-district-1027"
+    ],
+    "w4rwd7": [
+      "bma-district-1027"
+    ],
+    "w4rwd8": [
+      "bma-district-1027"
+    ],
+    "w4rwd9": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwdb": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwdc": [
+      "bma-district-1043"
+    ],
+    "w4rwdd": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwde": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwdf": [
+      "bma-district-1043"
+    ],
+    "w4rwdg": [
+      "bma-district-1043"
+    ],
+    "w4rwdh": [
+      "bma-district-1027"
+    ],
+    "w4rwdj": [
+      "bma-district-1027"
+    ],
+    "w4rwdk": [
+      "bma-district-1027"
+    ],
+    "w4rwdm": [
+      "bma-district-1027"
+    ],
+    "w4rwdn": [
+      "bma-district-1027"
+    ],
+    "w4rwdp": [
+      "bma-district-1027"
+    ],
+    "w4rwdq": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwdr": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwds": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwdt": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwdu": [
+      "bma-district-1043"
+    ],
+    "w4rwdv": [
+      "bma-district-1043"
+    ],
+    "w4rwdw": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwdx": [
+      "bma-district-1043"
+    ],
+    "w4rwdy": [
+      "bma-district-1043"
+    ],
+    "w4rwdz": [
+      "bma-district-1043"
+    ],
+    "w4rwe0": [
+      "bma-district-1043"
+    ],
+    "w4rwe1": [
+      "bma-district-1043"
+    ],
+    "w4rwe2": [
+      "bma-district-1043"
+    ],
+    "w4rwe3": [
+      "bma-district-1043"
+    ],
+    "w4rwe4": [
+      "bma-district-1043"
+    ],
+    "w4rwe5": [
+      "bma-district-1043"
+    ],
+    "w4rwe6": [
+      "bma-district-1010",
+      "bma-district-1043"
+    ],
+    "w4rwe7": [
+      "bma-district-1043",
+      "bma-district-1046"
+    ],
+    "w4rwe8": [
+      "bma-district-1010",
+      "bma-district-1043"
+    ],
+    "w4rwe9": [
+      "bma-district-1010"
+    ],
+    "w4rweb": [
+      "bma-district-1010"
+    ],
+    "w4rwec": [
+      "bma-district-1010"
+    ],
+    "w4rwed": [
+      "bma-district-1010"
+    ],
+    "w4rwee": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwef": [
+      "bma-district-1010"
+    ],
+    "w4rweg": [
+      "bma-district-1010"
+    ],
+    "w4rweh": [
+      "bma-district-1043"
+    ],
+    "w4rwej": [
+      "bma-district-1043"
+    ],
+    "w4rwek": [
+      "bma-district-1043",
+      "bma-district-1046"
+    ],
+    "w4rwem": [
+      "bma-district-1043",
+      "bma-district-1046"
+    ],
+    "w4rwen": [
+      "bma-district-1043",
+      "bma-district-1046"
+    ],
+    "w4rwep": [
+      "bma-district-1043",
+      "bma-district-1046"
+    ],
+    "w4rweq": [
+      "bma-district-1046"
+    ],
+    "w4rwer": [
+      "bma-district-1046"
+    ],
+    "w4rwes": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwet": [
+      "bma-district-1046"
+    ],
+    "w4rweu": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwev": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwew": [
+      "bma-district-1046"
+    ],
+    "w4rwex": [
+      "bma-district-1046"
+    ],
+    "w4rwey": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwez": [
+      "bma-district-1046"
+    ],
+    "w4rwf0": [
+      "bma-district-1005",
+      "bma-district-1027"
+    ],
+    "w4rwf1": [
+      "bma-district-1005"
+    ],
+    "w4rwf2": [
+      "bma-district-1027",
+      "bma-district-1043"
+    ],
+    "w4rwf3": [
+      "bma-district-1005"
+    ],
+    "w4rwf4": [
+      "bma-district-1005"
+    ],
+    "w4rwf5": [
+      "bma-district-1005"
+    ],
+    "w4rwf6": [
+      "bma-district-1005"
+    ],
+    "w4rwf7": [
+      "bma-district-1005"
+    ],
+    "w4rwf8": [
+      "bma-district-1043"
+    ],
+    "w4rwf9": [
+      "bma-district-1005",
+      "bma-district-1043"
+    ],
+    "w4rwfb": [
+      "bma-district-1043"
+    ],
+    "w4rwfc": [
+      "bma-district-1043"
+    ],
+    "w4rwfd": [
+      "bma-district-1005"
+    ],
+    "w4rwfe": [
+      "bma-district-1005"
+    ],
+    "w4rwff": [
+      "bma-district-1005",
+      "bma-district-1043",
+      "bma-district-1046"
+    ],
+    "w4rwfg": [
+      "bma-district-1005"
+    ],
+    "w4rwfh": [
+      "bma-district-1005"
+    ],
+    "w4rwfj": [
+      "bma-district-1005"
+    ],
+    "w4rwfk": [
+      "bma-district-1005"
+    ],
+    "w4rwfm": [
+      "bma-district-1005"
+    ],
+    "w4rwfn": [
+      "bma-district-1005"
+    ],
+    "w4rwfp": [
+      "bma-district-1005",
+      "bma-district-1042"
+    ],
+    "w4rwfq": [
+      "bma-district-1005"
+    ],
+    "w4rwfr": [
+      "bma-district-1005",
+      "bma-district-1042"
+    ],
+    "w4rwfs": [
+      "bma-district-1005"
+    ],
+    "w4rwft": [
+      "bma-district-1005"
+    ],
+    "w4rwfu": [
+      "bma-district-1005"
+    ],
+    "w4rwfv": [
+      "bma-district-1005"
+    ],
+    "w4rwfw": [
+      "bma-district-1005",
+      "bma-district-1042"
+    ],
+    "w4rwfx": [
+      "bma-district-1042"
+    ],
+    "w4rwfy": [
+      "bma-district-1005",
+      "bma-district-1042"
+    ],
+    "w4rwfz": [
+      "bma-district-1042"
+    ],
+    "w4rwg0": [
+      "bma-district-1043",
+      "bma-district-1046"
+    ],
+    "w4rwg1": [
+      "bma-district-1043",
+      "bma-district-1046"
+    ],
+    "w4rwg2": [
+      "bma-district-1046"
+    ],
+    "w4rwg3": [
+      "bma-district-1046"
+    ],
+    "w4rwg4": [
+      "bma-district-1046"
+    ],
+    "w4rwg5": [
+      "bma-district-1005",
+      "bma-district-1046"
+    ],
+    "w4rwg6": [
+      "bma-district-1046"
+    ],
+    "w4rwg7": [
+      "bma-district-1046"
+    ],
+    "w4rwg8": [
+      "bma-district-1046"
+    ],
+    "w4rwg9": [
+      "bma-district-1046"
+    ],
+    "w4rwgb": [
+      "bma-district-1046"
+    ],
+    "w4rwgc": [
+      "bma-district-1046"
+    ],
+    "w4rwgd": [
+      "bma-district-1046"
+    ],
+    "w4rwge": [
+      "bma-district-1046"
+    ],
+    "w4rwgf": [
+      "bma-district-1046"
+    ],
+    "w4rwgg": [
+      "bma-district-1046"
+    ],
+    "w4rwgh": [
+      "bma-district-1005",
+      "bma-district-1046"
+    ],
+    "w4rwgj": [
+      "bma-district-1005",
+      "bma-district-1046"
+    ],
+    "w4rwgk": [
+      "bma-district-1046"
+    ],
+    "w4rwgm": [
+      "bma-district-1046"
+    ],
+    "w4rwgn": [
+      "bma-district-1005",
+      "bma-district-1042",
+      "bma-district-1046"
+    ],
+    "w4rwgp": [
+      "bma-district-1042"
+    ],
+    "w4rwgq": [
+      "bma-district-1046"
+    ],
+    "w4rwgr": [
+      "bma-district-1046"
+    ],
+    "w4rwgs": [
+      "bma-district-1046"
+    ],
+    "w4rwgt": [
+      "bma-district-1046"
+    ],
+    "w4rwgu": [
+      "bma-district-1046"
+    ],
+    "w4rwgv": [
+      "bma-district-1046"
+    ],
+    "w4rwgw": [
+      "bma-district-1046"
+    ],
+    "w4rwgx": [
+      "bma-district-1046"
+    ],
+    "w4rwgy": [
+      "bma-district-1046"
+    ],
+    "w4rwgz": [
+      "bma-district-1046"
+    ],
+    "w4rwh1": [
+      "bma-district-1011"
+    ],
+    "w4rwh3": [
+      "bma-district-1011"
+    ],
+    "w4rwh4": [
+      "bma-district-1011"
+    ],
+    "w4rwh5": [
+      "bma-district-1011"
+    ],
+    "w4rwh6": [
+      "bma-district-1011"
+    ],
+    "w4rwh7": [
+      "bma-district-1011"
+    ],
+    "w4rwh9": [
+      "bma-district-1011"
+    ],
+    "w4rwhc": [
+      "bma-district-1011"
+    ],
+    "w4rwhd": [
+      "bma-district-1011"
+    ],
+    "w4rwhe": [
+      "bma-district-1011"
+    ],
+    "w4rwhf": [
+      "bma-district-1011"
+    ],
+    "w4rwhg": [
+      "bma-district-1011"
+    ],
+    "w4rwhh": [
+      "bma-district-1011"
+    ],
+    "w4rwhj": [
+      "bma-district-1011"
+    ],
+    "w4rwhk": [
+      "bma-district-1011"
+    ],
+    "w4rwhm": [
+      "bma-district-1011"
+    ],
+    "w4rwhn": [
+      "bma-district-1011"
+    ],
+    "w4rwhp": [
+      "bma-district-1011"
+    ],
+    "w4rwhq": [
+      "bma-district-1011"
+    ],
+    "w4rwhr": [
+      "bma-district-1011"
+    ],
+    "w4rwhs": [
+      "bma-district-1011"
+    ],
+    "w4rwht": [
+      "bma-district-1011"
+    ],
+    "w4rwhu": [
+      "bma-district-1011"
+    ],
+    "w4rwhv": [
+      "bma-district-1011"
+    ],
+    "w4rwhw": [
+      "bma-district-1011"
+    ],
+    "w4rwhx": [
+      "bma-district-1011"
+    ],
+    "w4rwhy": [
+      "bma-district-1011"
+    ],
+    "w4rwhz": [
+      "bma-district-1011"
+    ],
+    "w4rwj1": [
+      "bma-district-1011"
+    ],
+    "w4rwj3": [
+      "bma-district-1011"
+    ],
+    "w4rwj4": [
+      "bma-district-1011"
+    ],
+    "w4rwj5": [
+      "bma-district-1011"
+    ],
+    "w4rwj6": [
+      "bma-district-1011"
+    ],
+    "w4rwj7": [
+      "bma-district-1011"
+    ],
+    "w4rwj9": [
+      "bma-district-1011"
+    ],
+    "w4rwjb": [
+      "bma-district-1011"
+    ],
+    "w4rwjc": [
+      "bma-district-1011"
+    ],
+    "w4rwjd": [
+      "bma-district-1011"
+    ],
+    "w4rwje": [
+      "bma-district-1011"
+    ],
+    "w4rwjf": [
+      "bma-district-1011"
+    ],
+    "w4rwjg": [
+      "bma-district-1011"
+    ],
+    "w4rwjh": [
+      "bma-district-1011"
+    ],
+    "w4rwjj": [
+      "bma-district-1011"
+    ],
+    "w4rwjk": [
+      "bma-district-1011"
+    ],
+    "w4rwjm": [
+      "bma-district-1011"
+    ],
+    "w4rwjn": [
+      "bma-district-1011"
+    ],
+    "w4rwjp": [
+      "bma-district-1011"
+    ],
+    "w4rwjq": [
+      "bma-district-1011"
+    ],
+    "w4rwjr": [
+      "bma-district-1011"
+    ],
+    "w4rwjs": [
+      "bma-district-1011"
+    ],
+    "w4rwjt": [
+      "bma-district-1011"
+    ],
+    "w4rwju": [
+      "bma-district-1011"
+    ],
+    "w4rwjv": [
+      "bma-district-1011"
+    ],
+    "w4rwjw": [
+      "bma-district-1011"
+    ],
+    "w4rwjx": [
+      "bma-district-1011"
+    ],
+    "w4rwjy": [
+      "bma-district-1011"
+    ],
+    "w4rwjz": [
+      "bma-district-1011"
+    ],
+    "w4rwk0": [
+      "bma-district-1011"
+    ],
+    "w4rwk1": [
+      "bma-district-1011"
+    ],
+    "w4rwk2": [
+      "bma-district-1011"
+    ],
+    "w4rwk3": [
+      "bma-district-1011"
+    ],
+    "w4rwk4": [
+      "bma-district-1011"
+    ],
+    "w4rwk5": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwk6": [
+      "bma-district-1011"
+    ],
+    "w4rwk7": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwk8": [
+      "bma-district-1011"
+    ],
+    "w4rwk9": [
+      "bma-district-1011"
+    ],
+    "w4rwkb": [
+      "bma-district-1011"
+    ],
+    "w4rwkc": [
+      "bma-district-1011"
+    ],
+    "w4rwkd": [
+      "bma-district-1011"
+    ],
+    "w4rwke": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwkf": [
+      "bma-district-1011"
+    ],
+    "w4rwkg": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwkh": [
+      "bma-district-1010"
+    ],
+    "w4rwkj": [
+      "bma-district-1010"
+    ],
+    "w4rwkk": [
+      "bma-district-1010"
+    ],
+    "w4rwkm": [
+      "bma-district-1010"
+    ],
+    "w4rwkn": [
+      "bma-district-1010"
+    ],
+    "w4rwkp": [
+      "bma-district-1010"
+    ],
+    "w4rwkq": [
+      "bma-district-1010"
+    ],
+    "w4rwkr": [
+      "bma-district-1010"
+    ],
+    "w4rwks": [
+      "bma-district-1010"
+    ],
+    "w4rwkt": [
+      "bma-district-1010"
+    ],
+    "w4rwku": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwkv": [
+      "bma-district-1010"
+    ],
+    "w4rwkw": [
+      "bma-district-1010"
+    ],
+    "w4rwkx": [
+      "bma-district-1010"
+    ],
+    "w4rwky": [
+      "bma-district-1010"
+    ],
+    "w4rwkz": [
+      "bma-district-1010"
+    ],
+    "w4rwm0": [
+      "bma-district-1011"
+    ],
+    "w4rwm1": [
+      "bma-district-1011"
+    ],
+    "w4rwm2": [
+      "bma-district-1011"
+    ],
+    "w4rwm3": [
+      "bma-district-1011"
+    ],
+    "w4rwm4": [
+      "bma-district-1011"
+    ],
+    "w4rwm5": [
+      "bma-district-1011"
+    ],
+    "w4rwm6": [
+      "bma-district-1011"
+    ],
+    "w4rwm7": [
+      "bma-district-1011"
+    ],
+    "w4rwm8": [
+      "bma-district-1011"
+    ],
+    "w4rwm9": [
+      "bma-district-1011"
+    ],
+    "w4rwmb": [
+      "bma-district-1011"
+    ],
+    "w4rwmc": [
+      "bma-district-1011"
+    ],
+    "w4rwmd": [
+      "bma-district-1011"
+    ],
+    "w4rwme": [
+      "bma-district-1011"
+    ],
+    "w4rwmf": [
+      "bma-district-1011"
+    ],
+    "w4rwmg": [
+      "bma-district-1011"
+    ],
+    "w4rwmh": [
+      "bma-district-1011"
+    ],
+    "w4rwmj": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwmk": [
+      "bma-district-1011"
+    ],
+    "w4rwmm": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwmn": [
+      "bma-district-1010"
+    ],
+    "w4rwmp": [
+      "bma-district-1010"
+    ],
+    "w4rwmq": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwmr": [
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwms": [
+      "bma-district-1011"
+    ],
+    "w4rwmt": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwmu": [
+      "bma-district-1011"
+    ],
+    "w4rwmv": [
+      "bma-district-1003"
+    ],
+    "w4rwmw": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwmx": [
+      "bma-district-1003",
+      "bma-district-1010",
+      "bma-district-1011"
+    ],
+    "w4rwmy": [
+      "bma-district-1003"
+    ],
+    "w4rwmz": [
+      "bma-district-1003"
+    ],
+    "w4rwn0": [
+      "bma-district-1011"
+    ],
+    "w4rwn1": [
+      "bma-district-1011"
+    ],
+    "w4rwn2": [
+      "bma-district-1011"
+    ],
+    "w4rwn3": [
+      "bma-district-1011"
+    ],
+    "w4rwn4": [
+      "bma-district-1011"
+    ],
+    "w4rwn5": [
+      "bma-district-1011"
+    ],
+    "w4rwn6": [
+      "bma-district-1011"
+    ],
+    "w4rwn7": [
+      "bma-district-1011"
+    ],
+    "w4rwn8": [
+      "bma-district-1011"
+    ],
+    "w4rwn9": [
+      "bma-district-1011"
+    ],
+    "w4rwnb": [
+      "bma-district-1011"
+    ],
+    "w4rwnc": [
+      "bma-district-1011"
+    ],
+    "w4rwnd": [
+      "bma-district-1011"
+    ],
+    "w4rwne": [
+      "bma-district-1011"
+    ],
+    "w4rwnf": [
+      "bma-district-1011"
+    ],
+    "w4rwng": [
+      "bma-district-1011"
+    ],
+    "w4rwnh": [
+      "bma-district-1011"
+    ],
+    "w4rwnj": [
+      "bma-district-1011"
+    ],
+    "w4rwnk": [
+      "bma-district-1011"
+    ],
+    "w4rwnm": [
+      "bma-district-1011"
+    ],
+    "w4rwnn": [
+      "bma-district-1011"
+    ],
+    "w4rwnp": [
+      "bma-district-1011"
+    ],
+    "w4rwnq": [
+      "bma-district-1011"
+    ],
+    "w4rwnr": [
+      "bma-district-1011"
+    ],
+    "w4rwns": [
+      "bma-district-1011"
+    ],
+    "w4rwnt": [
+      "bma-district-1011"
+    ],
+    "w4rwnu": [
+      "bma-district-1011"
+    ],
+    "w4rwnv": [
+      "bma-district-1011"
+    ],
+    "w4rwnw": [
+      "bma-district-1011"
+    ],
+    "w4rwnx": [
+      "bma-district-1011"
+    ],
+    "w4rwny": [
+      "bma-district-1011"
+    ],
+    "w4rwnz": [
+      "bma-district-1011"
+    ],
+    "w4rwp0": [
+      "bma-district-1011"
+    ],
+    "w4rwp1": [
+      "bma-district-1011"
+    ],
+    "w4rwp3": [
+      "bma-district-1011"
+    ],
+    "w4rwp4": [
+      "bma-district-1011"
+    ],
+    "w4rwp5": [
+      "bma-district-1011"
+    ],
+    "w4rwp6": [
+      "bma-district-1011"
+    ],
+    "w4rwp7": [
+      "bma-district-1011"
+    ],
+    "w4rwph": [
+      "bma-district-1011"
+    ],
+    "w4rwpj": [
+      "bma-district-1011"
+    ],
+    "w4rwpk": [
+      "bma-district-1011"
+    ],
+    "w4rwpm": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwpn": [
+      "bma-district-1011"
+    ],
+    "w4rwpp": [
+      "bma-district-1011"
+    ],
+    "w4rwpq": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwpr": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwps": [
+      "bma-district-1011"
+    ],
+    "w4rwpt": [
+      "bma-district-1003"
+    ],
+    "w4rwpw": [
+      "bma-district-1003"
+    ],
+    "w4rwpx": [
+      "bma-district-1003"
+    ],
+    "w4rwq0": [
+      "bma-district-1011"
+    ],
+    "w4rwq1": [
+      "bma-district-1011"
+    ],
+    "w4rwq2": [
+      "bma-district-1011"
+    ],
+    "w4rwq3": [
+      "bma-district-1011"
+    ],
+    "w4rwq4": [
+      "bma-district-1011"
+    ],
+    "w4rwq5": [
+      "bma-district-1011"
+    ],
+    "w4rwq6": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwq7": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwq8": [
+      "bma-district-1011"
+    ],
+    "w4rwq9": [
+      "bma-district-1011"
+    ],
+    "w4rwqb": [
+      "bma-district-1011"
+    ],
+    "w4rwqc": [
+      "bma-district-1011"
+    ],
+    "w4rwqd": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwqe": [
+      "bma-district-1003"
+    ],
+    "w4rwqf": [
+      "bma-district-1011"
+    ],
+    "w4rwqg": [
+      "bma-district-1003"
+    ],
+    "w4rwqh": [
+      "bma-district-1011"
+    ],
+    "w4rwqj": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwqk": [
+      "bma-district-1003"
+    ],
+    "w4rwqm": [
+      "bma-district-1003"
+    ],
+    "w4rwqn": [
+      "bma-district-1003"
+    ],
+    "w4rwqp": [
+      "bma-district-1003"
+    ],
+    "w4rwqq": [
+      "bma-district-1003"
+    ],
+    "w4rwqr": [
+      "bma-district-1003"
+    ],
+    "w4rwqs": [
+      "bma-district-1003"
+    ],
+    "w4rwqt": [
+      "bma-district-1003"
+    ],
+    "w4rwqu": [
+      "bma-district-1003"
+    ],
+    "w4rwqv": [
+      "bma-district-1003"
+    ],
+    "w4rwqw": [
+      "bma-district-1003"
+    ],
+    "w4rwqx": [
+      "bma-district-1003"
+    ],
+    "w4rwqy": [
+      "bma-district-1003"
+    ],
+    "w4rwqz": [
+      "bma-district-1003"
+    ],
+    "w4rwr0": [
+      "bma-district-1011"
+    ],
+    "w4rwr1": [
+      "bma-district-1011"
+    ],
+    "w4rwr2": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwr3": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwr4": [
+      "bma-district-1003",
+      "bma-district-1011"
+    ],
+    "w4rwr5": [
+      "bma-district-1003"
+    ],
+    "w4rwr6": [
+      "bma-district-1003"
+    ],
+    "w4rwr7": [
+      "bma-district-1003"
+    ],
+    "w4rwr8": [
+      "bma-district-1003"
+    ],
+    "w4rwr9": [
+      "bma-district-1003"
+    ],
+    "w4rwrb": [
+      "bma-district-1003"
+    ],
+    "w4rwrc": [
+      "bma-district-1003"
+    ],
+    "w4rwrd": [
+      "bma-district-1003"
+    ],
+    "w4rwre": [
+      "bma-district-1003"
+    ],
+    "w4rwrf": [
+      "bma-district-1003"
+    ],
+    "w4rwrg": [
+      "bma-district-1003"
+    ],
+    "w4rwrh": [
+      "bma-district-1003"
+    ],
+    "w4rwrj": [
+      "bma-district-1003"
+    ],
+    "w4rwrk": [
+      "bma-district-1003"
+    ],
+    "w4rwrm": [
+      "bma-district-1003"
+    ],
+    "w4rwrn": [
+      "bma-district-1003"
+    ],
+    "w4rwrp": [
+      "bma-district-1003"
+    ],
+    "w4rwrq": [
+      "bma-district-1003"
+    ],
+    "w4rwrr": [
+      "bma-district-1003"
+    ],
+    "w4rwrs": [
+      "bma-district-1003"
+    ],
+    "w4rwrt": [
+      "bma-district-1003"
+    ],
+    "w4rwru": [
+      "bma-district-1003"
+    ],
+    "w4rwrv": [
+      "bma-district-1003"
+    ],
+    "w4rwrw": [
+      "bma-district-1003"
+    ],
+    "w4rwrx": [
+      "bma-district-1003"
+    ],
+    "w4rwry": [
+      "bma-district-1003"
+    ],
+    "w4rwrz": [
+      "bma-district-1003"
+    ],
+    "w4rws0": [
+      "bma-district-1010"
+    ],
+    "w4rws1": [
+      "bma-district-1010"
+    ],
+    "w4rws2": [
+      "bma-district-1010"
+    ],
+    "w4rws3": [
+      "bma-district-1010"
+    ],
+    "w4rws4": [
+      "bma-district-1010"
+    ],
+    "w4rws5": [
+      "bma-district-1010"
+    ],
+    "w4rws6": [
+      "bma-district-1010"
+    ],
+    "w4rws7": [
+      "bma-district-1010"
+    ],
+    "w4rws8": [
+      "bma-district-1010"
+    ],
+    "w4rws9": [
+      "bma-district-1010"
+    ],
+    "w4rwsb": [
+      "bma-district-1010"
+    ],
+    "w4rwsc": [
+      "bma-district-1010"
+    ],
+    "w4rwsd": [
+      "bma-district-1010"
+    ],
+    "w4rwse": [
+      "bma-district-1010"
+    ],
+    "w4rwsf": [
+      "bma-district-1010"
+    ],
+    "w4rwsg": [
+      "bma-district-1010"
+    ],
+    "w4rwsh": [
+      "bma-district-1010"
+    ],
+    "w4rwsj": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwsk": [
+      "bma-district-1010"
+    ],
+    "w4rwsm": [
+      "bma-district-1010"
+    ],
+    "w4rwsn": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwsp": [
+      "bma-district-1046"
+    ],
+    "w4rwsq": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwsr": [
+      "bma-district-1046"
+    ],
+    "w4rwss": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwst": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwsu": [
+      "bma-district-1010"
+    ],
+    "w4rwsv": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwsw": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwsx": [
+      "bma-district-1046"
+    ],
+    "w4rwsy": [
+      "bma-district-1046"
+    ],
+    "w4rwsz": [
+      "bma-district-1046"
+    ],
+    "w4rwt0": [
+      "bma-district-1010"
+    ],
+    "w4rwt1": [
+      "bma-district-1010"
+    ],
+    "w4rwt2": [
+      "bma-district-1010"
+    ],
+    "w4rwt3": [
+      "bma-district-1010"
+    ],
+    "w4rwt4": [
+      "bma-district-1010"
+    ],
+    "w4rwt5": [
+      "bma-district-1010"
+    ],
+    "w4rwt6": [
+      "bma-district-1010"
+    ],
+    "w4rwt7": [
+      "bma-district-1010"
+    ],
+    "w4rwt8": [
+      "bma-district-1010"
+    ],
+    "w4rwt9": [
+      "bma-district-1010"
+    ],
+    "w4rwtb": [
+      "bma-district-1003",
+      "bma-district-1010"
+    ],
+    "w4rwtc": [
+      "bma-district-1003",
+      "bma-district-1010"
+    ],
+    "w4rwtd": [
+      "bma-district-1010"
+    ],
+    "w4rwte": [
+      "bma-district-1010"
+    ],
+    "w4rwtf": [
+      "bma-district-1003"
+    ],
+    "w4rwtg": [
+      "bma-district-1003"
+    ],
+    "w4rwth": [
+      "bma-district-1010"
+    ],
+    "w4rwtj": [
+      "bma-district-1010"
+    ],
+    "w4rwtk": [
+      "bma-district-1010"
+    ],
+    "w4rwtm": [
+      "bma-district-1010"
+    ],
+    "w4rwtn": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwtp": [
+      "bma-district-1046"
+    ],
+    "w4rwtq": [
+      "bma-district-1010"
+    ],
+    "w4rwtr": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwts": [
+      "bma-district-1010"
+    ],
+    "w4rwtt": [
+      "bma-district-1010"
+    ],
+    "w4rwtu": [
+      "bma-district-1003",
+      "bma-district-1010"
+    ],
+    "w4rwtv": [
+      "bma-district-1003",
+      "bma-district-1010"
+    ],
+    "w4rwtw": [
+      "bma-district-1010"
+    ],
+    "w4rwtx": [
+      "bma-district-1010"
+    ],
+    "w4rwty": [
+      "bma-district-1003",
+      "bma-district-1010"
+    ],
+    "w4rwtz": [
+      "bma-district-1003",
+      "bma-district-1010"
+    ],
+    "w4rwu0": [
+      "bma-district-1046"
+    ],
+    "w4rwu1": [
+      "bma-district-1046"
+    ],
+    "w4rwu2": [
+      "bma-district-1046"
+    ],
+    "w4rwu3": [
+      "bma-district-1046"
+    ],
+    "w4rwu4": [
+      "bma-district-1046"
+    ],
+    "w4rwu5": [
+      "bma-district-1046"
+    ],
+    "w4rwu6": [
+      "bma-district-1046"
+    ],
+    "w4rwu7": [
+      "bma-district-1046"
+    ],
+    "w4rwu8": [
+      "bma-district-1046"
+    ],
+    "w4rwu9": [
+      "bma-district-1046"
+    ],
+    "w4rwub": [
+      "bma-district-1046"
+    ],
+    "w4rwuc": [
+      "bma-district-1046"
+    ],
+    "w4rwud": [
+      "bma-district-1046"
+    ],
+    "w4rwue": [
+      "bma-district-1046"
+    ],
+    "w4rwuf": [
+      "bma-district-1046"
+    ],
+    "w4rwug": [
+      "bma-district-1046"
+    ],
+    "w4rwuh": [
+      "bma-district-1046"
+    ],
+    "w4rwuj": [
+      "bma-district-1046"
+    ],
+    "w4rwuk": [
+      "bma-district-1046"
+    ],
+    "w4rwum": [
+      "bma-district-1046"
+    ],
+    "w4rwun": [
+      "bma-district-1046"
+    ],
+    "w4rwup": [
+      "bma-district-1046"
+    ],
+    "w4rwuq": [
+      "bma-district-1046"
+    ],
+    "w4rwur": [
+      "bma-district-1046"
+    ],
+    "w4rwus": [
+      "bma-district-1046"
+    ],
+    "w4rwut": [
+      "bma-district-1046"
+    ],
+    "w4rwuu": [
+      "bma-district-1046"
+    ],
+    "w4rwuv": [
+      "bma-district-1046"
+    ],
+    "w4rwuw": [
+      "bma-district-1046"
+    ],
+    "w4rwux": [
+      "bma-district-1046"
+    ],
+    "w4rwuy": [
+      "bma-district-1046"
+    ],
+    "w4rwuz": [
+      "bma-district-1046"
+    ],
+    "w4rwv0": [
+      "bma-district-1046"
+    ],
+    "w4rwv1": [
+      "bma-district-1046"
+    ],
+    "w4rwv2": [
+      "bma-district-1046"
+    ],
+    "w4rwv3": [
+      "bma-district-1046"
+    ],
+    "w4rwv4": [
+      "bma-district-1046"
+    ],
+    "w4rwv5": [
+      "bma-district-1046"
+    ],
+    "w4rwv6": [
+      "bma-district-1046"
+    ],
+    "w4rwv7": [
+      "bma-district-1046"
+    ],
+    "w4rwv8": [
+      "bma-district-1010",
+      "bma-district-1046"
+    ],
+    "w4rwv9": [
+      "bma-district-1046"
+    ],
+    "w4rwvb": [
+      "bma-district-1003"
+    ],
+    "w4rwvc": [
+      "bma-district-1003"
+    ],
+    "w4rwvd": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rwve": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rwvf": [
+      "bma-district-1003"
+    ],
+    "w4rwvg": [
+      "bma-district-1003"
+    ],
+    "w4rwvh": [
+      "bma-district-1046"
+    ],
+    "w4rwvj": [
+      "bma-district-1046"
+    ],
+    "w4rwvk": [
+      "bma-district-1046"
+    ],
+    "w4rwvm": [
+      "bma-district-1046"
+    ],
+    "w4rwvn": [
+      "bma-district-1046"
+    ],
+    "w4rwvp": [
+      "bma-district-1046"
+    ],
+    "w4rwvq": [
+      "bma-district-1046"
+    ],
+    "w4rwvr": [
+      "bma-district-1046"
+    ],
+    "w4rwvs": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rwvt": [
+      "bma-district-1003"
+    ],
+    "w4rwvu": [
+      "bma-district-1003"
+    ],
+    "w4rwvv": [
+      "bma-district-1003"
+    ],
+    "w4rwvw": [
+      "bma-district-1003"
+    ],
+    "w4rwvx": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rwvy": [
+      "bma-district-1003"
+    ],
+    "w4rwvz": [
+      "bma-district-1003"
+    ],
+    "w4rww0": [
+      "bma-district-1003"
+    ],
+    "w4rww1": [
+      "bma-district-1003"
+    ],
+    "w4rww2": [
+      "bma-district-1003"
+    ],
+    "w4rww3": [
+      "bma-district-1003"
+    ],
+    "w4rww4": [
+      "bma-district-1003"
+    ],
+    "w4rww5": [
+      "bma-district-1003"
+    ],
+    "w4rww6": [
+      "bma-district-1003"
+    ],
+    "w4rww7": [
+      "bma-district-1003"
+    ],
+    "w4rww8": [
+      "bma-district-1003"
+    ],
+    "w4rww9": [
+      "bma-district-1003"
+    ],
+    "w4rwwb": [
+      "bma-district-1003"
+    ],
+    "w4rwwc": [
+      "bma-district-1003"
+    ],
+    "w4rwwd": [
+      "bma-district-1003"
+    ],
+    "w4rwwe": [
+      "bma-district-1003"
+    ],
+    "w4rwwf": [
+      "bma-district-1003"
+    ],
+    "w4rwwg": [
+      "bma-district-1003"
+    ],
+    "w4rwwh": [
+      "bma-district-1003"
+    ],
+    "w4rwwj": [
+      "bma-district-1003"
+    ],
+    "w4rwwk": [
+      "bma-district-1003"
+    ],
+    "w4rwwm": [
+      "bma-district-1003"
+    ],
+    "w4rwwn": [
+      "bma-district-1003"
+    ],
+    "w4rwwp": [
+      "bma-district-1003"
+    ],
+    "w4rwwq": [
+      "bma-district-1003"
+    ],
+    "w4rwwr": [
+      "bma-district-1003"
+    ],
+    "w4rwws": [
+      "bma-district-1003"
+    ],
+    "w4rwwt": [
+      "bma-district-1003"
+    ],
+    "w4rwwu": [
+      "bma-district-1003"
+    ],
+    "w4rwwv": [
+      "bma-district-1003"
+    ],
+    "w4rwww": [
+      "bma-district-1003"
+    ],
+    "w4rwwx": [
+      "bma-district-1003"
+    ],
+    "w4rwwy": [
+      "bma-district-1003"
+    ],
+    "w4rwwz": [
+      "bma-district-1003"
+    ],
+    "w4rwx0": [
+      "bma-district-1003"
+    ],
+    "w4rwx1": [
+      "bma-district-1003"
+    ],
+    "w4rwx2": [
+      "bma-district-1003"
+    ],
+    "w4rwx3": [
+      "bma-district-1003"
+    ],
+    "w4rwx4": [
+      "bma-district-1003"
+    ],
+    "w4rwx5": [
+      "bma-district-1003"
+    ],
+    "w4rwx6": [
+      "bma-district-1003"
+    ],
+    "w4rwx7": [
+      "bma-district-1003"
+    ],
+    "w4rwx8": [
+      "bma-district-1003"
+    ],
+    "w4rwx9": [
+      "bma-district-1003"
+    ],
+    "w4rwxb": [
+      "bma-district-1003"
+    ],
+    "w4rwxc": [
+      "bma-district-1003"
+    ],
+    "w4rwxd": [
+      "bma-district-1003"
+    ],
+    "w4rwxe": [
+      "bma-district-1003"
+    ],
+    "w4rwxf": [
+      "bma-district-1003"
+    ],
+    "w4rwxg": [
+      "bma-district-1003"
+    ],
+    "w4rwxh": [
+      "bma-district-1003"
+    ],
+    "w4rwxj": [
+      "bma-district-1003"
+    ],
+    "w4rwxk": [
+      "bma-district-1003"
+    ],
+    "w4rwxm": [
+      "bma-district-1003"
+    ],
+    "w4rwxn": [
+      "bma-district-1003"
+    ],
+    "w4rwxp": [
+      "bma-district-1003"
+    ],
+    "w4rwxq": [
+      "bma-district-1003"
+    ],
+    "w4rwxr": [
+      "bma-district-1003"
+    ],
+    "w4rwxs": [
+      "bma-district-1003"
+    ],
+    "w4rwxt": [
+      "bma-district-1003"
+    ],
+    "w4rwxu": [
+      "bma-district-1003"
+    ],
+    "w4rwxv": [
+      "bma-district-1003"
+    ],
+    "w4rwxw": [
+      "bma-district-1003"
+    ],
+    "w4rwxx": [
+      "bma-district-1003"
+    ],
+    "w4rwxy": [
+      "bma-district-1003"
+    ],
+    "w4rwxz": [
+      "bma-district-1003"
+    ],
+    "w4rwy0": [
+      "bma-district-1003"
+    ],
+    "w4rwy1": [
+      "bma-district-1003"
+    ],
+    "w4rwy2": [
+      "bma-district-1003"
+    ],
+    "w4rwy3": [
+      "bma-district-1003"
+    ],
+    "w4rwy4": [
+      "bma-district-1003"
+    ],
+    "w4rwy5": [
+      "bma-district-1003"
+    ],
+    "w4rwy6": [
+      "bma-district-1003"
+    ],
+    "w4rwy7": [
+      "bma-district-1003"
+    ],
+    "w4rwy8": [
+      "bma-district-1003"
+    ],
+    "w4rwy9": [
+      "bma-district-1003"
+    ],
+    "w4rwyb": [
+      "bma-district-1003"
+    ],
+    "w4rwyc": [
+      "bma-district-1003"
+    ],
+    "w4rwyd": [
+      "bma-district-1003"
+    ],
+    "w4rwye": [
+      "bma-district-1003"
+    ],
+    "w4rwyf": [
+      "bma-district-1003"
+    ],
+    "w4rwyg": [
+      "bma-district-1003"
+    ],
+    "w4rwyh": [
+      "bma-district-1003"
+    ],
+    "w4rwyj": [
+      "bma-district-1003"
+    ],
+    "w4rwyk": [
+      "bma-district-1003"
+    ],
+    "w4rwym": [
+      "bma-district-1003"
+    ],
+    "w4rwyn": [
+      "bma-district-1003"
+    ],
+    "w4rwyp": [
+      "bma-district-1003"
+    ],
+    "w4rwyq": [
+      "bma-district-1003"
+    ],
+    "w4rwyr": [
+      "bma-district-1003"
+    ],
+    "w4rwys": [
+      "bma-district-1003"
+    ],
+    "w4rwyt": [
+      "bma-district-1003"
+    ],
+    "w4rwyu": [
+      "bma-district-1003"
+    ],
+    "w4rwyv": [
+      "bma-district-1003"
+    ],
+    "w4rwyw": [
+      "bma-district-1003"
+    ],
+    "w4rwyx": [
+      "bma-district-1003"
+    ],
+    "w4rwyy": [
+      "bma-district-1003"
+    ],
+    "w4rwyz": [
+      "bma-district-1003"
+    ],
+    "w4rwz0": [
+      "bma-district-1003"
+    ],
+    "w4rwz1": [
+      "bma-district-1003"
+    ],
+    "w4rwz2": [
+      "bma-district-1003"
+    ],
+    "w4rwz3": [
+      "bma-district-1003"
+    ],
+    "w4rwz4": [
+      "bma-district-1003"
+    ],
+    "w4rwz5": [
+      "bma-district-1003"
+    ],
+    "w4rwz6": [
+      "bma-district-1003"
+    ],
+    "w4rwz7": [
+      "bma-district-1003"
+    ],
+    "w4rwz8": [
+      "bma-district-1003"
+    ],
+    "w4rwz9": [
+      "bma-district-1003"
+    ],
+    "w4rwzb": [
+      "bma-district-1003"
+    ],
+    "w4rwzc": [
+      "bma-district-1003"
+    ],
+    "w4rwzd": [
+      "bma-district-1003"
+    ],
+    "w4rwze": [
+      "bma-district-1003"
+    ],
+    "w4rwzf": [
+      "bma-district-1003"
+    ],
+    "w4rwzg": [
+      "bma-district-1003"
+    ],
+    "w4rwzh": [
+      "bma-district-1003"
+    ],
+    "w4rwzj": [
+      "bma-district-1003"
+    ],
+    "w4rwzk": [
+      "bma-district-1003"
+    ],
+    "w4rwzm": [
+      "bma-district-1003"
+    ],
+    "w4rwzn": [
+      "bma-district-1003"
+    ],
+    "w4rwzp": [
+      "bma-district-1003"
+    ],
+    "w4rwzq": [
+      "bma-district-1003"
+    ],
+    "w4rwzr": [
+      "bma-district-1003"
+    ],
+    "w4rwzs": [
+      "bma-district-1003"
+    ],
+    "w4rwzt": [
+      "bma-district-1003"
+    ],
+    "w4rwzu": [
+      "bma-district-1003"
+    ],
+    "w4rwzv": [
+      "bma-district-1003"
+    ],
+    "w4rwzw": [
+      "bma-district-1003"
+    ],
+    "w4rwzx": [
+      "bma-district-1003"
+    ],
+    "w4rwzy": [
+      "bma-district-1003"
+    ],
+    "w4rwzz": [
+      "bma-district-1003"
+    ],
+    "w4rx00": [
+      "bma-district-1041"
+    ],
+    "w4rx01": [
+      "bma-district-1041"
+    ],
+    "w4rx02": [
+      "bma-district-1041"
+    ],
+    "w4rx03": [
+      "bma-district-1041"
+    ],
+    "w4rx04": [
+      "bma-district-1041"
+    ],
+    "w4rx06": [
+      "bma-district-1041"
+    ],
+    "w4rx07": [
+      "bma-district-1041"
+    ],
+    "w4rx08": [
+      "bma-district-1041"
+    ],
+    "w4rx09": [
+      "bma-district-1041"
+    ],
+    "w4rx0b": [
+      "bma-district-1036",
+      "bma-district-1041"
+    ],
+    "w4rx0c": [
+      "bma-district-1036",
+      "bma-district-1041"
+    ],
+    "w4rx0d": [
+      "bma-district-1041"
+    ],
+    "w4rx0e": [
+      "bma-district-1036",
+      "bma-district-1041"
+    ],
+    "w4rx0f": [
+      "bma-district-1036",
+      "bma-district-1041"
+    ],
+    "w4rx0g": [
+      "bma-district-1036"
+    ],
+    "w4rx0k": [
+      "bma-district-1036",
+      "bma-district-1041"
+    ],
+    "w4rx0m": [
+      "bma-district-1036"
+    ],
+    "w4rx0q": [
+      "bma-district-1036"
+    ],
+    "w4rx0r": [
+      "bma-district-1036"
+    ],
+    "w4rx0s": [
+      "bma-district-1036"
+    ],
+    "w4rx0t": [
+      "bma-district-1036"
+    ],
+    "w4rx0u": [
+      "bma-district-1036"
+    ],
+    "w4rx0v": [
+      "bma-district-1036"
+    ],
+    "w4rx0w": [
+      "bma-district-1036"
+    ],
+    "w4rx0x": [
+      "bma-district-1036"
+    ],
+    "w4rx0y": [
+      "bma-district-1036"
+    ],
+    "w4rx0z": [
+      "bma-district-1036"
+    ],
+    "w4rx10": [
+      "bma-district-1005",
+      "bma-district-1036",
+      "bma-district-1041"
+    ],
+    "w4rx11": [
+      "bma-district-1036"
+    ],
+    "w4rx12": [
+      "bma-district-1005",
+      "bma-district-1042"
+    ],
+    "w4rx13": [
+      "bma-district-1005",
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx14": [
+      "bma-district-1036"
+    ],
+    "w4rx15": [
+      "bma-district-1036"
+    ],
+    "w4rx16": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx17": [
+      "bma-district-1036"
+    ],
+    "w4rx18": [
+      "bma-district-1042"
+    ],
+    "w4rx19": [
+      "bma-district-1042"
+    ],
+    "w4rx1b": [
+      "bma-district-1042"
+    ],
+    "w4rx1c": [
+      "bma-district-1042"
+    ],
+    "w4rx1d": [
+      "bma-district-1042"
+    ],
+    "w4rx1e": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx1f": [
+      "bma-district-1042"
+    ],
+    "w4rx1g": [
+      "bma-district-1042"
+    ],
+    "w4rx1h": [
+      "bma-district-1036"
+    ],
+    "w4rx1j": [
+      "bma-district-1036"
+    ],
+    "w4rx1k": [
+      "bma-district-1036"
+    ],
+    "w4rx1m": [
+      "bma-district-1036"
+    ],
+    "w4rx1n": [
+      "bma-district-1036"
+    ],
+    "w4rx1p": [
+      "bma-district-1036"
+    ],
+    "w4rx1q": [
+      "bma-district-1036"
+    ],
+    "w4rx1r": [
+      "bma-district-1036"
+    ],
+    "w4rx1s": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx1t": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx1u": [
+      "bma-district-1042"
+    ],
+    "w4rx1v": [
+      "bma-district-1042"
+    ],
+    "w4rx1w": [
+      "bma-district-1036"
+    ],
+    "w4rx1x": [
+      "bma-district-1036"
+    ],
+    "w4rx1y": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx1z": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx22": [
+      "bma-district-1036"
+    ],
+    "w4rx23": [
+      "bma-district-1036"
+    ],
+    "w4rx26": [
+      "bma-district-1036"
+    ],
+    "w4rx27": [
+      "bma-district-1036"
+    ],
+    "w4rx28": [
+      "bma-district-1036"
+    ],
+    "w4rx29": [
+      "bma-district-1036"
+    ],
+    "w4rx2b": [
+      "bma-district-1036"
+    ],
+    "w4rx2c": [
+      "bma-district-1036"
+    ],
+    "w4rx2d": [
+      "bma-district-1036"
+    ],
+    "w4rx2e": [
+      "bma-district-1036"
+    ],
+    "w4rx2f": [
+      "bma-district-1036"
+    ],
+    "w4rx2g": [
+      "bma-district-1036"
+    ],
+    "w4rx2s": [
+      "bma-district-1036"
+    ],
+    "w4rx30": [
+      "bma-district-1036"
+    ],
+    "w4rx31": [
+      "bma-district-1036"
+    ],
+    "w4rx32": [
+      "bma-district-1036"
+    ],
+    "w4rx33": [
+      "bma-district-1036"
+    ],
+    "w4rx34": [
+      "bma-district-1036"
+    ],
+    "w4rx35": [
+      "bma-district-1036"
+    ],
+    "w4rx36": [
+      "bma-district-1036"
+    ],
+    "w4rx37": [
+      "bma-district-1036"
+    ],
+    "w4rx38": [
+      "bma-district-1036"
+    ],
+    "w4rx39": [
+      "bma-district-1036"
+    ],
+    "w4rx3b": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx3c": [
+      "bma-district-1042"
+    ],
+    "w4rx3d": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx3e": [
+      "bma-district-1036",
+      "bma-district-1042"
+    ],
+    "w4rx3k": [
+      "bma-district-1036"
+    ],
+    "w4rx3s": [
+      "bma-district-1036"
+    ],
+    "w4rx40": [
+      "bma-district-1042"
+    ],
+    "w4rx41": [
+      "bma-district-1042"
+    ],
+    "w4rx42": [
+      "bma-district-1042"
+    ],
+    "w4rx43": [
+      "bma-district-1042"
+    ],
+    "w4rx44": [
+      "bma-district-1042"
+    ],
+    "w4rx45": [
+      "bma-district-1042"
+    ],
+    "w4rx46": [
+      "bma-district-1042"
+    ],
+    "w4rx47": [
+      "bma-district-1042"
+    ],
+    "w4rx48": [
+      "bma-district-1042"
+    ],
+    "w4rx49": [
+      "bma-district-1042"
+    ],
+    "w4rx4b": [
+      "bma-district-1042"
+    ],
+    "w4rx4c": [
+      "bma-district-1042"
+    ],
+    "w4rx4d": [
+      "bma-district-1042"
+    ],
+    "w4rx4e": [
+      "bma-district-1042"
+    ],
+    "w4rx4f": [
+      "bma-district-1042"
+    ],
+    "w4rx4g": [
+      "bma-district-1042"
+    ],
+    "w4rx4h": [
+      "bma-district-1042"
+    ],
+    "w4rx4j": [
+      "bma-district-1042"
+    ],
+    "w4rx4k": [
+      "bma-district-1042"
+    ],
+    "w4rx4m": [
+      "bma-district-1042"
+    ],
+    "w4rx4n": [
+      "bma-district-1042"
+    ],
+    "w4rx4p": [
+      "bma-district-1042"
+    ],
+    "w4rx4q": [
+      "bma-district-1042"
+    ],
+    "w4rx4r": [
+      "bma-district-1042"
+    ],
+    "w4rx4s": [
+      "bma-district-1042"
+    ],
+    "w4rx4t": [
+      "bma-district-1042"
+    ],
+    "w4rx4u": [
+      "bma-district-1042"
+    ],
+    "w4rx4v": [
+      "bma-district-1042"
+    ],
+    "w4rx4w": [
+      "bma-district-1042"
+    ],
+    "w4rx4x": [
+      "bma-district-1042"
+    ],
+    "w4rx4y": [
+      "bma-district-1042"
+    ],
+    "w4rx4z": [
+      "bma-district-1042"
+    ],
+    "w4rx50": [
+      "bma-district-1042"
+    ],
+    "w4rx51": [
+      "bma-district-1042"
+    ],
+    "w4rx52": [
+      "bma-district-1046"
+    ],
+    "w4rx53": [
+      "bma-district-1046"
+    ],
+    "w4rx54": [
+      "bma-district-1042"
+    ],
+    "w4rx55": [
+      "bma-district-1042",
+      "bma-district-1046"
+    ],
+    "w4rx56": [
+      "bma-district-1046"
+    ],
+    "w4rx57": [
+      "bma-district-1046"
+    ],
+    "w4rx58": [
+      "bma-district-1046"
+    ],
+    "w4rx59": [
+      "bma-district-1046"
+    ],
+    "w4rx5b": [
+      "bma-district-1046"
+    ],
+    "w4rx5c": [
+      "bma-district-1046"
+    ],
+    "w4rx5d": [
+      "bma-district-1046"
+    ],
+    "w4rx5e": [
+      "bma-district-1046"
+    ],
+    "w4rx5f": [
+      "bma-district-1046"
+    ],
+    "w4rx5g": [
+      "bma-district-1046"
+    ],
+    "w4rx5h": [
+      "bma-district-1042",
+      "bma-district-1046"
+    ],
+    "w4rx5j": [
+      "bma-district-1042",
+      "bma-district-1046"
+    ],
+    "w4rx5k": [
+      "bma-district-1046"
+    ],
+    "w4rx5m": [
+      "bma-district-1046"
+    ],
+    "w4rx5n": [
+      "bma-district-1042"
+    ],
+    "w4rx5p": [
+      "bma-district-1042"
+    ],
+    "w4rx5s": [
+      "bma-district-1046"
+    ],
+    "w4rx5t": [
+      "bma-district-1046"
+    ],
+    "w4rx5u": [
+      "bma-district-1046"
+    ],
+    "w4rx5v": [
+      "bma-district-1046"
+    ],
+    "w4rx60": [
+      "bma-district-1042"
+    ],
+    "w4rx61": [
+      "bma-district-1042"
+    ],
+    "w4rxh0": [
+      "bma-district-1046"
+    ],
+    "w4rxh1": [
+      "bma-district-1046"
+    ],
+    "w4rxh2": [
+      "bma-district-1046"
+    ],
+    "w4rxh3": [
+      "bma-district-1046"
+    ],
+    "w4rxh4": [
+      "bma-district-1046"
+    ],
+    "w4rxh5": [
+      "bma-district-1046"
+    ],
+    "w4rxh6": [
+      "bma-district-1046"
+    ],
+    "w4rxh7": [
+      "bma-district-1046"
+    ],
+    "w4rxh8": [
+      "bma-district-1046"
+    ],
+    "w4rxh9": [
+      "bma-district-1046"
+    ],
+    "w4rxhb": [
+      "bma-district-1046"
+    ],
+    "w4rxhc": [
+      "bma-district-1046"
+    ],
+    "w4rxhd": [
+      "bma-district-1046"
+    ],
+    "w4rxhe": [
+      "bma-district-1046"
+    ],
+    "w4rxhf": [
+      "bma-district-1046"
+    ],
+    "w4rxhg": [
+      "bma-district-1046"
+    ],
+    "w4rxhh": [
+      "bma-district-1046"
+    ],
+    "w4rxhj": [
+      "bma-district-1046"
+    ],
+    "w4rxhk": [
+      "bma-district-1046"
+    ],
+    "w4rxhm": [
+      "bma-district-1046"
+    ],
+    "w4rxhs": [
+      "bma-district-1046"
+    ],
+    "w4rxht": [
+      "bma-district-1046"
+    ],
+    "w4rxhu": [
+      "bma-district-1046"
+    ],
+    "w4rxhv": [
+      "bma-district-1046"
+    ],
+    "w4rxhy": [
+      "bma-district-1046"
+    ],
+    "w4rxj0": [
+      "bma-district-1046"
+    ],
+    "w4rxj1": [
+      "bma-district-1046"
+    ],
+    "w4rxj2": [
+      "bma-district-1046"
+    ],
+    "w4rxj3": [
+      "bma-district-1046"
+    ],
+    "w4rxj4": [
+      "bma-district-1046"
+    ],
+    "w4rxj5": [
+      "bma-district-1046"
+    ],
+    "w4rxj6": [
+      "bma-district-1046"
+    ],
+    "w4rxj7": [
+      "bma-district-1046"
+    ],
+    "w4rxj8": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rxj9": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rxjb": [
+      "bma-district-1003"
+    ],
+    "w4rxjc": [
+      "bma-district-1003"
+    ],
+    "w4rxjd": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rxje": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rxjf": [
+      "bma-district-1003"
+    ],
+    "w4rxjg": [
+      "bma-district-1003"
+    ],
+    "w4rxjh": [
+      "bma-district-1046"
+    ],
+    "w4rxjj": [
+      "bma-district-1046"
+    ],
+    "w4rxjk": [
+      "bma-district-1046"
+    ],
+    "w4rxjm": [
+      "bma-district-1046"
+    ],
+    "w4rxjn": [
+      "bma-district-1046"
+    ],
+    "w4rxjq": [
+      "bma-district-1046"
+    ],
+    "w4rxjr": [
+      "bma-district-1046"
+    ],
+    "w4rxjs": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rxjt": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rxju": [
+      "bma-district-1003"
+    ],
+    "w4rxjv": [
+      "bma-district-1003"
+    ],
+    "w4rxjw": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rxjx": [
+      "bma-district-1003",
+      "bma-district-1046"
+    ],
+    "w4rxjy": [
+      "bma-district-1003"
+    ],
+    "w4rxjz": [
+      "bma-district-1003"
+    ],
+    "w4rxmb": [
+      "bma-district-1003"
+    ],
+    "w4rxn0": [
+      "bma-district-1003"
+    ],
+    "w4rxn1": [
+      "bma-district-1003"
+    ],
+    "w4rxn2": [
+      "bma-district-1003"
+    ],
+    "w4rxn3": [
+      "bma-district-1003"
+    ],
+    "w4rxn4": [
+      "bma-district-1003"
+    ],
+    "w4rxn5": [
+      "bma-district-1003"
+    ],
+    "w4rxn6": [
+      "bma-district-1003"
+    ],
+    "w4rxn7": [
+      "bma-district-1003"
+    ],
+    "w4rxn8": [
+      "bma-district-1003"
+    ],
+    "w4rxn9": [
+      "bma-district-1003"
+    ],
+    "w4rxnb": [
+      "bma-district-1003"
+    ],
+    "w4rxnc": [
+      "bma-district-1003"
+    ],
+    "w4rxnd": [
+      "bma-district-1003"
+    ],
+    "w4rxne": [
+      "bma-district-1003"
+    ],
+    "w4rxnf": [
+      "bma-district-1003"
+    ],
+    "w4rxng": [
+      "bma-district-1003"
+    ],
+    "w4rxnh": [
+      "bma-district-1003"
+    ],
+    "w4rxnj": [
+      "bma-district-1003"
+    ],
+    "w4rxnk": [
+      "bma-district-1003"
+    ],
+    "w4rxnm": [
+      "bma-district-1003"
+    ],
+    "w4rxnn": [
+      "bma-district-1003"
+    ],
+    "w4rxnp": [
+      "bma-district-1003"
+    ],
+    "w4rxnq": [
+      "bma-district-1003"
+    ],
+    "w4rxnr": [
+      "bma-district-1003"
+    ],
+    "w4rxns": [
+      "bma-district-1003"
+    ],
+    "w4rxnt": [
+      "bma-district-1003"
+    ],
+    "w4rxnu": [
+      "bma-district-1003"
+    ],
+    "w4rxnv": [
+      "bma-district-1003"
+    ],
+    "w4rxnw": [
+      "bma-district-1003"
+    ],
+    "w4rxnx": [
+      "bma-district-1003"
+    ],
+    "w4rxny": [
+      "bma-district-1003"
+    ],
+    "w4rxnz": [
+      "bma-district-1003"
+    ],
+    "w4rxp0": [
+      "bma-district-1003"
+    ],
+    "w4rxp1": [
+      "bma-district-1003"
+    ],
+    "w4rxp2": [
+      "bma-district-1003"
+    ],
+    "w4rxp3": [
+      "bma-district-1003"
+    ],
+    "w4rxp4": [
+      "bma-district-1003"
+    ],
+    "w4rxp5": [
+      "bma-district-1003"
+    ],
+    "w4rxp6": [
+      "bma-district-1003"
+    ],
+    "w4rxp7": [
+      "bma-district-1003"
+    ],
+    "w4rxp8": [
+      "bma-district-1003"
+    ],
+    "w4rxp9": [
+      "bma-district-1003"
+    ],
+    "w4rxpb": [
+      "bma-district-1003"
+    ],
+    "w4rxpc": [
+      "bma-district-1003"
+    ],
+    "w4rxpd": [
+      "bma-district-1003"
+    ],
+    "w4rxpe": [
+      "bma-district-1003"
+    ],
+    "w4rxpf": [
+      "bma-district-1003"
+    ],
+    "w4rxpg": [
+      "bma-district-1003"
+    ],
+    "w4rxph": [
+      "bma-district-1003"
+    ],
+    "w4rxpj": [
+      "bma-district-1003"
+    ],
+    "w4rxpk": [
+      "bma-district-1003"
+    ],
+    "w4rxpm": [
+      "bma-district-1003"
+    ],
+    "w4rxpn": [
+      "bma-district-1003"
+    ],
+    "w4rxpp": [
+      "bma-district-1003"
+    ],
+    "w4rxpq": [
+      "bma-district-1003"
+    ],
+    "w4rxpr": [
+      "bma-district-1003"
+    ],
+    "w4rxps": [
+      "bma-district-1003"
+    ],
+    "w4rxpt": [
+      "bma-district-1003"
+    ],
+    "w4rxpu": [
+      "bma-district-1003"
+    ],
+    "w4rxpv": [
+      "bma-district-1003"
+    ],
+    "w4rxpw": [
+      "bma-district-1003"
+    ],
+    "w4rxpx": [
+      "bma-district-1003"
+    ],
+    "w4rxpy": [
+      "bma-district-1003"
+    ],
+    "w4rxpz": [
+      "bma-district-1003"
+    ],
+    "w4rxq0": [
+      "bma-district-1003"
+    ],
+    "w4rxq2": [
+      "bma-district-1003"
+    ],
+    "w4rxq8": [
+      "bma-district-1003"
+    ],
+    "w4rxqb": [
+      "bma-district-1003"
+    ],
+    "w4rxr0": [
+      "bma-district-1003"
+    ],
+    "w4rxr1": [
+      "bma-district-1003"
+    ],
+    "w4rxr2": [
+      "bma-district-1003"
+    ],
+    "w4rxr3": [
+      "bma-district-1003"
+    ],
+    "w4rxr8": [
+      "bma-district-1003"
+    ],
+    "w4rxr9": [
+      "bma-district-1003"
+    ],
+    "w4rxrb": [
+      "bma-district-1003"
+    ],
+    "w4rxrc": [
+      "bma-district-1003"
+    ],
+    "w4rxrd": [
+      "bma-district-1003"
+    ],
+    "w4rxrf": [
+      "bma-district-1003"
+    ],
+    "w4ry24": [
+      "bma-district-1003"
+    ],
+    "w4ry25": [
+      "bma-district-1003"
+    ],
+    "w4ry2h": [
+      "bma-district-1003"
+    ],
+    "w4ry2j": [
+      "bma-district-1003"
+    ],
+    "w4ry2n": [
+      "bma-district-1003"
+    ],
+    "w4ry2p": [
+      "bma-district-1003"
+    ],
+    "w4ry2q": [
+      "bma-district-1003"
+    ],
+    "w4ry2r": [
+      "bma-district-1003"
+    ],
+    "w4ry80": [
+      "bma-district-1003"
+    ],
+    "w4ry81": [
+      "bma-district-1003"
+    ],
+    "w4ry82": [
+      "bma-district-1003"
+    ],
+    "w4ry83": [
+      "bma-district-1003"
+    ],
+    "w4ry84": [
+      "bma-district-1003"
+    ],
+    "w4ry85": [
+      "bma-district-1003"
+    ],
+    "w4ry86": [
+      "bma-district-1003"
+    ],
+    "w4ry87": [
+      "bma-district-1003"
+    ],
+    "w4ry88": [
+      "bma-district-1003"
+    ],
+    "w4ry89": [
+      "bma-district-1003"
+    ],
+    "w4ry8c": [
+      "bma-district-1003"
+    ],
+    "w4ry8d": [
+      "bma-district-1003"
+    ],
+    "w4ry8e": [
+      "bma-district-1003"
+    ],
+    "w4ry8f": [
+      "bma-district-1003"
+    ],
+    "w4ry8g": [
+      "bma-district-1003"
+    ],
+    "w4ry8h": [
+      "bma-district-1003"
+    ],
+    "w4ry8j": [
+      "bma-district-1003"
+    ],
+    "w4ry8k": [
+      "bma-district-1003"
+    ],
+    "w4ry8m": [
+      "bma-district-1003"
+    ],
+    "w4ry8n": [
+      "bma-district-1003"
+    ],
+    "w4ry8p": [
+      "bma-district-1003"
+    ],
+    "w4ry8q": [
+      "bma-district-1003"
+    ],
+    "w4ry8s": [
+      "bma-district-1003"
+    ],
+    "w4ryb0": [
+      "bma-district-1003"
+    ],
+    "w4ryb1": [
+      "bma-district-1003"
+    ],
+    "w4ryb2": [
+      "bma-district-1003"
+    ],
+    "w4ryb4": [
+      "bma-district-1003"
+    ],
+    "w4ryb5": [
+      "bma-district-1003"
+    ],
+    "w4rybh": [
+      "bma-district-1003"
+    ],
+    "w4rybj": [
+      "bma-district-1003"
+    ],
+    "w4rybn": [
+      "bma-district-1003"
+    ],
+    "w4rybp": [
+      "bma-district-1003"
+    ],
+    "w4rz00": [
+      "bma-district-1003"
+    ],
+    "w4rz01": [
+      "bma-district-1003"
+    ],
+    "w4rz04": [
+      "bma-district-1003"
+    ],
+    "w4rz05": [
+      "bma-district-1003"
+    ],
+    "w4rz0h": [
+      "bma-district-1003"
+    ],
+    "w4rz0j": [
+      "bma-district-1003"
+    ],
+    "w4rz0n": [
+      "bma-district-1003"
+    ],
+    "w4rz0p": [
+      "bma-district-1003"
+    ],
+    "w4rz0q": [
+      "bma-district-1003"
+    ],
+    "w4rz0r": [
+      "bma-district-1003"
+    ],
+    "w4rz20": [
+      "bma-district-1003"
+    ],
+    "w4rz21": [
+      "bma-district-1003"
+    ],
+    "w4rz22": [
+      "bma-district-1003"
+    ],
+    "w4rz23": [
+      "bma-district-1003"
+    ],
+    "w4rz24": [
+      "bma-district-1003"
+    ],
+    "w4rz26": [
+      "bma-district-1003"
+    ]
+  }
+}

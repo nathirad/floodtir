@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "scope": "Responsibility hash-index artifacts only"
+  },
+  "classifications": {
+    "acquisition": "public_official_evidence_mixed_status",
+    "candidate": "internal_operational_unverified",
+    "evidence": "public_official_document_pending_review",
+    "inputs": "restricted_review_input",
+    "prepared": "derived_analytical_unverified",
+    "normalized": "derived_analytical_unverified",
+    "review": "internal_manual_review",
+    "verified": "controlled_operational_verified",
+    "visualization": "static_analytical_non_operational"
+  },
+  "promotion_controls": {
+    "candidate_auto_promote": false,
+    "verified_requires_legal_basis": true,
+    "verified_requires_document_sha256": true,
+    "verified_requires_two_person_review": true,
+    "verifier_must_differ_from_approver": true,
+    "dispatch_authorization_requires_verified_legal_basis": true,
+    "dispatch_authorization_is_role_based_not_person_name": true,
+    "invalid_input_behavior": "fail_closed_empty_verified_output"
+  },
+  "prohibited_index_fields": [
+    "reporter_name",
+    "reporter_phone",
+    "reporter_email",
+    "citizen_id",
+    "home_address",
+    "device_identifier",
+    "raw_complaint_text",
+    "official_signatory_name",
+    "official_signature_image"
+  ],
+  "runtime_requirements": [
+    "Server-side spatial lookup; do not trust client-selected agency.",
+    "RBAC for create, review, approve, override, and dispatch.",
+    "Immutable audit log for import, approval, override, and query.",
+    "Rate limits, request size limits, TLS, and secret management.",
+    "Human approval before dispatch from an unverified candidate."
+  ],
+  "ingestion_requirements": [
+    "HTTPS source allowlist and redirect validation.",
+    "Timeout, size, MIME, schema, coordinate, and geometry checks.",
+    "Quarantine invalid or conflicting source records.",
+    "Record requested URL, final URL, fetched time, and SHA-256."
+  ]
+}

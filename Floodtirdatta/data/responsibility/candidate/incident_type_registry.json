@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "notice": "Incident types support deterministic lookup only. They do not assign legal responsibility."
+  },
+  "incident_types": [
+    {
+      "incident_type_hash_sha256": "45a6e98c20162ca22d55147394fc80e44959e1dfd7f57d84e056edc120796928",
+      "incident_type_code": "road_flooding_local_system",
+      "incident_type_name_th": "น้ำท่วมถนนหรือซอยในระบบระบายน้ำท้องถิ่น",
+      "candidate_lookup_strategy": "district_polygon_then_asset_owner",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "f485f593e7772ff6faf2d4280f5ed83ed21643fa642de430e236af0752b51a20",
+      "incident_type_code": "road_flooding_main_system",
+      "incident_type_name_th": "น้ำท่วมถนนสายหลักหรือระบบท่อระบายน้ำหลัก",
+      "candidate_lookup_strategy": "pipe_service_area_then_asset_owner",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "bceccdca937742aa5168442a4625daf3385e03d972426efd7f3552de86674eee",
+      "incident_type_code": "main_road_pipe_blockage",
+      "incident_type_name_th": "ท่อระบายน้ำถนนสายหลักอุดตันหรือระบายผิดปกติ",
+      "candidate_lookup_strategy": "pipe_service_area_then_asset_owner",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "8094325cc98d1f4d9cc84d33fd60074e369f8badb0f2108e2ce209b01fa34eb9",
+      "incident_type_code": "sump_failure",
+      "incident_type_name_th": "บ่อสูบน้ำหรือระบบปลายท่อขัดข้อง",
+      "candidate_lookup_strategy": "asset_owner_then_pipe_service_area",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "cd4cf588aa70f56726c666b89720287364a7eba0343c56f40432e07414e92bd0",
+      "incident_type_code": "canal_obstruction",
+      "incident_type_name_th": "คลองอุดตัน มีขยะ วัชพืช หรือสิ่งกีดขวาง",
+      "candidate_lookup_strategy": "canal_service_area_then_asset_owner",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "87d634e4886abc32143e97eb33c44ceb457218be1475962111827a3f2f05c38d",
+      "incident_type_code": "canal_overflow",
+      "incident_type_name_th": "น้ำล้นคลองหรือระดับคลองกระทบพื้นที่",
+      "candidate_lookup_strategy": "canal_service_area_then_water_control",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "6aad29fedbcd30700cc6de3c234bf55474cb7ae478f872397d4511431bd86bce",
+      "incident_type_code": "canal_infrastructure",
+      "incident_type_name_th": "เขื่อนริมคลองหรือโครงสร้างคลองชำรุด",
+      "candidate_lookup_strategy": "asset_owner_then_canal_service_area",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "8788ff6a18b771aca178bc2c0f03bfcc0f31b556e85037ed078bd4a57a0f39d7",
+      "incident_type_code": "pump_gate_tunnel_failure",
+      "incident_type_name_th": "สถานีสูบน้ำ ประตูระบายน้ำ หรืออุโมงค์ขัดข้อง",
+      "candidate_lookup_strategy": "asset_owner_then_water_control",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "463810342c0d0760373d8197046f808dee0ca93911bb33b845bd60827268bfa0",
+      "incident_type_code": "high_tide_or_external_water",
+      "incident_type_name_th": "น้ำทะเลหนุน น้ำเหนือ หรือน้ำภายนอกพื้นที่",
+      "candidate_lookup_strategy": "water_control_then_district_coordination",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    },
+    {
+      "incident_type_hash_sha256": "961876f02443deb16b72b80d0efa25236a7b4dd6eb90c612603eee3ca3155535",
+      "incident_type_code": "life_safety_rescue",
+      "incident_type_name_th": "เหตุช่วยชีวิตหรืออพยพประชาชนจากน้ำท่วม",
+      "candidate_lookup_strategy": "incident_command_requires_verified_raci",
+      "routing_status": "requires_verified_raci",
+      "is_official_legal_assignment": false
+    }
+  ]
+}

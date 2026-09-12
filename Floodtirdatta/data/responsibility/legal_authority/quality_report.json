@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:19Z",
+    "scope": "Bangkok flood legal-authority evidence",
+    "status": "public_statutory_evidence_pending_legal_review",
+    "operational_use": false
+  },
+  "counts": {
+    "sources": 2,
+    "roles": 6,
+    "authority_provisions": 15,
+    "district_authority_candidates": 50,
+    "legal_review_queue": 17,
+    "verified_legal_assignments": 0,
+    "verified_dispatch_authorizations": 0
+  },
+  "checks": {
+    "source_material_schema_matches": true,
+    "source_count_is_2": true,
+    "all_source_hashes_match": true,
+    "all_sources_are_allowlisted_https": true,
+    "all_source_pages_match": true,
+    "provision_hashes_unique": true,
+    "all_provisions_pending_legal_review": true,
+    "district_candidates_cover_50_districts": true,
+    "all_district_candidates_require_current_order": true,
+    "review_queue_has_no_placeholders": true,
+    "no_personal_data": true
+  },
+  "validation_errors": [],
+  "passed": true,
+  "notice": "This layer supports legal review and human routing only. It does not grant application permissions or automatic dispatch."
+}

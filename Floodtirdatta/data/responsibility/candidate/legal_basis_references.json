@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:24Z",
+    "notice": "References require legal review before an assignment may be marked verified."
+  },
+  "sources": [
+    {
+      "legal_basis_id": "dds-official-duties",
+      "title_th": "ภารกิจหน้าที่ของสำนักการระบายน้ำ",
+      "url": "https://dds.bangkok.go.th/about3.php",
+      "source_class": "official_operational_mandate",
+      "verification_status": "reference_not_legal_reviewed"
+    },
+    {
+      "legal_basis_id": "bma-flood-plan-2569",
+      "title_th": "แผนปฏิบัติการป้องกันและแก้ไขปัญหาน้ำท่วมกรุงเทพมหานคร ประจำปี 2569",
+      "url": "https://dds.bangkok.go.th/content/doc3/index.php",
+      "source_class": "official_operational_plan",
+      "verification_status": "reference_not_legal_reviewed"
+    },
+    {
+      "legal_basis_id": "bma-disaster-plan-2564-2570",
+      "title_th": "แผนการป้องกันและบรรเทาสาธารณภัยกรุงเทพมหานคร พ.ศ. 2564-2570",
+      "url": "https://budget.bangkok.go.th/main/topic.php?topic_id=3151",
+      "source_class": "official_disaster_plan",
+      "verification_status": "reference_not_legal_reviewed"
+    },
+    {
+      "legal_basis_id": "dds-water-control-duties",
+      "title_th": "ภารกิจสำนักงานระบบควบคุมน้ำ",
+      "url": "https://dds.bangkok.go.th/about2_5.php",
+      "source_class": "official_operational_mandate",
+      "verification_status": "reference_not_legal_reviewed"
+    },
+    {
+      "legal_basis_id": "dds-pipe-division-duties",
+      "title_th": "ภารกิจกองระบบท่อระบายน้ำ",
+      "url": "https://dds.bangkok.go.th/about2_6.php",
+      "source_class": "official_operational_mandate",
+      "verification_status": "reference_not_legal_reviewed"
+    },
+    {
+      "legal_basis_id": "dds-canal-division-duties",
+      "title_th": "ภารกิจกองระบบคลอง",
+      "url": "https://dds.bangkok.go.th/about2_7.php",
+      "source_class": "official_operational_mandate",
+      "verification_status": "reference_not_legal_reviewed"
+    },
+    {
+      "legal_basis_id": "bma-district-public-works-duties",
+      "title_th": "ภารกิจฝ่ายโยธา สำนักงานเขต",
+      "url": "https://webportal.bangkok.go.th/pranakorn/page/sub/2846/",
+      "source_class": "official_district_operational_mandate",
+      "verification_status": "reference_not_legal_reviewed"
+    },
+    {
+      "legal_basis_id": "bma-organization-authority-index",
+      "title_th": "กฎหมายจัดตั้งองค์กรและการบริหารงาน กรุงเทพมหานคร",
+      "url": "https://webportal.bangkok.go.th/law/page/sub/22566",
+      "source_class": "official_legal_document_index",
+      "verification_status": "reference_not_legal_reviewed"
+    }
+  ]
+}

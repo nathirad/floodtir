@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Responsibility data review record",
+  "type": "object",
+  "required": [
+    "review_hash_sha256",
+    "review_type",
+    "entity_id",
+    "source_path",
+    "review_status",
+    "requires_manual_review"
+  ],
+  "properties": {
+    "review_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "review_status": {
+      "const": "unresolved"
+    },
+    "requires_manual_review": {
+      "const": true
+    },
+    "is_placeholder": {
+      "const": false
+    }
+  }
+}

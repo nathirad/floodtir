@@ -1,0 +1,563 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-06-30T07:37:19Z",
+    "scope": "Static analytical visualization backing data",
+    "not_for_automatic_dispatch": true
+  },
+  "kpis": {
+    "district_count": 50,
+    "agency_count": 70,
+    "mission_assignment_count": 60,
+    "responsibility_fact_count": 872,
+    "quality_issue_count": 418,
+    "source_count": 35,
+    "verified_legal_assignment_count": 0
+  },
+  "district_metrics": [
+    {
+      "district_code": "1001",
+      "district_name_th": "พระนคร",
+      "candidate_agency_count": 5,
+      "source_record_count": 90,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1002",
+      "district_name_th": "ดุสิต",
+      "candidate_agency_count": 5,
+      "source_record_count": 129,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1003",
+      "district_name_th": "หนองจอก",
+      "candidate_agency_count": 6,
+      "source_record_count": 268,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1004",
+      "district_name_th": "บางรัก",
+      "candidate_agency_count": 5,
+      "source_record_count": 54,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1005",
+      "district_name_th": "บางเขน",
+      "candidate_agency_count": 4,
+      "source_record_count": 157,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1006",
+      "district_name_th": "บางกะปิ",
+      "candidate_agency_count": 6,
+      "source_record_count": 215,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1007",
+      "district_name_th": "ปทุมวัน",
+      "candidate_agency_count": 6,
+      "source_record_count": 76,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1008",
+      "district_name_th": "ป้อมปราบศัตรูพ่าย",
+      "candidate_agency_count": 4,
+      "source_record_count": 30,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1009",
+      "district_name_th": "พระโขนง",
+      "candidate_agency_count": 6,
+      "source_record_count": 101,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1010",
+      "district_name_th": "มีนบุรี",
+      "candidate_agency_count": 6,
+      "source_record_count": 127,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1011",
+      "district_name_th": "ลาดกระบัง",
+      "candidate_agency_count": 5,
+      "source_record_count": 284,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1012",
+      "district_name_th": "ยานนาวา",
+      "candidate_agency_count": 6,
+      "source_record_count": 165,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1013",
+      "district_name_th": "สัมพันธวงศ์",
+      "candidate_agency_count": 6,
+      "source_record_count": 34,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1014",
+      "district_name_th": "พญาไท",
+      "candidate_agency_count": 5,
+      "source_record_count": 90,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1015",
+      "district_name_th": "ธนบุรี",
+      "candidate_agency_count": 5,
+      "source_record_count": 220,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1016",
+      "district_name_th": "บางกอกใหญ่",
+      "candidate_agency_count": 5,
+      "source_record_count": 138,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1017",
+      "district_name_th": "ห้วยขวาง",
+      "candidate_agency_count": 5,
+      "source_record_count": 109,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1018",
+      "district_name_th": "คลองสาน",
+      "candidate_agency_count": 5,
+      "source_record_count": 152,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1019",
+      "district_name_th": "ตลิ่งชัน",
+      "candidate_agency_count": 5,
+      "source_record_count": 319,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1020",
+      "district_name_th": "บางกอกน้อย",
+      "candidate_agency_count": 5,
+      "source_record_count": 221,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1021",
+      "district_name_th": "บางขุนเทียน",
+      "candidate_agency_count": 6,
+      "source_record_count": 402,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1022",
+      "district_name_th": "ภาษีเจริญ",
+      "candidate_agency_count": 5,
+      "source_record_count": 371,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1023",
+      "district_name_th": "หนองแขม",
+      "candidate_agency_count": 6,
+      "source_record_count": 156,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1024",
+      "district_name_th": "ราษฎร์บูรณะ",
+      "candidate_agency_count": 5,
+      "source_record_count": 143,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1025",
+      "district_name_th": "บางพลัด",
+      "candidate_agency_count": 5,
+      "source_record_count": 212,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1026",
+      "district_name_th": "ดินแดง",
+      "candidate_agency_count": 6,
+      "source_record_count": 127,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1027",
+      "district_name_th": "บึงกุ่ม",
+      "candidate_agency_count": 5,
+      "source_record_count": 124,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1028",
+      "district_name_th": "สาทร",
+      "candidate_agency_count": 7,
+      "source_record_count": 104,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1029",
+      "district_name_th": "บางซื่อ",
+      "candidate_agency_count": 6,
+      "source_record_count": 133,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1030",
+      "district_name_th": "จตุจักร",
+      "candidate_agency_count": 7,
+      "source_record_count": 207,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1031",
+      "district_name_th": "บางคอแหลม",
+      "candidate_agency_count": 5,
+      "source_record_count": 169,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1032",
+      "district_name_th": "ประเวศ",
+      "candidate_agency_count": 6,
+      "source_record_count": 185,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1033",
+      "district_name_th": "คลองเตย",
+      "candidate_agency_count": 6,
+      "source_record_count": 158,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1034",
+      "district_name_th": "สวนหลวง",
+      "candidate_agency_count": 5,
+      "source_record_count": 201,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1035",
+      "district_name_th": "จอมทอง",
+      "candidate_agency_count": 5,
+      "source_record_count": 329,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1036",
+      "district_name_th": "ดอนเมือง",
+      "candidate_agency_count": 5,
+      "source_record_count": 97,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1037",
+      "district_name_th": "ราชเทวี",
+      "candidate_agency_count": 6,
+      "source_record_count": 118,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1038",
+      "district_name_th": "ลาดพร้าว",
+      "candidate_agency_count": 6,
+      "source_record_count": 176,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1039",
+      "district_name_th": "วัฒนา",
+      "candidate_agency_count": 6,
+      "source_record_count": 172,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1040",
+      "district_name_th": "บางแค",
+      "candidate_agency_count": 5,
+      "source_record_count": 417,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1041",
+      "district_name_th": "หลักสี่",
+      "candidate_agency_count": 5,
+      "source_record_count": 120,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1042",
+      "district_name_th": "สายไหม",
+      "candidate_agency_count": 6,
+      "source_record_count": 139,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1043",
+      "district_name_th": "คันนายาว",
+      "candidate_agency_count": 5,
+      "source_record_count": 84,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1044",
+      "district_name_th": "สะพานสูง",
+      "candidate_agency_count": 4,
+      "source_record_count": 105,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1045",
+      "district_name_th": "วังทองหลาง",
+      "candidate_agency_count": 5,
+      "source_record_count": 141,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1046",
+      "district_name_th": "คลองสามวา",
+      "candidate_agency_count": 5,
+      "source_record_count": 253,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1047",
+      "district_name_th": "บางนา",
+      "candidate_agency_count": 6,
+      "source_record_count": 163,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1048",
+      "district_name_th": "ทวีวัฒนา",
+      "candidate_agency_count": 5,
+      "source_record_count": 173,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1049",
+      "district_name_th": "ทุ่งครุ",
+      "candidate_agency_count": 5,
+      "source_record_count": 199,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    },
+    {
+      "district_code": "1050",
+      "district_name_th": "บางบอน",
+      "candidate_agency_count": 5,
+      "source_record_count": 155,
+      "process_stage_count": 6,
+      "district_specific_sop_verified": false
+    }
+  ],
+  "quality_issue_counts": {
+    "district_spatial_conflict": 171,
+    "unresolved_asset_owner": 247
+  },
+  "source_provenance_counts": {
+    "acquired_candidate": 4,
+    "acquired_resolved": 3,
+    "content_hash_captured_pending_legal_review": 6,
+    "incomplete_missing_exact_export_url_fetch_time_version_and_license": 9,
+    "official_copy_checked_in_pending_gazette_currency_and_legal_review": 2,
+    "partial_exact_item_candidate_missing_matching_export_hash_and_formal_license": 1,
+    "partial_missing_raw_response_hash": 1,
+    "reference_identity_only": 8,
+    "source_access_blocked_no_content_hash": 1
+  },
+  "responsibility_verification_counts": {
+    "candidate_unverified": 472,
+    "official_reference_unverified": 400
+  },
+  "top_agency_coverage": [
+    {
+      "agency_id": "bma-dds",
+      "agency_name_th": "สำนักการระบายน้ำ",
+      "district_coverage_count": 50,
+      "source_record_count": 1341
+    },
+    {
+      "agency_id": "bma-dds-water-control",
+      "agency_name_th": "สำนักงานระบบควบคุมน้ำ สำนักการระบายน้ำ",
+      "district_coverage_count": 47,
+      "source_record_count": 436
+    },
+    {
+      "agency_id": "bma-dds-canal-development-1",
+      "agency_name_th": "กลุ่มงานพัฒนาระบบคลอง 1",
+      "district_coverage_count": 28,
+      "source_record_count": 112
+    },
+    {
+      "agency_id": "bma-dds-pipe-maintenance-1",
+      "agency_name_th": "กลุ่มงานบำรุงรักษาท่อระบายน้ำ 1",
+      "district_coverage_count": 25,
+      "source_record_count": 100
+    },
+    {
+      "agency_id": "bma-dds-pipe-maintenance-2",
+      "agency_name_th": "กลุ่มงานบำรุงรักษาท่อระบายน้ำ 2",
+      "district_coverage_count": 25,
+      "source_record_count": 100
+    },
+    {
+      "agency_id": "bma-dds-canal-development-2",
+      "agency_name_th": "กลุ่มงานพัฒนาระบบคลอง 2",
+      "district_coverage_count": 22,
+      "source_record_count": 88
+    },
+    {
+      "agency_id": "bma-dds-development",
+      "agency_name_th": "สำนักพัฒนาระบบระบายน้ำ",
+      "district_coverage_count": 11,
+      "source_record_count": 26
+    },
+    {
+      "agency_id": "bma-dds-pipe",
+      "agency_name_th": "กองระบบท่อระบายน้ำ สำนักการระบายน้ำ",
+      "district_coverage_count": 7,
+      "source_record_count": 25
+    },
+    {
+      "agency_id": "bma-district-1011",
+      "agency_name_th": "สำนักงานเขตลาดกระบัง",
+      "district_coverage_count": 2,
+      "source_record_count": 215
+    },
+    {
+      "agency_id": "bma-district-1031",
+      "agency_name_th": "สำนักงานเขตบางคอแหลม",
+      "district_coverage_count": 2,
+      "source_record_count": 117
+    },
+    {
+      "agency_id": "bma-district-1005",
+      "agency_name_th": "สำนักงานเขตบางเขน",
+      "district_coverage_count": 2,
+      "source_record_count": 115
+    },
+    {
+      "agency_id": "bma-district-1017",
+      "agency_name_th": "สำนักงานเขตห้วยขวาง",
+      "district_coverage_count": 2,
+      "source_record_count": 65
+    }
+  ],
+  "process_stages": [
+    {
+      "sequence": 1,
+      "stage_code": "monitor_receive_report",
+      "action_th": "ติดตามฝน จุดเสี่ยง รับแจ้งเหตุ และรายงานสถานการณ์",
+      "district_count": 50,
+      "manual_document_duration_days": null,
+      "is_emergency_sla": false
+    },
+    {
+      "sequence": 2,
+      "stage_code": "district_command",
+      "action_th": "ผู้อำนวยการเขตสั่งการ และจัดตั้งศูนย์บัญชาการเมื่อเข้าเงื่อนไขสาธารณภัย",
+      "district_count": 50,
+      "manual_document_duration_days": null,
+      "is_emergency_sla": false
+    },
+    {
+      "sequence": 3,
+      "stage_code": "public_works_inspection",
+      "action_th": "ฝ่ายโยธาสำรวจและตรวจสอบพื้นที่",
+      "district_count": 50,
+      "manual_document_duration_days": 2,
+      "is_emergency_sla": false
+    },
+    {
+      "sequence": 4,
+      "stage_code": "resource_preparation",
+      "action_th": "เตรียมกำลัง วัสดุ อุปกรณ์ และเครื่องสูบน้ำ",
+      "district_count": 50,
+      "manual_document_duration_days": 2,
+      "is_emergency_sla": false
+    },
+    {
+      "sequence": 5,
+      "stage_code": "operate_coordinate_report",
+      "action_th": "ดำเนินการแก้ไข ประสาน DDS/หน่วยสนับสนุน และรายงานผล",
+      "district_count": 50,
+      "manual_document_duration_days": 3,
+      "is_emergency_sla": false
+    },
+    {
+      "sequence": 6,
+      "stage_code": "damage_recovery_close",
+      "action_th": "สำรวจความเสียหาย ช่วยเหลือ ฟื้นฟู และสรุปรายงาน",
+      "district_count": 50,
+      "manual_document_duration_days": null,
+      "is_emergency_sla": false
+    }
+  ],
+  "source_fingerprint_sha256": "f2f6ab426ad9d3185238aaca1c08f78f53dade509c37c07c59b379e8afb88e25"
+}

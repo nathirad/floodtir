@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "District statutory authority candidate",
+  "type": "object",
+  "required": [
+    "district_authority_hash_sha256",
+    "district_code",
+    "district_agency_id",
+    "actor_role_code",
+    "authority_provision_hashes_sha256",
+    "current_district_order_status",
+    "verification_status",
+    "requires_current_district_order",
+    "may_auto_dispatch"
+  ],
+  "properties": {
+    "district_authority_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "authority_provision_hashes_sha256": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "current_district_order_status": {
+      "const": "not_supplied"
+    },
+    "verification_status": {
+      "const": "pending_legal_review"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    },
+    "is_official_dispatch_authorization": {
+      "const": false
+    },
+    "requires_current_district_order": {
+      "const": true
+    },
+    "requires_human_approval": {
+      "const": true
+    },
+    "may_auto_dispatch": {
+      "const": false
+    },
+    "contains_personal_data": {
+      "const": false
+    }
+  }
+}

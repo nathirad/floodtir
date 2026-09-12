@@ -1,0 +1,59 @@
+{
+  "id": "3915f994743647fe899ab4944dc0e2c6",
+  "owner": "gid_publisher5",
+  "orgId": "0123456789ABCDEF",
+  "created": 1711436093146,
+  "modified": 1711436093146,
+  "guid": null,
+  "name": null,
+  "title": "Data22Rapid-Khlong",
+  "type": "Feature Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Feature Access",
+    "Feature Service",
+    "Service",
+    "Service Proxy"
+  ],
+  "description": null,
+  "tags": ["คลอง"],
+  "snippet": null,
+  "thumbnail": null,
+  "documentation": null,
+  "extent": [
+    [
+      100.328,
+      13.4892
+    ],
+    [
+      100.9321,
+      13.9579
+    ]
+  ],
+  "categories": [],
+  "spatialReference": null,
+  "accessInformation": null,
+  "licenseInfo": null,
+  "culture": "en-us",
+  "properties": null,
+  "url": "https://bmagis.bangkok.go.th/portal/sharing/servers/3915f994743647fe899ab4944dc0e2c6/rest/services/Gov/Data22Rapid/FeatureServer/6",
+  "sourceUrl": "https://district.bangkok.go.th/arcgis/rest/services/Gov/Data22Rapid/FeatureServer/6",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 83,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 1392,
+  "scoreCompleteness": 16,
+  "groupDesignations": null
+}

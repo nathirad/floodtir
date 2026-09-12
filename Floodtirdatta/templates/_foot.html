@@ -1,0 +1,703 @@
+const B=window.BKK;
+const map=L.map('map',{preferCanvas:true}).setView([13.74,100.55],11);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+ {attribution:'© OpenStreetMap, © CARTO · data: BMA SEDGIS / Thaiwater',maxZoom:19}).addTo(map);
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc=s=>s==null?'':String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+function floodColor(p){
+ if(p.device_status&&p.device_status!=='normal')return css('--muted');
+ const f=p.flood||0; if(f>=10)return css('--danger'); if(f>0)return css('--warn'); return css('--safe');
+}
+function expoColor(n){return n>=5?css('--danger'):n>=3?css('--warn'):n>=1?css('--accent'):css('--safe');}
+function wlStatusColor(status, fallback){
+ if(status==='critical')return css('--danger');
+ if(status==='warning')return css('--warn');
+ if(status==='normal')return css('--safe');
+ if(status==='offline')return '#4b5563';
+ return fallback||css('--accent');
+}
+
+const G={};
+const pts=(fc,style,popup)=>L.geoJSON(fc,{pointToLayer:(f,ll)=>L.circleMarker(ll,style(f.properties)),
+  onEachFeature:(f,l)=>l.bindPopup(popup(f.properties))});
+const lines=(fc,style,popup)=>L.geoJSON(fc,{style,onEachFeature:(f,l)=>l.bindPopup(popup(f.properties))});
+
+G.districts=L.geoJSON(B.districts,{style:{color:'#8b949e',weight:1,fill:false,opacity:.5},interactive:false});
+G.protection=L.geoJSON(B.protection,{style:{color:css('--accent'),weight:1,fillColor:css('--accent'),fillOpacity:.07},
+ onEachFeature:(f,l)=>l.bindPopup('<b>พื้นที่ป้องกันน้ำท่วม</b><br>'+esc(f.properties.fd_name)+'<br>'+esc(f.properties.district_t)+' · '+esc(f.properties.area_bma)+' กม.²')});
+G.rivers=L.layerGroup([
+ L.geoJSON(B.rivers,{style:{color:'#1d4ed8',weight:7,opacity:0.55},interactive:false}),
+ L.geoJSON(B.rivers,{style:{color:'#60a5fa',weight:2.8,opacity:0.95},
+  onEachFeature:(f,l)=>l.bindPopup('<b>'+esc(f.properties.name_th)+'</b><br>'+esc(f.properties.name_en))})
+]);
+// Fallback: simulate water levels only when no live data exists
+const hasLiveData = B.waterlevel && B.waterlevel.features && B.waterlevel.features.some(f => f.properties.observed_at);
+if (!hasLiveData && B.waterlevel && B.waterlevel.features) {
+  B.waterlevel.features.forEach(f => {
+    if (f.properties.wl_in === null || f.properties.wl_in === undefined) {
+      f.properties.wl_in = Math.round((Math.random() * 2.0 - 0.8) * 100) / 100;
+    }
+  });
+}
+
+// Fast lookup: station_id → {props, coords} from waterlevel layer
+const stationById = {};
+if (B.waterlevel && B.waterlevel.features) {
+  B.waterlevel.features.forEach(f => {
+    const id = f.properties.station_id;
+    if (id != null) stationById[id] = { props: f.properties, coords: f.geometry.coordinates };
+  });
+}
+// Fast lookup: river_name_th → list of edge properties from waterEdges
+const riverEdgeMap = {};
+if (B.waterEdges && B.waterEdges.features) {
+  B.waterEdges.features.forEach(f => {
+    const r = (f.properties.river_name_th || '').trim();
+    if (r) { if (!riverEdgeMap[r]) riverEdgeMap[r] = []; riverEdgeMap[r].push(f.properties); }
+  });
+}
+
+let activeCanalMode = 'hierarchy';
+
+const ZOOM_MAJOR  = 11; // L1→L2: only monitored major canals (riverEdgeMap)
+const ZOOM_MAIN   = 12; // L2→L3: Main canals only
+const ZOOM_DETAIL = 14; // L3→L4: all canals + animation + width scaling
+
+let dangerRegistry = {};        // canal_name → {feature, riskScore, widthM}
+let dangerChunksLoaded = new Set();
+let dangerViewEnabled = false;
+let canalGraph = {};            // canal_name → {feature, riskScore, widthM, toCanal, from:[]}
+
+function parseCanalWidth(widthStr) {
+  if (!widthStr) return 5;
+  const nums = String(widthStr).match(/[\d.]+/g);
+  if (!nums) return 5;
+  const vals = nums.map(Number).filter(v => v > 0);
+  return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : 5;
+}
+
+function computeCanalRisk(feature) {
+  const p = feature.properties;
+  const canalName = (p.canal_name || '').trim();
+  for (const [rName, edges] of Object.entries(riverEdgeMap)) {
+    if (rName === canalName || rName.includes(canalName) || canalName.includes(rName)) {
+      // Use pre-computed proxy risk scores from build pipeline (relative_to_critical)
+      const proxyScores = edges.map(e => e.proxy?.risk_score ?? -1).filter(s => s >= 0);
+      if (proxyScores.length) return Math.max(...proxyScores);
+      // Fallback: compute from live station water levels
+      const stationIdSet = new Set();
+      edges.forEach(e => {
+        if (e.proxy && e.proxy.start) stationIdSet.add(e.proxy.start.station_id);
+        if (e.proxy && e.proxy.end) stationIdSet.add(e.proxy.end.station_id);
+      });
+      const freshLevs = [];
+      let crit = null, warn = null, bank = null;
+      stationIdSet.forEach(sid => {
+        const st = stationById[sid];
+        if (!st) return;
+        if (st.props.wl_in != null) freshLevs.push(st.props.wl_in);
+        if (crit == null) { crit = st.props.critical_in; warn = st.props.warning_in; bank = st.props.left_bank || st.props.right_bank; }
+      });
+      if (!freshLevs.length) return 0;
+      const avgLev = freshLevs.reduce((a, b) => a + b, 0) / freshLevs.length;
+      const depth = parseFloat(p.canal_depth);
+      const capacity = (depth && depth > 0) ? depth : (bank || 2.0);
+      const critRef = crit || capacity;
+      const warnRef = warn || (critRef * 0.7);
+      const range = critRef - warnRef;
+      return range > 0 ? Math.min(1, Math.max(0, (avgLev - warnRef) / range)) : (avgLev >= critRef ? 1 : 0);
+    }
+  }
+  return 0;
+}
+
+const top5Layer = L.layerGroup();
+
+function buildCanalGraph() {
+  canalGraph = {};
+  // Pass 1: register all canals as nodes
+  Object.entries(dangerRegistry).forEach(([name, entry]) => {
+    canalGraph[name] = {
+      feature: entry.feature,
+      riskScore: entry.riskScore,
+      widthM: entry.widthM,
+      toCanal: (entry.feature.properties.to_canal || '').trim(),
+      from: []
+    };
+  });
+  // Pass 2: build reverse edges (who flows INTO me)
+  Object.entries(canalGraph).forEach(([name, node]) => {
+    const dest = node.toCanal;
+    if (dest && canalGraph[dest]) canalGraph[dest].from.push(name);
+  });
+}
+
+function addCanalToLayer(name, node, role, label, shown) {
+  if (shown.has(name)) return;
+  shown.add(name);
+  const color = role === 'danger' ? css('--danger') : role === 'warn' ? css('--warn') : css('--orange');
+  const w = node.widthM >= 20 ? 7 : node.widthM >= 10 ? 5 : 3.5;
+  L.geoJSON(node.feature, {
+    style: { color, weight: role === 'danger' ? w + 2 : w, opacity: role === 'upstream' ? 0.65 : 0.9, className: 'flow-canal' },
+    onEachFeature: (f, l) => {
+      l.bindTooltip(label, { permanent: true, direction: 'center', className: 'canal-top5-label', sticky: false });
+      l.bindPopup(canalPopupFn(f));
+    }
+  }).addTo(top5Layer);
+}
+
+function refreshTop5Layer() {
+  top5Layer.clearLayers();
+  if (!dangerViewEnabled) { map.removeLayer(top5Layer); return; }
+  top5Layer.addTo(map);
+  if (!Object.keys(canalGraph).length) buildCanalGraph();
+
+  const shown = new Set();
+
+  // Bottleneck canals: high own risk score
+  const bottlenecks = Object.entries(canalGraph)
+    .filter(([, n]) => n.riskScore >= 0.5)
+    .sort(([, a], [, b]) => b.riskScore - a.riskScore)
+    .slice(0, 25);
+
+  bottlenecks.forEach(([name, node]) => {
+    const pct = (node.riskScore * 100).toFixed(0);
+
+    // The bottleneck itself — red
+    addCanalToLayer(name, node, 'danger',
+      '<span class="canal-rank-badge">⚠ คอขวด</span><br>' + esc(name) + '<br>' +
+      '<span style="color:var(--danger)">' + pct + '% เต็มความจุ</span>',
+      shown);
+
+    // Downstream — orange: รับน้ำล้น
+    const destName = node.toCanal;
+    const destNode = canalGraph[destName];
+    if (destName && destNode) {
+      addCanalToLayer(destName, destNode, 'warn',
+        '<span style="color:var(--warn)">↓ รับน้ำล้นจาก</span><br>' + esc(name),
+        shown);
+    }
+
+    // Upstream — orange: ไหลเข้ามาเพิ่มแรงกดดัน — แสดง % ของปลายทาง ไม่ใช่ตัวเอง
+    node.from.forEach(upName => {
+      const upNode = canalGraph[upName];
+      if (upNode) {
+        addCanalToLayer(upName, upNode, 'upstream',
+          esc(upName) + '<br>' +
+          '<span style="color:var(--orange)">↑ ระบายเข้า</span> <b>' + esc(name) + '</b><br>' +
+          '<span style="color:var(--muted)">ปลายทางเต็ม </span><span style="color:var(--danger)">' + pct + '%</span>',
+          shown);
+      }
+    });
+  });
+}
+
+function toggleDangerView() {
+  dangerViewEnabled = !dangerViewEnabled;
+  const btn = document.getElementById('danger-view-btn');
+  if (btn) {
+    btn.style.background = dangerViewEnabled ? 'rgba(218,54,51,0.18)' : '#1c1e24';
+    btn.style.fontWeight = dangerViewEnabled ? '700' : 'normal';
+    btn.textContent = dangerViewEnabled ? '⚠ ซ่อนสายน้ำอันตราย' : '⚠ แสดงสายน้ำอันตราย';
+  }
+  if (dangerViewEnabled) {
+    loadAllChunksForDanger();
+  } else {
+    top5Layer.clearLayers();
+    map.removeLayer(top5Layer);
+  }
+}
+
+async function loadAllChunksForDanger() {
+  if (!canalIndex) return;
+  const pending = Object.values(canalIndex).map(i => i.file).filter(f => !dangerChunksLoaded.has(f));
+  if (!pending.length) { buildCanalGraph(); refreshTop5Layer(); return; }
+  await Promise.all(pending.map(file =>
+    fetch('data/geojson/canals_chunks/' + file)
+      .then(r => r.json())
+      .then(geojson => {
+        dangerChunksLoaded.add(file);
+        geojson.features.forEach(f => {
+          const name = (f.properties.canal_name || '').trim();
+          if (!name) return;
+          const riskScore = computeCanalRisk(f);
+          const widthM = parseCanalWidth(f.properties.canal_width);
+          if (!dangerRegistry[name] || riskScore > dangerRegistry[name].riskScore)
+            dangerRegistry[name] = { feature: f, riskScore, widthM };
+        });
+      })
+      .catch(err => console.error('Danger chunk error:', file, err))
+  ));
+  buildCanalGraph();
+  refreshTop5Layer();
+}
+
+function riskScoreColor(s) {
+  return s >= 0.7 ? '#da3633' : s >= 0.4 ? '#d29922' : '#2ea043';
+}
+
+function findNearestWaterLevel(canalFeature) {
+  const MAX_DEG = 0.05;
+  const coords = canalFeature.geometry.coordinates;
+  const isMulti = canalFeature.geometry.type === 'MultiLineString';
+  const line = isMulti ? coords[0] : coords;
+  const midPt = line[Math.floor(line.length / 2)];
+  const canalName = (canalFeature.properties.canal_name || '').trim();
+  if (!midPt) return { val: null, name: '', status: null };
+
+  // 1. Match by canal name via waterEdges (most accurate when names align)
+  for (const [rName, edges] of Object.entries(riverEdgeMap)) {
+    if (rName === canalName || rName.includes(canalName) || canalName.includes(rName)) {
+      // Collect unique station IDs from edge endpoints (deduplicate shared boundary stations)
+      const stationIdSet = new Set();
+      edges.forEach(e => {
+        if (e.proxy && e.proxy.start) stationIdSet.add(e.proxy.start.station_id);
+        if (e.proxy && e.proxy.end) stationIdSet.add(e.proxy.end.station_id);
+      });
+
+      // Use FRESH data from stationById (snapshot-refreshed) — not stale edge proxies
+      const freshLevs = [], freshStatuses = [];
+      stationIdSet.forEach(sid => {
+        const st = stationById[sid];
+        if (!st) return;
+        if (st.props.wl_in != null) freshLevs.push(st.props.wl_in);
+        if (st.props.status) freshStatuses.push(st.props.status);
+      });
+      const avgLev = freshLevs.length ? freshLevs.reduce((a, b) => a + b, 0) / freshLevs.length : null;
+      const hasCrit = freshStatuses.includes('critical');
+      const hasWarn = freshStatuses.includes('warning');
+      const status = hasCrit ? 'critical' : hasWarn ? 'warning' : avgLev != null ? 'normal' : null;
+
+      // Get threshold / bank / daily data from nearest endpoint station
+      let warn = null, crit = null, leftBank = null, rightBank = null;
+      let dailyMax = null, dailyMaxYst = null, wlOut = null, stName = '';
+      let bestD = Infinity;
+      stationIdSet.forEach(sid => {
+        const st = stationById[sid];
+        if (!st) return;
+        const d = Math.hypot(st.coords[1] - midPt[1], st.coords[0] - midPt[0]);
+        if (d < bestD) {
+          bestD = d;
+          const p = st.props;
+          warn = p.warning_in; crit = p.critical_in;
+          leftBank = p.left_bank; rightBank = p.right_bank;
+          dailyMax = p.daily_max; dailyMaxYst = p.daily_max_yst;
+          wlOut = p.wl_out; stName = p.name || '';
+        }
+      });
+
+      // Fresh risk score: how close avg level is to critical threshold
+      let maxRisk = null;
+      if (crit != null && avgLev != null) {
+        const warnRef = warn != null ? warn : crit * 0.7;
+        const range = crit - warnRef;
+        maxRisk = range > 0 ? Math.min(1, Math.max(0, (avgLev - warnRef) / range)) : (avgLev >= crit ? 1 : 0);
+      }
+      const gradient = edges.length > 0 && edges[0].proxy ? edges[0].proxy.gradient_m_per_km : null;
+      return {
+        val: avgLev, name: stName || edges[0].river_name_en || rName, status,
+        warn, crit, leftBank, rightBank, dailyMax, dailyMaxYst, wlOut,
+        riskScore: maxRisk, gradient, stationCount: stationIdSet.size, fromEdges: true
+      };
+    }
+  }
+
+  // 2. Fallback: proximity search in B.waterlevel
+  if (!B.waterlevel || !B.waterlevel.features) return { val: null, name: '', status: null };
+  const nameMatch = B.waterlevel.features.filter(f => {
+    const r = (f.properties.river || '').trim();
+    return r && canalName && (canalName === r || canalName.includes(r) || r.includes(canalName));
+  });
+  const pool = nameMatch.length > 0 ? nameMatch : B.waterlevel.features;
+  let minD = Infinity, best = null;
+  pool.forEach(f => {
+    const sp = f.geometry.coordinates;
+    const d = Math.hypot(sp[1] - midPt[1], sp[0] - midPt[0]);
+    if (d < minD && d < MAX_DEG) { minD = d; best = f.properties; }
+  });
+  if (!best) return { val: null, name: '', status: null };
+  return {
+    val: best.wl_in, name: best.name || '', status: best.status || null,
+    warn: best.warning_in, crit: best.critical_in,
+    leftBank: best.left_bank, rightBank: best.right_bank,
+    dailyMax: best.daily_max, dailyMaxYst: best.daily_max_yst, wlOut: best.wl_out
+  };
+}
+
+function getCanalStyle(feature) {
+  const p = feature.properties;
+  const isMain = p.canal_type === 'Main';
+  const currentZoom = map.getZoom();
+  const detailed = currentZoom >= ZOOM_DETAIL; // L4: width-scaled
+  const cls = 'flow-canal'; // all levels animate
+  let baseWeight;
+  if (detailed) {
+    const widthM = parseCanalWidth(p.canal_width);
+    baseWeight = widthM >= 25 ? 6 : widthM >= 15 ? 4.5 : widthM >= 8 ? 3 : 1.8;
+  } else {
+    baseWeight = isMain ? 2.5 : 1.2;
+  }
+
+  if (activeCanalMode === 'hierarchy') {
+    return { color: isMain ? css('--cyan') : '#0e7490', weight: baseWeight, opacity: 0.85, className: cls };
+  }
+
+  if (activeCanalMode === 'status') {
+    const nearest = findNearestWaterLevel(feature);
+    let color;
+    if (!nearest.status || nearest.status === 'offline') color = '#4b5563';
+    else if (nearest.status === 'critical') color = css('--danger');
+    else if (nearest.status === 'warning') color = css('--warn');
+    else color = css('--safe');
+    return { color, weight: baseWeight, opacity: 0.9, className: cls };
+  }
+
+  // capacity mode
+  const nearest = findNearestWaterLevel(feature);
+  const depth = parseFloat(p.canal_depth);
+  const bank = nearest.leftBank || nearest.rightBank;
+  const capacity = (depth && depth > 0) ? depth : (bank || 2.0);
+  let color = '#3b82f6';
+  if (nearest.val === null) {
+    color = '#4b5563';
+  } else {
+    const ratio = nearest.val / capacity;
+    if (ratio >= 0.8) color = css('--danger');
+    else if (ratio >= 0.5) color = css('--warn');
+  }
+  return { color, weight: baseWeight, opacity: 0.85, className: cls };
+}
+
+function canalPopupFn(f) {
+  return () => {
+    const p = f.properties;
+    const n = findNearestWaterLevel(f);
+    const wl = n.val !== null && n.val !== undefined ? n.val.toFixed(2) + ' ม.' : 'ไม่มีข้อมูล';
+    const depth = (p.canal_depth && parseFloat(p.canal_depth) > 0) ? parseFloat(p.canal_depth).toFixed(1) + ' ม.' : 'ไม่ระบุ';
+    const bank = n.leftBank || n.rightBank;
+    const bankStr = bank ? bank.toFixed(2) + ' ม.' : 'ไม่ระบุ';
+    const headroom = (n.val != null && bank) ? (bank - n.val).toFixed(2) + ' ม.' : '-';
+    const dailyMax = n.dailyMax != null ? n.dailyMax.toFixed(2) + ' ม.' : '-';
+    const dailyMaxYst = n.dailyMaxYst != null ? n.dailyMaxYst.toFixed(2) + ' ม.' : '-';
+    const stName = esc(n.name || 'N/A');
+    const warn = n.warn ? n.warn.toFixed(2) : '-';
+    const crit = n.crit ? n.crit.toFixed(2) : '-';
+    const statusColor = n.status === 'critical' ? '#da3633' : n.status === 'warning' ? '#d29922' : n.status === 'normal' ? '#2ea043' : '#4b5563';
+    const statusTh = n.status === 'critical' ? 'วิกฤต' : n.status === 'warning' ? 'เฝ้าระวัง' : n.status === 'normal' ? 'ปกติ' : 'ไม่มีข้อมูล';
+
+    const edgeExtra = n.fromEdges ? (
+      '<div style="background:#1e293b;border-radius:4px;padding:3px 6px;margin:3px 0;font-size:11px;color:#94a3b8">' +
+      (n.riskScore != null ? 'Risk: <b style="color:' + riskScoreColor(n.riskScore) + '">' + (n.riskScore * 100).toFixed(0) + '%</b>' : '') +
+      (n.gradient != null ? ' &nbsp;·&nbsp; ↗ ' + n.gradient.toFixed(3) + ' ม./กม.' : '') +
+      (n.stationCount ? ' &nbsp;·&nbsp; ' + n.stationCount + ' จุดวัด' : '') +
+      '</div>'
+    ) : '';
+
+    return '<b>' + esc(p.canal_name) + '</b>' +
+           '<span style="float:right;background:' + statusColor + ';color:#fff;font-size:10px;padding:1px 6px;border-radius:8px;margin-left:6px">' + statusTh + '</span><br>' +
+           'ประเภท: ' + (p.canal_type === 'Main' ? 'คลองหลัก' : 'คลองรอง') + ' · กว้าง: ' + esc(p.canal_width) + ' ม.<br>' +
+           '<hr style="margin:4px 0;border-color:#374151">' +
+           (n.fromEdges ? '<b>ระดับน้ำเฉลี่ยในคลอง:</b> ' : '<b>สถานีใกล้สุด:</b> ' + stName + '<br>ระดับน้ำ: ') +
+           '<b>' + wl + '</b>' +
+           (n.fromEdges ? ' <span style="color:#6b7280;font-size:11px">(ค่าเฉลี่ย ' + (n.stationCount || 0) + ' สถานีในคลอง)</span><br>' + (stName !== 'N/A' ? 'สถานีอ้างอิง: ' + stName + '<br>' : '') : '') +
+           (!n.fromEdges ? '' : '') +
+           (n.warn ? ' <span style="color:#d29922">(เฝ้าระวัง: ' + warn + ')</span>' : '') +
+           (n.crit ? ' <span style="color:#da3633">(วิกฤต: ' + crit + ')</span>' : '') + '<br>' +
+           'ระดับตลิ่ง: ' + bankStr + ' · เหลือ: <b>' + headroom + '</b><br>' +
+           'สูงสุดวันนี้: ' + dailyMax + ' · เมื่อวาน: ' + dailyMaxYst + '<br>' +
+           'ความลึกคลอง: ' + depth +
+           edgeExtra;
+  };
+}
+
+const getBgStyle = (feature) => {
+  if (activeCanalMode === 'hierarchy') {
+    if (map.getZoom() >= ZOOM_DETAIL && feature) {
+      const widthM = parseCanalWidth(feature.properties.canal_width);
+      const bgW = widthM >= 25 ? 10 : widthM >= 15 ? 7.5 : widthM >= 8 ? 5 : 3.5;
+      return { color: '#083344', weight: bgW, opacity: 0.6 };
+    }
+    return { color: '#083344', weight: 1.8, opacity: 0.4 }; // L3: lighter bg shadow
+  }
+  return { color: '#111827', weight: 1.8, opacity: 0.25 };
+};
+const bgCanals = L.geoJSON([], {
+  renderer: L.canvas({ padding: 0.5 }),
+  style: getBgStyle,
+  interactive: false
+});
+// Wide transparent layer for easier edge-clicking (14px hit area)
+const hitCanals = L.geoJSON([], {
+  renderer: L.svg({ padding: 0.5 }),
+  style: () => ({ color: '#fff', weight: 14, opacity: 0.01, fill: false }),
+  onEachFeature: (f, l) => l.bindPopup(canalPopupFn(f))
+});
+const flowCanals = L.geoJSON([], {
+  renderer: L.svg({ padding: 0.5 }),
+  style: getCanalStyle,
+  onEachFeature: (f, l) => l.bindPopup(canalPopupFn(f))
+});
+G.canals = L.layerGroup([bgCanals, hitCanals, flowCanals]);
+G.tunnels=lines(B.tunnels,{color:css('--pink'),weight:4,opacity:.9},p=>'<b>อุโมงค์ระบายน้ำ</b><br>'+esc(p.tunnel_name)+'<br>'+esc(p.tunnel_code)+' · '+esc(p.tunnel_length)+' m<br>'+esc(p.owner));
+G.pipejack=lines(B.pipejack,{color:css('--orange'),weight:3,opacity:.9,dashArray:'5,4'},p=>'<b>ท่อดันลอด</b><br>'+esc(p.pipej_code)+' · '+esc(p.pipej_type)+'<br>'+esc(p.dimension)+' · '+esc(p.discharge));
+
+G.pipes=L.layerGroup();
+let pipesOn=false,pipeReq=0;
+const PIPE_URL="https://bmasedgis.bangkok.go.th/sedgis/rest/services/Hosted/drainage_200268_gdb/FeatureServer/5/query";
+function loadPipes(){
+ if(!pipesOn)return; const note=document.getElementById('pipenote');
+ if(map.getZoom()<15){G.pipes.clearLayers();note.style.display='block';note.textContent='Zoom in (level ≥15) to stream drainage pipes.';return;}
+ note.style.display='block';note.textContent='Loading pipes…';
+ const b=map.getBounds(),my=++pipeReq;
+ const env=[b.getWest(),b.getSouth(),b.getEast(),b.getNorth()].join(',');
+ const u=PIPE_URL+'?where=1%3D1&outFields=pipe_code,dimension,pipe_class,roadcl_name,clean_type&outSR=4326&f=geojson'
+   +'&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&resultRecordCount=4000'
+   +'&geometry='+encodeURIComponent(env);
+ fetch(u).then(r=>r.json()).then(j=>{
+   if(my!==pipeReq)return; G.pipes.clearLayers();
+   const n=(j.features||[]).length;
+   L.geoJSON(j,{style:{color:'#6e7681',weight:1,opacity:.7},
+     onEachFeature:(f,l)=>{const p=f.properties;l.bindPopup('<b>ท่อระบายน้ำ</b><br>'+esc(p.pipe_code)+'<br>'+esc(p.roadcl_name)+'<br>'+esc(p.dimension)+' · '+esc(p.pipe_class)+'<br>ล้างท่อ: '+esc(p.clean_type));}
+   }).addTo(G.pipes);
+   note.textContent=n>=4000?'Showing 4000 pipes (capped) — zoom in for more.':n+' pipes in view.';
+ }).catch(()=>{if(my===pipeReq)note.textContent='Pipe load failed (server/CORS).';});
+}
+map.on('moveend',loadPipes);
+
+G.sumps=pts(B.sumps,()=>({radius:3.5,color:'#fff',weight:1,fillColor:'#d2a8ff',fillOpacity:.85}),
+ p=>'<b>บ่อสูบน้ำ</b><br>'+esc(p.sump_name)+'<br>'+esc(p.sump_code)+' · '+esc(p.district_t)+'<br>'+esc(p.sump_type)+' · '+esc(p.volume)+' ลบ.ม. · '+esc(p.sump_depth)+' ม.<br>ปั๊ม '+esc(p.pump_amount));
+G.gates=pts(B.gates,()=>({radius:4,color:'#fff',weight:1,fillColor:css('--purple'),fillOpacity:.9}),
+ p=>'<b>ประตูระบายน้ำ</b><br>'+esc(p.gate_name)+'<br>'+esc(p.hy_lname)+'<br>'+esc(p.district_t));
+G.pumps=pts(B.pumps,()=>({radius:4,color:'#fff',weight:1,fillColor:css('--orange'),fillOpacity:.9}),
+ p=>'<b>สถานีสูบน้ำ</b><br>'+esc(p.pump_name)+'<br>'+esc(p.hy_lname)+'<br>'+esc(p.district_t)+' · '+esc(p.motor_num));
+G.waterlevel=pts(B.waterlevel,p=>({radius:4.5,color:'#fff',weight:1,fillColor:wlStatusColor(p.status, css('--accent')),fillOpacity:.9}),
+ p=>{
+  const wl = (p.wl_in !== null && p.wl_in !== undefined) ? p.wl_in.toFixed(2) + ' ม.รทก.' : 'ไม่มีข้อมูล';
+  const wlOut = (p.wl_out !== null && p.wl_out !== undefined) ? p.wl_out.toFixed(2) + ' ม.รทก.' : 'ไม่มีข้อมูล';
+  const warn = (p.warning_in !== null && p.warning_in !== undefined) ? p.warning_in.toFixed(2) + ' ม.รทก.' : 'N/A';
+  const crit = (p.critical_in !== null && p.critical_in !== undefined) ? p.critical_in.toFixed(2) + ' ม.รทก.' : 'N/A';
+  const time = p.observed_at ? p.observed_at : 'N/A';
+  const statusText = p.status === 'critical' ? '<span style="color:var(--danger);font-weight:bold">วิกฤต (Critical)</span>' :
+                     p.status === 'warning' ? '<span style="color:var(--warn);font-weight:bold">เฝ้าระวัง (Warning)</span>' :
+                     p.status === 'normal' ? '<span style="color:var(--safe);font-weight:bold">ปกติ (Normal)</span>' :
+                     p.status === 'offline' ? '<span style="color:var(--muted)">ออฟไลน์ (Offline)</span>' : 'ไม่ทราบสถานะ';
+  return '<b>สถานีวัดระดับน้ำ: ' + esc(p.name) + '</b><br>' +
+         'รหัส: ' + esc(p.code) + ' · เขต' + esc(p.district) + '<br>' +
+         'แหล่งน้ำ: ' + esc(p.river) + '<br>' +
+         'ระดับน้ำในคลอง: <b>' + wl + '</b> (เกณฑ์เตือนภัย: ' + warn + ' / วิกฤต: ' + crit + ')<br>' +
+         'ระดับน้ำนอกคลอง: ' + wlOut + '<br>' +
+         'สถานะ: ' + statusText + '<br>' +
+         '<span style="color:var(--muted);font-size:11px">เวลาอัปเดต: ' + esc(time) + '</span>';
+ });
+G.expo473=pts(B.expo473,p=>({radius:5,color:'#fff',weight:1,fillColor:expoColor(p.status_num),fillOpacity:.95}),
+ p=>'<b>จุดเสี่ยง 473</b><br>'+esc(p.name)+'<br>เขต '+esc(p.district)+'<br>'+esc(p.status_detail)+' ('+esc(p.status_num)+')<br>'+esc(p.problem)+'<br><span style="color:#444">'+esc((p.detail||'').slice(0,160))+'</span>');
+G.roadflood=pts(B.roadflood,p=>({radius:6,color:'#fff',weight:1.5,fillColor:floodColor(p),fillOpacity:1}),
+ p=>'<b>สถานีวัดน้ำท่วมถนน</b><br>'+esc(p.name)+'<br>'+esc(p.code)+' · '+esc(p.district)+'<br>'+esc(p.road)+'<br><b>'+esc(p.flood)+' ซม.</b> · '+esc(p.device_status)+'<br><span style="color:#888">'+esc(p.date_updated)+'</span>');
+
+const order=[
+ ["districts","เขตการปกครอง (districts)","bar","--muted",true],
+ ["protection","พื้นที่ป้องกันน้ำท่วม","sq","--accent",true],
+ ["rivers","แม่น้ำสายหลัก (rivers)","bar","#60a5fa",true],
+ ["canals","คลอง (canals)","bar","--cyan",true],
+ ["tunnels","อุโมงค์ (tunnels)","bar","--pink",true],
+ ["pipejack","ท่อดันลอด (pipe-jacking)","bar","--orange",true],
+ ["pipes","ท่อระบายน้ำ LIVE (81,574)","bar","--muted",false],
+ ["sumps","บ่อสูบน้ำ (sumps)","dot","#d2a8ff",true],
+ ["gates","ประตูระบายน้ำ (floodgates)","dot","--purple",true],
+ ["pumps","สถานีสูบน้ำ (pump stations)","dot","--orange",true],
+ ["waterlevel","สถานีวัดระดับ (water-level)","dot","--accent",true],
+ ["expo473","จุดเสี่ยง 473 (risk)","dot","--danger",true],
+ ["roadflood","น้ำท่วมถนน (road-flood)","dot","--danger",true]];
+
+function setLayer(k,on){
+ if(k==='pipes'){pipesOn=on; if(on){G.pipes.addTo(map);loadPipes();}else{G.pipes.clearLayers();map.removeLayer(G.pipes);document.getElementById('pipenote').style.display='none';} return;}
+ if(k==='canals'){
+   document.getElementById('canal-mode-card').style.display = on ? 'block' : 'none';
+   if(on){G.canals.addTo(map); updateCanalsLayer();} else {map.removeLayer(G.canals);}
+   return;
+ }
+ if(on)G[k].addTo(map); else map.removeLayer(G[k]);
+}
+order.forEach(o=>{if(o[4]&&o[0]!=='pipes')G[o[0]].addTo(map);});
+
+const box=document.getElementById('layers');
+order.forEach(([k,label,sw,colr,on])=>{
+ const c=colr.startsWith('--')?css(colr):colr;
+ const n=k==='pipes'?'81,574':(k==='canals'?'2,000':((B[k]&&B[k].features||[]).length));
+ const r=document.createElement('label');r.className='lyr';
+ const style=sw==='bar'?'border-top-color:'+c:'background:'+c;
+ r.innerHTML='<input type="checkbox" '+(on?'checked':'')+'><span class="'+sw+'" style="'+style+'"></span><span>'+label+'</span><span class="cnt">'+n+'</span>';
+ const inp=r.querySelector('input'); inp.dataset.k=k;
+ inp.addEventListener('change',e=>setLayer(k,e.target.checked));
+ box.appendChild(r);
+});
+document.getElementById('all').onclick=()=>box.querySelectorAll('input').forEach(i=>{if(!i.checked){i.checked=true;setLayer(i.dataset.k,true);}});
+document.getElementById('none').onclick=()=>box.querySelectorAll('input').forEach(i=>{if(i.checked){i.checked=false;setLayer(i.dataset.k,false);}});
+
+const rf=B.roadflood.features.map(f=>f.properties);
+const flooded=rf.filter(p=>(p.flood||0)>0&&p.device_status==='normal').length;
+const tot=Object.values(B).reduce((a,l)=>a+(l.features?l.features.length:0),0)+81574;
+const stats=[["Total features",tot.toLocaleString()],["Districts",B.districts.features.length],["Road sensors",rf.length],
+ ["Flooded now",flooded],["Pump st.",B.pumps.features.length],["Floodgates",B.gates.features.length],
+ ["Sumps",B.sumps.features.length],["Water-lvl",B.waterlevel.features.length],["Risk 473",B.expo473.features.length]];
+document.getElementById('stats').innerHTML=stats.map(([l,v])=>
+ '<div><div class="stat" style="color:'+(l==='Flooded now'&&v>0?css('--danger'):css('--text'))+'">'+v+'</div><div class="statlbl">'+l+'</div></div>').join('');
+
+let canalIndex = null;
+let loadedChunks = new Set();
+
+function getZoomLevel(z) {
+  if (z >= ZOOM_DETAIL) return 4; // all canals + width
+  if (z >= ZOOM_MAIN)   return 3; // all canals, thin
+  if (z >= ZOOM_MAJOR)  return 2; // Main canals only
+  return 1;                        // major monitored canals only
+}
+let currentZoomLevel = getZoomLevel(map.getZoom());
+
+async function loadCanalsIndex() {
+  try {
+    const res = await fetch('data/geojson/canals_chunks/index.json');
+    if (!res.ok) return;
+    canalIndex = await res.json();
+    updateCanalsLayer();
+  } catch (e) {
+    console.error("Failed to load canal index", e);
+  }
+}
+
+function updateCanalsLayer() {
+  if (!canalIndex || !map.hasLayer(G.canals)) return;
+
+  const newLevel = getZoomLevel(map.getZoom());
+  if (newLevel !== currentZoomLevel) {
+    flowCanals.clearLayers();
+    hitCanals.clearLayers();
+    bgCanals.clearLayers();
+    loadedChunks.clear();
+    currentZoomLevel = newLevel;
+  }
+
+  const majorNames = newLevel === 1 ? new Set(Object.keys(riverEdgeMap)) : null;
+  const bounds = map.getBounds();
+  const [mapS, mapW, mapN, mapE] = [bounds.getSouth(), bounds.getWest(), bounds.getNorth(), bounds.getEast()];
+
+  for (const district in canalIndex) {
+    const info = canalIndex[district];
+    const [dMinLat, dMinLon, dMaxLat, dMaxLon] = info.bbox;
+    const overlaps = !(mapN < dMinLat || mapS > dMaxLat || mapE < dMinLon || mapW > dMaxLon);
+    if (!overlaps || loadedChunks.has(info.file)) continue;
+    loadedChunks.add(info.file);
+
+    const levelAtFetch = currentZoomLevel; // capture now; zoom may change before fetch resolves
+    fetch('data/geojson/canals_chunks/' + info.file)
+      .then(r => r.json())
+      .then(geojson => {
+        if (currentZoomLevel !== levelAtFetch) return; // stale response — zoom level changed, discard
+        geojson.features.forEach(f => {
+          const name = (f.properties.canal_name || '').trim();
+          if (name && !dangerRegistry[name])
+            dangerRegistry[name] = { feature: f, riskScore: computeCanalRisk(f), widthM: parseCanalWidth(f.properties.canal_width) };
+        });
+
+        let features = geojson.features;
+        if (levelAtFetch === 1) {
+          if (!(majorNames instanceof Set)) return; // safety: stale closure without valid majorNames
+          features = features.filter(f => {
+            const n = (f.properties.canal_name || '').trim();
+            return [...majorNames].some(rn => rn === n || rn.includes(n) || n.includes(rn));
+          });
+        } else if (levelAtFetch === 2) {
+          features = features.filter(f => f.properties.canal_type === 'Main');
+        } else if (levelAtFetch === 3) {
+          // L3: Main canals + canals where water level ≥70% of warning threshold
+          features = features.filter(f => {
+            if (f.properties.canal_type === 'Main') return true;
+            const nearest = findNearestWaterLevel(f);
+            const val = nearest.val;
+            const warn = nearest.warn;
+            if (val == null || !warn || warn <= 0) return false;
+            return (val / warn) >= 0.7;
+          });
+        }
+        // L4: all canals
+
+        const fc = { type: 'FeatureCollection', features };
+        flowCanals.addData(fc);
+        hitCanals.addData(fc);
+        bgCanals.addData(fc);
+      })
+      .catch(err => { console.error('Canal chunk error:', info.file, err); loadedChunks.delete(info.file); });
+  }
+}
+
+map.on('moveend', updateCanalsLayer);
+
+function updateZoomBadge() {
+  const z = map.getZoom();
+  const lvl = getZoomLevel(z);
+  const labels = {1:'L1 คลองหลัก', 2:'L2 Main', 3:'L3 น้ำ≥70%', 4:'L4 ขนาดจริง'};
+  const el = document.getElementById('zoom-val');
+  const ll = document.getElementById('zoom-lvl');
+  if (el) el.textContent = z;
+  if (ll) ll.textContent = labels[lvl] || '';
+}
+map.on('zoomend', updateZoomBadge);
+updateZoomBadge();
+
+document.querySelectorAll('input[name="canal-style-mode"]').forEach(inp => {
+  inp.addEventListener('change', e => {
+    const id = e.target.id;
+    activeCanalMode = id === 'mode-capacity' ? 'capacity' : id === 'mode-status' ? 'status' : 'hierarchy';
+    flowCanals.setStyle(getCanalStyle);
+    bgCanals.setStyle(getBgStyle);
+    document.getElementById('cap-legend').style.display = activeCanalMode === 'capacity' ? 'block' : 'none';
+    document.getElementById('sts-legend').style.display = activeCanalMode === 'status' ? 'block' : 'none';
+  });
+});
+
+// Trigger load at startup if canals is enabled
+if (order.find(o => o[0] === 'canals' && o[4])) {
+  document.getElementById('canal-mode-card').style.display = 'block';
+  loadCanalsIndex();
+}
+
+// High-performance point-in-polygon checks for district click popups
+function ptInPolygon(pt, ring) {
+  let x = pt[0], y = pt[1];
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    let xi = ring[i][0], yi = ring[i][1];
+    let xj = ring[j][0], yj = ring[j][1];
+    if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) {
+      inside = !inside;
+    }
+  }
+  return inside;
+}
+
+function ptInGeometry(pt, geom) {
+  if (geom.type === 'Polygon') {
+    return ptInPolygon(pt, geom.coordinates[0]);
+  } else if (geom.type === 'MultiPolygon') {
+    return geom.coordinates.some(poly => ptInPolygon(pt, poly[0]));
+  }
+  return false;
+}
+
+map.on('click', (e) => {
+  // Only trigger if the district layer is enabled/visible
+  if (!map.hasLayer(G.districts)) return;
+
+  const pt = [e.latlng.lng, e.latlng.lat];
+  const clickedDistrict = B.districts.features.find(f => ptInGeometry(pt, f.geometry));
+  if (clickedDistrict) {
+    const props = clickedDistrict.properties;
+    L.popup()
+      .setLatLng(e.latlng)
+      .setContent('<b>เขต ' + esc(props.DISTRICT_N) + '</b><br>code ' + esc(props.CODE) + ' · ' + esc(props.AREA_BMA) + ' กม.²')
+      .openOn(map);
+  }
+});
+</script></body></html>
+

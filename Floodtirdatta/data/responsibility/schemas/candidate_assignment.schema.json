@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate flood responsibility assignment",
+  "type": "object",
+  "required": [
+    "responsibility_hash_sha256",
+    "entity_type",
+    "entity_id",
+    "spatial_hash_geohash7",
+    "agency_id",
+    "responsibility_role",
+    "verification_status",
+    "is_official_legal_assignment",
+    "requires_human_approval"
+  ],
+  "properties": {
+    "responsibility_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "verification_status": {
+      "const": "candidate_unverified"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    },
+    "requires_human_approval": {
+      "const": true
+    }
+  }
+}

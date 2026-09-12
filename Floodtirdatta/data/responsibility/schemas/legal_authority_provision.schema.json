@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Curated statutory authority provision",
+  "type": "object",
+  "required": [
+    "authority_hash_sha256",
+    "provision_id",
+    "source_id",
+    "source_document_sha256",
+    "section",
+    "source_pdf_page",
+    "actor_role_code",
+    "authority_type",
+    "authority_scope",
+    "action_codes",
+    "verification_status",
+    "requires_action_specific_order",
+    "may_auto_dispatch"
+  ],
+  "properties": {
+    "authority_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_document_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "action_codes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "administer_bma",
+          "appoint_disaster_officers",
+          "assign_cross_district_work",
+          "assist_disaster_director",
+          "command_bma_disaster_personnel",
+          "command_bma_units_in_district",
+          "create_disaster_plan",
+          "establish_bma_structure",
+          "exercise_delegated_duties",
+          "exercise_law_or_order_defined_bureau_duties",
+          "exercise_statutory_district_powers",
+          "initiate_disaster_response",
+          "issue_bma_orders",
+          "issue_bma_regulations",
+          "maintain_waterways_and_drainage",
+          "manage_bureau",
+          "manage_district_office",
+          "notify_bma_command",
+          "perform_disaster_prevention",
+          "perform_district_disaster_response",
+          "provide_disaster_resources",
+          "provide_initial_relief",
+          "receive_delegated_authority",
+          "request_state_agency_assistance",
+          "supervise_bma_disaster_response"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "verification_status": {
+      "const": "pending_legal_review"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    },
+    "is_official_dispatch_authorization": {
+      "const": false
+    },
+    "requires_action_specific_order": {
+      "const": true
+    },
+    "requires_human_approval": {
+      "const": true
+    },
+    "may_auto_dispatch": {
+      "const": false
+    },
+    "contains_personal_data": {
+      "const": false
+    }
+  }
+}

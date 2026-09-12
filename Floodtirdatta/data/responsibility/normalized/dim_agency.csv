@@ -1,0 +1,71 @@
+﻿agency_key,agency_id,agency_name_th,agency_category,response_tier,parent_agency_id,district_code,operational_function,legal_verification_status
+bma,bma,กรุงเทพมหานคร,local_government,governance,,,,unverified
+bma-budget,bma-budget,สำนักงบประมาณกรุงเทพมหานคร,bma_support_department,conditional_flood_support,bma,,budget_support,unverified
+bma-ddpm,bma-ddpm,สำนักป้องกันและบรรเทาสาธารณภัย,bma_support_department,conditional_flood_support,bma,,incident_command,unverified
+bma-dds,bma-dds,สำนักการระบายน้ำ,bma_department,core_flood_operations,bma,,,unverified
+bma-dds-canal,bma-dds-canal,กองระบบคลอง สำนักการระบายน้ำ,bma_operational_unit,core_flood_operations,bma-dds,,,unverified
+bma-dds-canal-development-1,bma-dds-canal-development-1,กลุ่มงานพัฒนาระบบคลอง 1,bma_operational_subunit,core_flood_operations,bma-dds-canal,,canal_development,unverified
+bma-dds-canal-development-2,bma-dds-canal-development-2,กลุ่มงานพัฒนาระบบคลอง 2,bma_operational_subunit,core_flood_operations,bma-dds-canal,,canal_development,unverified
+bma-dds-development,bma-dds-development,สำนักพัฒนาระบบระบายน้ำ,bma_operational_unit,core_flood_operations,bma-dds,,,unverified
+bma-dds-pipe,bma-dds-pipe,กองระบบท่อระบายน้ำ สำนักการระบายน้ำ,bma_operational_unit,core_flood_operations,bma-dds,,,unverified
+bma-dds-pipe-maintenance-1,bma-dds-pipe-maintenance-1,กลุ่มงานบำรุงรักษาท่อระบายน้ำ 1,bma_operational_subunit,core_flood_operations,bma-dds-pipe,,main_pipe_maintenance,unverified
+bma-dds-pipe-maintenance-2,bma-dds-pipe-maintenance-2,กลุ่มงานบำรุงรักษาท่อระบายน้ำ 2,bma_operational_subunit,core_flood_operations,bma-dds-pipe,,main_pipe_maintenance,unverified
+bma-dds-water-control,bma-dds-water-control,สำนักงานระบบควบคุมน้ำ สำนักการระบายน้ำ,bma_operational_unit,core_flood_operations,bma-dds,,,unverified
+bma-district-1001,bma-district-1001,สำนักงานเขตพระนคร,bma_district_office,core_flood_operations,bma,1001,district_flood_response,unverified
+bma-district-1002,bma-district-1002,สำนักงานเขตดุสิต,bma_district_office,core_flood_operations,bma,1002,district_flood_response,unverified
+bma-district-1003,bma-district-1003,สำนักงานเขตหนองจอก,bma_district_office,core_flood_operations,bma,1003,district_flood_response,unverified
+bma-district-1004,bma-district-1004,สำนักงานเขตบางรัก,bma_district_office,core_flood_operations,bma,1004,district_flood_response,unverified
+bma-district-1005,bma-district-1005,สำนักงานเขตบางเขน,bma_district_office,core_flood_operations,bma,1005,district_flood_response,unverified
+bma-district-1006,bma-district-1006,สำนักงานเขตบางกะปิ,bma_district_office,core_flood_operations,bma,1006,district_flood_response,unverified
+bma-district-1007,bma-district-1007,สำนักงานเขตปทุมวัน,bma_district_office,core_flood_operations,bma,1007,district_flood_response,unverified
+bma-district-1008,bma-district-1008,สำนักงานเขตป้อมปราบศัตรูพ่าย,bma_district_office,core_flood_operations,bma,1008,district_flood_response,unverified
+bma-district-1009,bma-district-1009,สำนักงานเขตพระโขนง,bma_district_office,core_flood_operations,bma,1009,district_flood_response,unverified
+bma-district-1010,bma-district-1010,สำนักงานเขตมีนบุรี,bma_district_office,core_flood_operations,bma,1010,district_flood_response,unverified
+bma-district-1011,bma-district-1011,สำนักงานเขตลาดกระบัง,bma_district_office,core_flood_operations,bma,1011,district_flood_response,unverified
+bma-district-1012,bma-district-1012,สำนักงานเขตยานนาวา,bma_district_office,core_flood_operations,bma,1012,district_flood_response,unverified
+bma-district-1013,bma-district-1013,สำนักงานเขตสัมพันธวงศ์,bma_district_office,core_flood_operations,bma,1013,district_flood_response,unverified
+bma-district-1014,bma-district-1014,สำนักงานเขตพญาไท,bma_district_office,core_flood_operations,bma,1014,district_flood_response,unverified
+bma-district-1015,bma-district-1015,สำนักงานเขตธนบุรี,bma_district_office,core_flood_operations,bma,1015,district_flood_response,unverified
+bma-district-1016,bma-district-1016,สำนักงานเขตบางกอกใหญ่,bma_district_office,core_flood_operations,bma,1016,district_flood_response,unverified
+bma-district-1017,bma-district-1017,สำนักงานเขตห้วยขวาง,bma_district_office,core_flood_operations,bma,1017,district_flood_response,unverified
+bma-district-1018,bma-district-1018,สำนักงานเขตคลองสาน,bma_district_office,core_flood_operations,bma,1018,district_flood_response,unverified
+bma-district-1019,bma-district-1019,สำนักงานเขตตลิ่งชัน,bma_district_office,core_flood_operations,bma,1019,district_flood_response,unverified
+bma-district-1020,bma-district-1020,สำนักงานเขตบางกอกน้อย,bma_district_office,core_flood_operations,bma,1020,district_flood_response,unverified
+bma-district-1021,bma-district-1021,สำนักงานเขตบางขุนเทียน,bma_district_office,core_flood_operations,bma,1021,district_flood_response,unverified
+bma-district-1022,bma-district-1022,สำนักงานเขตภาษีเจริญ,bma_district_office,core_flood_operations,bma,1022,district_flood_response,unverified
+bma-district-1023,bma-district-1023,สำนักงานเขตหนองแขม,bma_district_office,core_flood_operations,bma,1023,district_flood_response,unverified
+bma-district-1024,bma-district-1024,สำนักงานเขตราษฎร์บูรณะ,bma_district_office,core_flood_operations,bma,1024,district_flood_response,unverified
+bma-district-1025,bma-district-1025,สำนักงานเขตบางพลัด,bma_district_office,core_flood_operations,bma,1025,district_flood_response,unverified
+bma-district-1026,bma-district-1026,สำนักงานเขตดินแดง,bma_district_office,core_flood_operations,bma,1026,district_flood_response,unverified
+bma-district-1027,bma-district-1027,สำนักงานเขตบึงกุ่ม,bma_district_office,core_flood_operations,bma,1027,district_flood_response,unverified
+bma-district-1028,bma-district-1028,สำนักงานเขตสาทร,bma_district_office,core_flood_operations,bma,1028,district_flood_response,unverified
+bma-district-1029,bma-district-1029,สำนักงานเขตบางซื่อ,bma_district_office,core_flood_operations,bma,1029,district_flood_response,unverified
+bma-district-1030,bma-district-1030,สำนักงานเขตจตุจักร,bma_district_office,core_flood_operations,bma,1030,district_flood_response,unverified
+bma-district-1031,bma-district-1031,สำนักงานเขตบางคอแหลม,bma_district_office,core_flood_operations,bma,1031,district_flood_response,unverified
+bma-district-1032,bma-district-1032,สำนักงานเขตประเวศ,bma_district_office,core_flood_operations,bma,1032,district_flood_response,unverified
+bma-district-1033,bma-district-1033,สำนักงานเขตคลองเตย,bma_district_office,core_flood_operations,bma,1033,district_flood_response,unverified
+bma-district-1034,bma-district-1034,สำนักงานเขตสวนหลวง,bma_district_office,core_flood_operations,bma,1034,district_flood_response,unverified
+bma-district-1035,bma-district-1035,สำนักงานเขตจอมทอง,bma_district_office,core_flood_operations,bma,1035,district_flood_response,unverified
+bma-district-1036,bma-district-1036,สำนักงานเขตดอนเมือง,bma_district_office,core_flood_operations,bma,1036,district_flood_response,unverified
+bma-district-1037,bma-district-1037,สำนักงานเขตราชเทวี,bma_district_office,core_flood_operations,bma,1037,district_flood_response,unverified
+bma-district-1038,bma-district-1038,สำนักงานเขตลาดพร้าว,bma_district_office,core_flood_operations,bma,1038,district_flood_response,unverified
+bma-district-1039,bma-district-1039,สำนักงานเขตวัฒนา,bma_district_office,core_flood_operations,bma,1039,district_flood_response,unverified
+bma-district-1040,bma-district-1040,สำนักงานเขตบางแค,bma_district_office,core_flood_operations,bma,1040,district_flood_response,unverified
+bma-district-1041,bma-district-1041,สำนักงานเขตหลักสี่,bma_district_office,core_flood_operations,bma,1041,district_flood_response,unverified
+bma-district-1042,bma-district-1042,สำนักงานเขตสายไหม,bma_district_office,core_flood_operations,bma,1042,district_flood_response,unverified
+bma-district-1043,bma-district-1043,สำนักงานเขตคันนายาว,bma_district_office,core_flood_operations,bma,1043,district_flood_response,unverified
+bma-district-1044,bma-district-1044,สำนักงานเขตสะพานสูง,bma_district_office,core_flood_operations,bma,1044,district_flood_response,unverified
+bma-district-1045,bma-district-1045,สำนักงานเขตวังทองหลาง,bma_district_office,core_flood_operations,bma,1045,district_flood_response,unverified
+bma-district-1046,bma-district-1046,สำนักงานเขตคลองสามวา,bma_district_office,core_flood_operations,bma,1046,district_flood_response,unverified
+bma-district-1047,bma-district-1047,สำนักงานเขตบางนา,bma_district_office,core_flood_operations,bma,1047,district_flood_response,unverified
+bma-district-1048,bma-district-1048,สำนักงานเขตทวีวัฒนา,bma_district_office,core_flood_operations,bma,1048,district_flood_response,unverified
+bma-district-1049,bma-district-1049,สำนักงานเขตทุ่งครุ,bma_district_office,core_flood_operations,bma,1049,district_flood_response,unverified
+bma-district-1050,bma-district-1050,สำนักงานเขตบางบอน,bma_district_office,core_flood_operations,bma,1050,district_flood_response,unverified
+bma-environment,bma-environment,สำนักสิ่งแวดล้อม,bma_support_department,conditional_flood_support,bma,,environment_support,unverified
+bma-finance,bma-finance,สำนักการคลัง,bma_support_department,conditional_flood_support,bma,,relief_support,unverified
+bma-health,bma-health,สำนักอนามัย,bma_support_department,conditional_flood_support,bma,,public_health_support,unverified
+bma-medical,bma-medical,สำนักการแพทย์,bma_support_department,conditional_flood_support,bma,,medical_support,unverified
+bma-municipal,bma-municipal,สำนักเทศกิจ,bma_support_department,conditional_flood_support,bma,,field_support,unverified
+bma-public-relations,bma-public-relations,สำนักงานประชาสัมพันธ์,bma_support_department,conditional_flood_support,bma,,public_information,unverified
+bma-public-works,bma-public-works,สำนักการโยธา,bma_support_department,conditional_flood_support,bma,,engineering_support,unverified
+bma-traffic,bma-traffic,สำนักการจราจรและขนส่ง,bma_support_department,conditional_flood_support,bma,,traffic_support,unverified

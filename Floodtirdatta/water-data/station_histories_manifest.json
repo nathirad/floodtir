@@ -1,0 +1,2289 @@
+{
+  "metadata": {
+    "source": "StationDetail bulk scrape",
+    "catalog_json": "outputs/bangkok-water-data/water_latest_snapshot.json",
+    "output_dir": "outputs/bangkok-water-data/station_histories",
+    "started_at": "2026-06-27T05:33:28Z",
+    "finished_at": "2026-06-27T05:34:18Z",
+    "requested_count": 283,
+    "workers": 3,
+    "timeout_seconds": 80,
+    "retries": 2
+  },
+  "summary": {
+    "status_counts": {
+      "failed": 10,
+      "skipped": 273
+    },
+    "files_written_or_valid": 273,
+    "failed_count": 10,
+    "zero_point_count": 0,
+    "total_points": 177686
+  },
+  "results": [
+    {
+      "station_id": 1,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/1.json",
+      "series_count": 1,
+      "point_count": 568,
+      "error": null
+    },
+    {
+      "station_id": 2,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/2.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 3,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/3.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 4,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/4.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 5,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/5.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 6,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/6.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 7,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/7.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 8,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/8.json",
+      "series_count": 1,
+      "point_count": 229,
+      "error": null
+    },
+    {
+      "station_id": 9,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/9.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 10,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/10.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 11,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/11.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 12,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/12.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 13,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/13.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 14,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/14.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 15,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/15.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 16,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/16.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 17,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/17.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 18,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/18.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 19,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/19.json",
+      "series_count": 2,
+      "point_count": 1146,
+      "error": null
+    },
+    {
+      "station_id": 20,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/20.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 21,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/21.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 22,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/22.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 23,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/23.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 24,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/24.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 25,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/25.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 26,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/26.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 27,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/27.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 28,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/28.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 29,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/29.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 30,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/30.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 31,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/31.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 32,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/32.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 33,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/33.json",
+      "series_count": 2,
+      "point_count": 1139,
+      "error": null
+    },
+    {
+      "station_id": 35,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/35.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 36,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/36.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 37,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/37.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 38,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/38.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 39,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/39.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 40,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/40.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 41,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/41.json",
+      "series_count": 3,
+      "point_count": 1725,
+      "error": null
+    },
+    {
+      "station_id": 42,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/42.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 43,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/43.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 44,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/44.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 45,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/45.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 46,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/46.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 47,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/47.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 48,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/48.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 49,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/49.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 50,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/50.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 51,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/51.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 52,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/52.json",
+      "series_count": 2,
+      "point_count": 1148,
+      "error": null
+    },
+    {
+      "station_id": 53,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/53.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 54,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/54.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 55,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/55.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 56,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/56.json",
+      "series_count": 2,
+      "point_count": 1148,
+      "error": null
+    },
+    {
+      "station_id": 57,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/57.json",
+      "series_count": 1,
+      "point_count": 571,
+      "error": null
+    },
+    {
+      "station_id": 58,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/58.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 59,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/59.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 60,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/60.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 61,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/61.json",
+      "series_count": 2,
+      "point_count": 1148,
+      "error": null
+    },
+    {
+      "station_id": 62,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/62.json",
+      "series_count": 1,
+      "point_count": 565,
+      "error": null
+    },
+    {
+      "station_id": 63,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/63.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 64,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/64.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 65,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/65.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 66,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/66.json",
+      "series_count": 2,
+      "point_count": 1148,
+      "error": null
+    },
+    {
+      "station_id": 67,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/67.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 68,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/68.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 69,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/69.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 70,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/70.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 71,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/71.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 72,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/72.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 73,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/73.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 74,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/74.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 76,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/76.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 77,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/77.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 78,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/78.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 79,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/79.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 80,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/80.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 81,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/81.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 82,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/82.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 83,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/83.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 84,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/84.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 85,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/85.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 86,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/86.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 87,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/87.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 88,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/88.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 89,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/89.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 90,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/90.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 91,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/91.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 92,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/92.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 93,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/93.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 94,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/94.json",
+      "series_count": 2,
+      "point_count": 1146,
+      "error": null
+    },
+    {
+      "station_id": 95,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/95.json",
+      "series_count": 2,
+      "point_count": 890,
+      "error": null
+    },
+    {
+      "station_id": 96,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/96.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 97,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/97.json",
+      "series_count": 2,
+      "point_count": 1146,
+      "error": null
+    },
+    {
+      "station_id": 98,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/98.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 99,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/99.json",
+      "series_count": 2,
+      "point_count": 1112,
+      "error": null
+    },
+    {
+      "station_id": 100,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/100.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 101,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/101.json",
+      "series_count": 2,
+      "point_count": 1148,
+      "error": null
+    },
+    {
+      "station_id": 102,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/102.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 103,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/103.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 104,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/104.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 105,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/105.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 106,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/106.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 107,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/107.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 108,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/108.json",
+      "series_count": 2,
+      "point_count": 1150,
+      "error": null
+    },
+    {
+      "station_id": 109,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/109.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 110,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/110.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 112,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/112.json",
+      "series_count": 1,
+      "point_count": 568,
+      "error": null
+    },
+    {
+      "station_id": 113,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/113.json",
+      "series_count": 2,
+      "point_count": 1152,
+      "error": null
+    },
+    {
+      "station_id": 114,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/114.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 115,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/115.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 116,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/116.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 118,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/118.json",
+      "series_count": 1,
+      "point_count": 33,
+      "error": null
+    },
+    {
+      "station_id": 119,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/119.json",
+      "series_count": 1,
+      "point_count": 568,
+      "error": null
+    },
+    {
+      "station_id": 120,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/120.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 121,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/121.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 122,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/122.json",
+      "series_count": 1,
+      "point_count": 559,
+      "error": null
+    },
+    {
+      "station_id": 123,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/123.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 124,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/124.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 125,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/125.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 126,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/126.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 127,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/127.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 128,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/128.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 129,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/129.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 130,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/130.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 131,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/131.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 132,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/132.json",
+      "series_count": 1,
+      "point_count": 272,
+      "error": null
+    },
+    {
+      "station_id": 135,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/135.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 136,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/136.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 137,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/137.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 138,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/138.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 139,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/139.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 140,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/140.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 141,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/141.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 143,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/143.json",
+      "series_count": 1,
+      "point_count": 221,
+      "error": null
+    },
+    {
+      "station_id": 144,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/144.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 147,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/147.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 148,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/148.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 149,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/149.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 150,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/150.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 151,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/151.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 152,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/152.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 153,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/153.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 154,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/154.json",
+      "series_count": 1,
+      "point_count": 244,
+      "error": null
+    },
+    {
+      "station_id": 155,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/155.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 156,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/156.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 158,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/158.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 159,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/159.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 160,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/160.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 161,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/161.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 162,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/162.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 163,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/163.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 164,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/164.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 165,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/165.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 166,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/166.json",
+      "series_count": 1,
+      "point_count": 208,
+      "error": null
+    },
+    {
+      "station_id": 167,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/167.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 168,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/168.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 169,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/169.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 172,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/172.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 173,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/173.json",
+      "series_count": 1,
+      "point_count": 323,
+      "error": null
+    },
+    {
+      "station_id": 174,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/174.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 175,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/175.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 176,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/176.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 177,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/177.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 178,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/178.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 179,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/179.json",
+      "series_count": 1,
+      "point_count": 278,
+      "error": null
+    },
+    {
+      "station_id": 180,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/180.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 181,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/181.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 182,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/182.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 183,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/183.json",
+      "series_count": 1,
+      "point_count": 74,
+      "error": null
+    },
+    {
+      "station_id": 184,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/184.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 185,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/185.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 186,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/186.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 187,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/187.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 188,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/188.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 189,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/189.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 190,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/190.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 191,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/191.json",
+      "series_count": 1,
+      "point_count": 280,
+      "error": null
+    },
+    {
+      "station_id": 192,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/192.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 193,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/193.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 194,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/194.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 195,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/195.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 196,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/196.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 197,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/197.json",
+      "series_count": 1,
+      "point_count": 552,
+      "error": null
+    },
+    {
+      "station_id": 198,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/198.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 199,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/199.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 200,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/200.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 201,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/201.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 202,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/202.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 203,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/203.json",
+      "series_count": 1,
+      "point_count": 571,
+      "error": null
+    },
+    {
+      "station_id": 204,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/204.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 205,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/205.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 206,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/206.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 207,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/207.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 208,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/208.json",
+      "series_count": 1,
+      "point_count": 239,
+      "error": null
+    },
+    {
+      "station_id": 209,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/209.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 210,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/210.json",
+      "series_count": 1,
+      "point_count": 241,
+      "error": null
+    },
+    {
+      "station_id": 211,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/211.json",
+      "series_count": 1,
+      "point_count": 557,
+      "error": null
+    },
+    {
+      "station_id": 212,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/212.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 214,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/214.json",
+      "series_count": 1,
+      "point_count": 567,
+      "error": null
+    },
+    {
+      "station_id": 215,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/215.json",
+      "series_count": 1,
+      "point_count": 188,
+      "error": null
+    },
+    {
+      "station_id": 216,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/216.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 217,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/217.json",
+      "series_count": 1,
+      "point_count": 572,
+      "error": null
+    },
+    {
+      "station_id": 218,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/218.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 219,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/219.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 220,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/220.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 222,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/222.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 223,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/223.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 224,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/224.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 225,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/225.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 229,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/229.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 230,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/230.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 231,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/231.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 232,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/232.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 233,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/233.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 234,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/234.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 235,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/235.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 236,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/236.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 237,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/237.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 238,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/238.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 239,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/239.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 240,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/240.json",
+      "series_count": 1,
+      "point_count": 573,
+      "error": null
+    },
+    {
+      "station_id": 241,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/241.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 242,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/242.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 243,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/243.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 244,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/244.json",
+      "series_count": 1,
+      "point_count": 265,
+      "error": null
+    },
+    {
+      "station_id": 245,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/245.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 246,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/246.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 247,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/247.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 248,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/248.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 249,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/249.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 250,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/250.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 251,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/251.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 252,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/252.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 254,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/254.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 255,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/255.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 256,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/256.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 257,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/257.json",
+      "series_count": 1,
+      "point_count": 90,
+      "error": null
+    },
+    {
+      "station_id": 258,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/258.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 259,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/259.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 260,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/260.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 261,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/261.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 262,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/262.json",
+      "series_count": 1,
+      "point_count": 239,
+      "error": null
+    },
+    {
+      "station_id": 263,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/263.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 264,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/264.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 265,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/265.json",
+      "series_count": 1,
+      "point_count": 481,
+      "error": null
+    },
+    {
+      "station_id": 266,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/266.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 267,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/267.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 268,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/268.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 269,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/269.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 270,
+      "status": "failed",
+      "path": "outputs/bangkok-water-data/station_histories/270.json",
+      "series_count": 0,
+      "point_count": 0,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "station_id": 271,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/271.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 272,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/272.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 273,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/273.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 274,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/274.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 275,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/275.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 276,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/276.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 277,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/277.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 278,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/278.json",
+      "series_count": 1,
+      "point_count": 554,
+      "error": null
+    },
+    {
+      "station_id": 279,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/279.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 280,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/280.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 281,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/281.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 282,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/282.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 283,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/283.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 284,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/284.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 285,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/285.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 286,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/286.json",
+      "series_count": 1,
+      "point_count": 518,
+      "error": null
+    },
+    {
+      "station_id": 287,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/287.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 288,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/288.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 289,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/289.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 290,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/290.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 291,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/291.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 292,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/292.json",
+      "series_count": 1,
+      "point_count": 574,
+      "error": null
+    },
+    {
+      "station_id": 293,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/293.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 294,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/294.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 295,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/295.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 296,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/296.json",
+      "series_count": 1,
+      "point_count": 575,
+      "error": null
+    },
+    {
+      "station_id": 297,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/297.json",
+      "series_count": 1,
+      "point_count": 75,
+      "error": null
+    },
+    {
+      "station_id": 298,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/298.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    },
+    {
+      "station_id": 299,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/299.json",
+      "series_count": 1,
+      "point_count": 263,
+      "error": null
+    },
+    {
+      "station_id": 300,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/300.json",
+      "series_count": 1,
+      "point_count": 238,
+      "error": null
+    },
+    {
+      "station_id": 332,
+      "status": "skipped",
+      "path": "outputs/bangkok-water-data/station_histories/332.json",
+      "series_count": 1,
+      "point_count": 576,
+      "error": null
+    }
+  ]
+}

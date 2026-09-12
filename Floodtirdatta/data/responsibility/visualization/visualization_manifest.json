@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-06-30T07:37:19Z",
+    "source_fingerprint_sha256": "f2f6ab426ad9d3185238aaca1c08f78f53dade509c37c07c59b379e8afb88e25",
+    "frontend_artifact": false,
+    "hosted": false
+  },
+  "prepared_counts": {
+    "district_operations": 50,
+    "agency_missions": 60,
+    "quality_issues": 418
+  },
+  "normalized_counts": {
+    "dim_district.csv": 50,
+    "dim_agency.csv": 70,
+    "dim_incident_type.csv": 10,
+    "dim_source.csv": 35,
+    "fact_district_agency_responsibility.csv": 872,
+    "fact_district_process_stage.csv": 300,
+    "fact_data_quality_issue.csv": 418
+  },
+  "visualizations": [
+    {
+      "path": "visualization/district_operational_coverage_map.png",
+      "sha256": "418728c3cf37edb68942a57f79c73a7a5f16bd117b0c496b20bdb77277dabe2a",
+      "purpose": "district_spatial_quality_and_coverage"
+    },
+    {
+      "path": "visualization/responsibility_data_readiness_dashboard.png",
+      "sha256": "d01140bce5f9d08201529f7c3cd490c87bbfc906115cfd70536bf6c5a75fd45d",
+      "purpose": "responsibility_readiness_and_data_quality"
+    }
+  ],
+  "notice": "Static analytical artifacts only. They are not frontend code and must not be used for automatic legal assignment."
+}

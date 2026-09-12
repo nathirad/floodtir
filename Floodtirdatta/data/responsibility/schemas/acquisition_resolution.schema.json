@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Acquisition gap-resolution record",
+  "type": "object",
+  "required": [
+    "resolution_status"
+  ],
+  "properties": {
+    "resolution_status": {
+      "enum": [
+        "resolved",
+        "candidate",
+        "not_publicly_available",
+        "requires_agency_confirmation"
+      ]
+    },
+    "asset_owner_agency_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "is_placeholder": {
+      "const": false
+    },
+    "may_auto_dispatch": {
+      "const": false
+    }
+  }
+}

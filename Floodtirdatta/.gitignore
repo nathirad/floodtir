@@ -1,0 +1,19 @@
+# Logs
+update.log
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and agent settings
+.claude/
+.agents/
+.idea/
+.vscode/
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

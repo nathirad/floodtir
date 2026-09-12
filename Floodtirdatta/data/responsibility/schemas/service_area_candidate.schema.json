@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Official-page service-area candidate",
+  "type": "object",
+  "required": [
+    "service_area_hash_sha256",
+    "district_code",
+    "agency_id",
+    "service_area_role",
+    "source_url",
+    "source_locator",
+    "verification_status",
+    "is_official_legal_assignment"
+  ],
+  "properties": {
+    "service_area_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "verification_status": {
+      "const": "official_reference_unverified"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    }
+  }
+}

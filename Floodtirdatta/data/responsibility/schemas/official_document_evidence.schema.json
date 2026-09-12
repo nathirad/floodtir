@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Official document evidence registry record",
+  "type": "object",
+  "required": [
+    "document_evidence_hash_sha256",
+    "document_id",
+    "source_url",
+    "source_access_status",
+    "verification_status",
+    "is_official_legal_assignment"
+  ],
+  "properties": {
+    "document_evidence_hash_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "document_sha256": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "verification_status": {
+      "const": "pending_legal_review"
+    },
+    "is_official_legal_assignment": {
+      "const": false
+    }
+  }
+}

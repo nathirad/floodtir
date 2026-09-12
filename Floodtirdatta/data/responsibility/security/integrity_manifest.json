@@ -1,0 +1,541 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "artifact_count": 106,
+    "signature_status": "unsigned",
+    "notice": "Checksums detect accidental or post-build changes but do not authenticate the publisher. Sign this manifest with a managed key before production use."
+  },
+  "artifacts": [
+    {
+      "path": "acquisition/agency_data_request_packet.csv",
+      "size_bytes": 3158,
+      "sha256": "6788ce40b7cd33bb880a3e96f8747d8957684c9af1a07adcbadb643636c087df"
+    },
+    {
+      "path": "acquisition/asset_owner_resolution_status.jsonl",
+      "size_bytes": 362410,
+      "sha256": "985106e0ad65ad5b38836133cfbb136c3df90f55f1793e9affad601b0e19bf44"
+    },
+    {
+      "path": "acquisition/district_sop_availability.jsonl",
+      "size_bytes": 40195,
+      "sha256": "4d564514e86e786938f0ff9cf915fdab4c61c137c388cf5d7731beea498fe61d"
+    },
+    {
+      "path": "acquisition/gap_resolution_registry.jsonl",
+      "size_bytes": 4017,
+      "sha256": "4046680801a28e4877831ea329e1e8892bc9292fe630fef406f8a2be573beffd"
+    },
+    {
+      "path": "acquisition/quality_report.json",
+      "size_bytes": 1206,
+      "sha256": "36541873066e581cd64be9ee6920ba72e683454f3989e47ce83f7d3c9d35c6e5"
+    },
+    {
+      "path": "acquisition/raw/bma_canal_inventory_2021/arcgis_item.json",
+      "size_bytes": 1896,
+      "sha256": "77178798bf668ef5b301ac2fda47a60c3e6c561a88b51f74078dbf2417aeb8b9"
+    },
+    {
+      "path": "acquisition/raw/bma_canal_inventory_2021/schema.ini",
+      "size_bytes": 339,
+      "sha256": "368ba4fcca6b23ee888052eb968bf5dc9acf0cc0c5754bbd3a94dfe192714f99"
+    },
+    {
+      "path": "acquisition/raw/bma_canal_inventory_2021/source_export.zip",
+      "size_bytes": 52141,
+      "sha256": "385da56803b72bb6158b1c7f3fa4fa00f6ca99fb3a25af7b79a6a917e62ef501"
+    },
+    {
+      "path": "acquisition/raw/bma_canal_inventory_2021/urban_ele31.csv",
+      "size_bytes": 386228,
+      "sha256": "b7f3e08c919af7be49dc558a75e73515a058e134328caa2445da617ef9998ab7"
+    },
+    {
+      "path": "acquisition/raw/data22rapid_canal_item.json",
+      "size_bytes": 1368,
+      "sha256": "5ee5e79434b4d09479f3651f317a1f024253dc939a957cc574d987bd9881b5aa"
+    },
+    {
+      "path": "acquisition/source_evidence_hash_index.jsonl",
+      "size_bytes": 9037,
+      "sha256": "74c6d31fbfbe61c6d5f87d2be9d0c05f59bb3d47537b2c8cf5b11c8d84bb873f"
+    },
+    {
+      "path": "acquisition/spatial_conflict_resolution_status.jsonl",
+      "size_bytes": 147584,
+      "sha256": "1ca26be5e8fc58263ee7822332fefe0252e6b1315f81e2516dff05dd0ec7bbff"
+    },
+    {
+      "path": "candidate/agency_capabilities_by_district_incident.json",
+      "size_bytes": 35531,
+      "sha256": "b59abcbc0de42da9a7f465977dc2a5659b41f4592fbdab513c5de11bcaf991ed"
+    },
+    {
+      "path": "candidate/agency_incident_capability_hash_index.jsonl",
+      "size_bytes": 257082,
+      "sha256": "f8285b221fac2418d95d43d4208ec6b76acee3def5df05d1c6e6dc8bddc441e3"
+    },
+    {
+      "path": "candidate/agency_master.json",
+      "size_bytes": 31543,
+      "sha256": "ab41de18bc9dfc573ba79e472e8f0093dee332bf722bf6de05a6cbd3d43e22db"
+    },
+    {
+      "path": "candidate/agency_service_area_hash_index.jsonl",
+      "size_bytes": 79244,
+      "sha256": "a5c547ba5cbbe69837191077f27576d4589bdc1dd1861f2a9e69f4093a36e775"
+    },
+    {
+      "path": "candidate/agency_service_areas_by_district.json",
+      "size_bytes": 9834,
+      "sha256": "dda68c2c92fed9c586c6a5bf2d5f282607f43b1efa859800b4b564a42f9f65d6"
+    },
+    {
+      "path": "candidate/all_assignments.csv",
+      "size_bytes": 3756595,
+      "sha256": "b46732c79d10c94ffe8f627b5045614b4995e0b388891c2272e48bad042d7695"
+    },
+    {
+      "path": "candidate/all_assignments.jsonl",
+      "size_bytes": 7573210,
+      "sha256": "13cad9ac5a94d07e9918320bbb5aa434fd96536abfe3227dba88d2f8f6fd9e9f"
+    },
+    {
+      "path": "candidate/asset_owner_hash_index.jsonl",
+      "size_bytes": 2331096,
+      "sha256": "cd1843b143d5db957f1468fa0c59d394f983c7fd3a9746888a0e9377347bb02c"
+    },
+    {
+      "path": "candidate/data_custodian_hash_index.jsonl",
+      "size_bytes": 261805,
+      "sha256": "94ff2e1f9e604e56dbffc37e1dce24c81be0eb96e8275f0e5d97ff2cf63c8b2c"
+    },
+    {
+      "path": "candidate/district_agency_responsibility_hash_index.jsonl",
+      "size_bytes": 1196810,
+      "sha256": "497656b4e7cbcf968de011802b8023a22c11313f1efeec2328a2e08ba5706242"
+    },
+    {
+      "path": "candidate/district_by_geohash6.json",
+      "size_bytes": 125081,
+      "sha256": "90de997dcfa843bfda96b88a95338140236abf4851a08b567d6147efb7e28c87"
+    },
+    {
+      "path": "candidate/flood_signal_routing_hash_index.jsonl",
+      "size_bytes": 1381310,
+      "sha256": "1784a874052f7d52c704845eb0f1ad1fc0d5592e42e70b01b79e7649cde21b96"
+    },
+    {
+      "path": "candidate/geographic_jurisdiction_hash_index.jsonl",
+      "size_bytes": 3598999,
+      "sha256": "d4641e479e8cc0eb4b0acb737a8a858b1cb45154fda69975704856bb51b74a4a"
+    },
+    {
+      "path": "candidate/incident_type_registry.json",
+      "size_bytes": 5090,
+      "sha256": "c9a82049c08c340caa2944cb614bd2b5e073c53ac1fec8aa7a8142056b4efcf8"
+    },
+    {
+      "path": "candidate/legal_basis_references.json",
+      "size_bytes": 3182,
+      "sha256": "3853e56476287c148ab89178a7512ae1d187f9543ad48909de50983e073664c7"
+    },
+    {
+      "path": "candidate/legal_reference_hash_index.jsonl",
+      "size_bytes": 3971,
+      "sha256": "9fc8b0b524ab3b65294b3817ccd33436afdfe2449944338d3f207c29d88b3159"
+    },
+    {
+      "path": "candidate/quality_report.json",
+      "size_bytes": 5604,
+      "sha256": "91a168383939fc270a51389cd458dabd472bfcc4b2527bf4de38e5ee50ef27a6"
+    },
+    {
+      "path": "candidate/responsibility_by_geohash7.json",
+      "size_bytes": 3937652,
+      "sha256": "077d809f0d14b232b4f36ef15722f30a09829cb5d60fcd24ecde712b84447b72"
+    },
+    {
+      "path": "candidate/responsible_agencies_by_district.json",
+      "size_bytes": 272891,
+      "sha256": "eebb65929b9ff4630c28a9a37f5d157b33f2368ec684807e791d28f77ebd8af6"
+    },
+    {
+      "path": "evidence/data_source_registry_hash_index.jsonl",
+      "size_bytes": 27659,
+      "sha256": "f9755dd22ebed3b1d106fd15f945843ae84183233bc175a06de774b6eb40dd0d"
+    },
+    {
+      "path": "evidence/district_office_flood_process_hash_index.jsonl",
+      "size_bytes": 192584,
+      "sha256": "9ba61609c49cd1be609245d05ec12bdf6275eca3c14479182a8f5eeac4ef7385"
+    },
+    {
+      "path": "evidence/mission_duty_evidence_hash_index.jsonl",
+      "size_bytes": 10866,
+      "sha256": "7d66dd68ffdfdae1d35ddcf3264c648fc8abcf6e10cd9ae0e133f6663e103611"
+    },
+    {
+      "path": "evidence/official_document_registry.json",
+      "size_bytes": 11865,
+      "sha256": "ca129be2264d8697cade2049f3c1df99f2af96530166a50115c0c8375c54ef55"
+    },
+    {
+      "path": "evidence/quality_report.json",
+      "size_bytes": 1275,
+      "sha256": "0df35e73dd8957197620c3019274ee3d497a95f7e6393a574455e6bf1958ecb6"
+    },
+    {
+      "path": "evidence/sop_process_evidence_hash_index.jsonl",
+      "size_bytes": 13194,
+      "sha256": "b2692a40220aef0ef408d1970842c66aa1cc6b47d7a7d0a372934c45a3a8d98a"
+    },
+    {
+      "path": "hash_index_catalog.json",
+      "size_bytes": 9212,
+      "sha256": "b32c0bc6580ab1f07d5e52df767b3a177be8c81f4101bf27252737ed6960c87f"
+    },
+    {
+      "path": "inputs/README.md",
+      "size_bytes": 3436,
+      "sha256": "69cb9575aed728af69cc1c1155101e60c705088d13794e5b5f2e67376ca2d87b"
+    },
+    {
+      "path": "inputs/acquired_source_evidence.json",
+      "size_bytes": 9201,
+      "sha256": "429d10b57421eefb708eea201e693c28b1470aef135206d138e685d771998589"
+    },
+    {
+      "path": "inputs/asset_owner_evidence.csv",
+      "size_bytes": 140,
+      "sha256": "7b452cbcd9481086ef075d03dd05d30731dde9c88fe732321a9927eb05539224"
+    },
+    {
+      "path": "inputs/incident_responsibility_matrix.csv",
+      "size_bytes": 171,
+      "sha256": "6155ff91f1b082b1f8e6c8e36f19e6e6cbc824542bd275caa5148c80733dee70"
+    },
+    {
+      "path": "inputs/legal_basis.csv",
+      "size_bytes": 204,
+      "sha256": "14cfdb43fbfd0c145aa210152a19743309c4e74720efc0c9bf936a8b18fee56f"
+    },
+    {
+      "path": "inputs/official_document_evidence.json",
+      "size_bytes": 32007,
+      "sha256": "1023f8b1b4e44a90ca9cd1a02b2a774be637715326096221dec1928cfa7f139c"
+    },
+    {
+      "path": "inputs/verified_dispatch_authorizations.csv",
+      "size_bytes": 231,
+      "sha256": "0c1f908f5da302b6627008478d2aa6037f79a02166273120a1b2be39e4106c33"
+    },
+    {
+      "path": "inputs/verified_responsibility_assignments.csv",
+      "size_bytes": 278,
+      "sha256": "3b7433ac040b066d4e65f9002c9901185de7583ea51bc779cbe9a3d909f5508d"
+    },
+    {
+      "path": "legal_authority/authority_by_role.json",
+      "size_bytes": 5966,
+      "sha256": "3536c88174d8a6400351f98452d39e4a68fda049e065b29676dc7635cada422e"
+    },
+    {
+      "path": "legal_authority/authority_provisions_hash_index.jsonl",
+      "size_bytes": 22983,
+      "sha256": "72497e85a78fddd321a7171145f458fc1c4882162420569645989038b0d840ed"
+    },
+    {
+      "path": "legal_authority/dispatch_guardrails.json",
+      "size_bytes": 1013,
+      "sha256": "20f13b11376a63b1e02ae601554beefdd5c65639c0180ed61b94857b9ab9228c"
+    },
+    {
+      "path": "legal_authority/district_authority_candidates.jsonl",
+      "size_bytes": 57422,
+      "sha256": "308fd65660f70eb1eb7a8ff7938fb9087b26131dcc037db5ebb990547e0e050e"
+    },
+    {
+      "path": "legal_authority/legal_review_queue.jsonl",
+      "size_bytes": 7595,
+      "sha256": "1cc022eb9ab356d0002077e28104d7855fecf5a8e2993ed54b05e1d3bb4d8ee0"
+    },
+    {
+      "path": "legal_authority/quality_report.json",
+      "size_bytes": 1150,
+      "sha256": "09cc994ec10dd4fb0a89b66b9416e5b6d8d40a30a39112e530e4705e4c2805af"
+    },
+    {
+      "path": "legal_authority/raw/bma_administration_act_2528_consolidated.pdf",
+      "size_bytes": 327361,
+      "sha256": "f2612d70bd6df8d12b66adc4e0c32eba628e0ac77d86dd480486a3ba603e8219"
+    },
+    {
+      "path": "legal_authority/raw/disaster_prevention_act_2550.pdf",
+      "size_bytes": 171898,
+      "sha256": "496ba630e7d6fc77f185e2abd5c929836aeb112a8e059e8a5cace87fac37c9db"
+    },
+    {
+      "path": "legal_authority/source_material.json",
+      "size_bytes": 22599,
+      "sha256": "05584d822c2a850ff5aa411b2027c87aeb775389f81c711377c010e7b64f9d66"
+    },
+    {
+      "path": "legal_authority/source_registry.json",
+      "size_bytes": 3500,
+      "sha256": "5975886646fc237f22a09363cdec4c88f962bbece5432f6c5245a97f3fc4b4f6"
+    },
+    {
+      "path": "manifest.json",
+      "size_bytes": 2908,
+      "sha256": "50eaff1396208b54882a889e9f0b0982cf2c57663340498a9d8b944c8271bc46"
+    },
+    {
+      "path": "normalized/data_contract.json",
+      "size_bytes": 2480,
+      "sha256": "8124c64feffeab04bc903ac60b1e627b42e82bb2f5ee430a850c182e0c6cf60b"
+    },
+    {
+      "path": "normalized/dim_agency.csv",
+      "size_bytes": 12560,
+      "sha256": "152faab994360ef9da81f5da9c7c3dca739c3f1087029a2440049c917411c542"
+    },
+    {
+      "path": "normalized/dim_district.csv",
+      "size_bytes": 2900,
+      "sha256": "4404580e38b35510ec1c6aaa689ebc732c3878ae91c4b5e2dd0382128c44d6ac"
+    },
+    {
+      "path": "normalized/dim_incident_type.csv",
+      "size_bytes": 2326,
+      "sha256": "133758574fc464cea091101c99abad1c6f4a8fd05c7da4865d48932df0c0dffb"
+    },
+    {
+      "path": "normalized/dim_source.csv",
+      "size_bytes": 17529,
+      "sha256": "f49b57343a98c8650b745c3a4e5fe0ea99cf67ef10ba8037c5032a33c3364d75"
+    },
+    {
+      "path": "normalized/fact_data_quality_issue.csv",
+      "size_bytes": 79921,
+      "sha256": "7a1211cbcaf0c19b791bba5fb4b96a89d810cca4bbac9f551ccf68c316eb49af"
+    },
+    {
+      "path": "normalized/fact_district_agency_responsibility.csv",
+      "size_bytes": 754860,
+      "sha256": "72ec5aef6c75507c143b65eda3d2b27bec954921fa3e30e1006b391abe5bbe2d"
+    },
+    {
+      "path": "normalized/fact_district_process_stage.csv",
+      "size_bytes": 128671,
+      "sha256": "849e05098bf69cd193db405fd70fb5395e17c6614578d3d73a0ed4aec24556a2"
+    },
+    {
+      "path": "normalized/normalization_manifest.json",
+      "size_bytes": 1198,
+      "sha256": "c802a44c0620b9bce778c76d505f35d4ac2fe3a24738614229e535b8b3d76d16"
+    },
+    {
+      "path": "prepared/agency_flood_missions.jsonl",
+      "size_bytes": 74858,
+      "sha256": "1cdf20eb13db0b8bd1985a20709055328c8351b2bec1b6894a4cac4bb8d48a35"
+    },
+    {
+      "path": "prepared/data_quality_issues.jsonl",
+      "size_bytes": 279990,
+      "sha256": "b58eccb2553fdec2ec2a2451c2062ba9b059e5d6c5038361498fc3a0dc16c43e"
+    },
+    {
+      "path": "prepared/district_flood_operations.jsonl",
+      "size_bytes": 154758,
+      "sha256": "4e37932378dc744ffc0e53dfce9ccf7315099cee6ee0865f9c59b2afbd1123e8"
+    },
+    {
+      "path": "prepared/preparation_report.json",
+      "size_bytes": 1120,
+      "sha256": "1531989d5f63bc79873b41cb4ba72d141e88c885750cb8e75e08f01d7fcfb324"
+    },
+    {
+      "path": "review/review_manifest.json",
+      "size_bytes": 398,
+      "sha256": "f5e3702545972c9c51df24cdcba5efd468d935d633785b0d59e84509c824f746"
+    },
+    {
+      "path": "review/spatial_conflicts.jsonl",
+      "size_bytes": 114763,
+      "sha256": "9687e7138ab718f974c1bfff4fc474d2f00bc9071c346680b25a705d3893d6e0"
+    },
+    {
+      "path": "review/unresolved_asset_owners.jsonl",
+      "size_bytes": 140110,
+      "sha256": "9083c528ba62049505cd8fe09b52c1046a8cbda90027d9614cdcac33e4f50d65"
+    },
+    {
+      "path": "schemas/acquired_source_evidence.schema.json",
+      "size_bytes": 876,
+      "sha256": "79c97d73079b9e3e3b0036f989234ec82b355e1bd7dd900d2f7e57f71022bffa"
+    },
+    {
+      "path": "schemas/acquisition_resolution.schema.json",
+      "size_bytes": 573,
+      "sha256": "a78e97a81b41492215bf3514d5a534bf452694353e7ec6b90568df323dbd6778"
+    },
+    {
+      "path": "schemas/agency_incident_capability.schema.json",
+      "size_bytes": 576,
+      "sha256": "e5ea6d3d5814b5e5e7d3c18d9305ca9010ff38bb06ad3752c2c82b1564ade1cc"
+    },
+    {
+      "path": "schemas/candidate_assignment.schema.json",
+      "size_bytes": 720,
+      "sha256": "0def935212d51dd33165a1ccd2910f10f30c8098318c90b81244b74dc7316247"
+    },
+    {
+      "path": "schemas/data_source_registry.schema.json",
+      "size_bytes": 842,
+      "sha256": "1098b2e6876f9a450e5e28c4dc71c0da9ff3ec023a409b275ba4534d1e56b732"
+    },
+    {
+      "path": "schemas/dispatch_authorization.schema.json",
+      "size_bytes": 1032,
+      "sha256": "50ef38c84f490e5f379926d06f88c41f94691dd75854ba0d7a45a92da0235ba0"
+    },
+    {
+      "path": "schemas/district_agency_responsibility_summary.schema.json",
+      "size_bytes": 913,
+      "sha256": "7fd5cbcf0bd2c281b3769b27310a2614daa5d3f5d1a7fe3aec70aa99f9d95f66"
+    },
+    {
+      "path": "schemas/district_authority_candidate.schema.json",
+      "size_bytes": 1300,
+      "sha256": "c63c0c8e86aaf4f57377dc394e6e4614c0bf9fd2691757896d48cf3cea65fade"
+    },
+    {
+      "path": "schemas/district_office_flood_process.schema.json",
+      "size_bytes": 1038,
+      "sha256": "50e1acfeaf7846d36819dedbee905df85466e1f650952dfbf9c9895f8e6b6734"
+    },
+    {
+      "path": "schemas/legal_authority_provision.schema.json",
+      "size_bytes": 2357,
+      "sha256": "b01388204284b37b2151961f22e7ec8c8f572cca57ff614675c04eec3f2efa38"
+    },
+    {
+      "path": "schemas/legal_authority_review.schema.json",
+      "size_bytes": 606,
+      "sha256": "243b64d271d96c533f145e31edd166c8975c149060afdefd5fcbe6e8971f1f0c"
+    },
+    {
+      "path": "schemas/legal_authority_source.schema.json",
+      "size_bytes": 971,
+      "sha256": "612f4f9990ab4c94942e883412772d6aa97b512247cdbe2fe674183139c8d685"
+    },
+    {
+      "path": "schemas/legal_basis.schema.json",
+      "size_bytes": 1143,
+      "sha256": "ff61b5ff824a4fa49bbd6a81962b5f1d09421d2db20ec39f90138d68afa68e50"
+    },
+    {
+      "path": "schemas/legal_reference.schema.json",
+      "size_bytes": 533,
+      "sha256": "cca41e2cdb027df6c6eefae9f43665c59b6968c0090d3eb386e87ca5de3232a7"
+    },
+    {
+      "path": "schemas/mission_duty_evidence.schema.json",
+      "size_bytes": 648,
+      "sha256": "b49b1d81349ad1e8b55ee69baca466c21d2401414cf7651898376bfc27cccbd4"
+    },
+    {
+      "path": "schemas/official_document_evidence.schema.json",
+      "size_bytes": 861,
+      "sha256": "9d0cf1d12d51ccb5aba69ac83558a65c53a80407d8f9d9c5d54d938dad5bc1b0"
+    },
+    {
+      "path": "schemas/review_record.schema.json",
+      "size_bytes": 568,
+      "sha256": "fe775fcc2f1d6e813fa98b26bc1fa612d8c2151e0c0be35f76a78b89ceae150d"
+    },
+    {
+      "path": "schemas/service_area_candidate.schema.json",
+      "size_bytes": 703,
+      "sha256": "f9cd4e28b3a32545e77b21a767c38bc894cb19d369438d6127ece495011778f8"
+    },
+    {
+      "path": "schemas/sop_process_evidence.schema.json",
+      "size_bytes": 626,
+      "sha256": "f31b948d2b1bda75d4db81b9062d254b90b012b3ce3d948b465c061f9ae6d1e7"
+    },
+    {
+      "path": "schemas/verified_assignment.schema.json",
+      "size_bytes": 1112,
+      "sha256": "4393aa0364b8297c46d479fd6b38a632bee4c389399e7a85bfd76dda901c6022"
+    },
+    {
+      "path": "security/ingestion_risk_report.json",
+      "size_bytes": 3684,
+      "sha256": "6fe72a7c3440ab9361c07abf04b3a00079b4d70ff85a8a80ad69b9f298e83027"
+    },
+    {
+      "path": "security/security_policy.json",
+      "size_bytes": 2006,
+      "sha256": "1af2958a4c009eb56d5b4a840cc455c2e73d58c2eeea14c6c720003306701fe5"
+    },
+    {
+      "path": "verified/authorization_by_actor_role.json",
+      "size_bytes": 385,
+      "sha256": "880556db57bb711873e11748dc1da5052b595cb03f782f41e653b3329181d880"
+    },
+    {
+      "path": "verified/by_spatial_hash.json",
+      "size_bytes": 379,
+      "sha256": "5ca3adb38525aafb600df151be99d90de5341b389a8dfa0378b756ef1125ad90"
+    },
+    {
+      "path": "verified/dispatch_authorization_hash_index.csv",
+      "size_bytes": 327,
+      "sha256": "cfd72cb1e3af1aba2bb80145ad09f01de8f09b033e295b62875eea82c64a840d"
+    },
+    {
+      "path": "verified/dispatch_authorization_hash_index.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verified/legal_responsibility_hash_index.csv",
+      "size_bytes": 378,
+      "sha256": "a0e9fbe0d648ffcbb2a1593f37e6e1f4d2fccbcabb8e20eff128a445e28efe82"
+    },
+    {
+      "path": "verified/legal_responsibility_hash_index.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verified/quality_report.json",
+      "size_bytes": 562,
+      "sha256": "695bda90952016e92dfc7157198d4a236c3487b3ae6d2e69426a5631dd4c021a"
+    },
+    {
+      "path": "visualization/analysis_payload.json",
+      "size_bytes": 18292,
+      "sha256": "c5db970fce512c3ad56231f55c19152c5c7c8e2825e98fe85fa831cd77f379c6"
+    },
+    {
+      "path": "visualization/district_operational_coverage_map.png",
+      "size_bytes": 95017,
+      "sha256": "418728c3cf37edb68942a57f79c73a7a5f16bd117b0c496b20bdb77277dabe2a"
+    },
+    {
+      "path": "visualization/responsibility_data_readiness_dashboard.png",
+      "size_bytes": 95510,
+      "sha256": "d01140bce5f9d08201529f7c3cd490c87bbfc906115cfd70536bf6c5a75fd45d"
+    },
+    {
+      "path": "visualization/visualization_manifest.json",
+      "size_bytes": 1253,
+      "sha256": "fa2235fad079f029a0304ea364ff72eb5b573c776b17ef932d341db1ab4dd1cf"
+    }
+  ]
+}

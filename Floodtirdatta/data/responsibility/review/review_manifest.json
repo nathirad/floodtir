@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "status": "manual_review_required",
+    "is_placeholder_layer": false
+  },
+  "counts": {
+    "unresolved_asset_owners": 247,
+    "spatial_conflicts": 171,
+    "total": 418
+  },
+  "policy": "Review records describe actual source entities. They are excluded from verified assignments until resolved."
+}

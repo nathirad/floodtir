@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:25Z",
+    "scope": "All responsibility hash datasets in this PR",
+    "notice": "Canonical, derived, review, and verified counts are reported separately to avoid double counting."
+  },
+  "totals": {
+    "canonical_candidate_hash_count": 8520,
+    "derived_district_agency_summary_hash_count": 872,
+    "manual_review_hash_count": 418,
+    "verified_hash_count": 0,
+    "official_evidence_hash_count": 25,
+    "district_process_candidate_hash_count": 50,
+    "provenance_source_hash_count": 35,
+    "acquisition_source_hash_count": 7,
+    "acquisition_gap_status_hash_count": 477,
+    "legal_authority_evidence_hash_count": 17,
+    "district_legal_authority_candidate_hash_count": 50,
+    "legal_authority_review_hash_count": 17
+  },
+  "datasets": [
+    {
+      "dataset_id": "candidate-responsibility-assignments",
+      "path": "candidate/all_assignments.jsonl",
+      "csv_path": "candidate/all_assignments.csv",
+      "hash_field": "responsibility_hash_sha256",
+      "record_count": 8112,
+      "record_kind": "canonical",
+      "verification_status": "candidate_unverified"
+    },
+    {
+      "dataset_id": "candidate-geographic-jurisdiction",
+      "path": "candidate/geographic_jurisdiction_hash_index.jsonl",
+      "hash_field": "responsibility_hash_sha256",
+      "record_count": 3817,
+      "record_kind": "materialized_view",
+      "verification_status": "candidate_unverified"
+    },
+    {
+      "dataset_id": "candidate-asset-owner",
+      "path": "candidate/asset_owner_hash_index.jsonl",
+      "hash_field": "responsibility_hash_sha256",
+      "record_count": 2566,
+      "record_kind": "materialized_view",
+      "verification_status": "candidate_unverified"
+    },
+    {
+      "dataset_id": "candidate-flood-signal-routing",
+      "path": "candidate/flood_signal_routing_hash_index.jsonl",
+      "hash_field": "responsibility_hash_sha256",
+      "record_count": 1450,
+      "record_kind": "materialized_view",
+      "verification_status": "candidate_unverified"
+    },
+    {
+      "dataset_id": "candidate-data-custodian",
+      "path": "candidate/data_custodian_hash_index.jsonl",
+      "hash_field": "responsibility_hash_sha256",
+      "record_count": 279,
+      "record_kind": "materialized_view",
+      "verification_status": "candidate_unverified"
+    },
+    {
+      "dataset_id": "candidate-agency-service-area",
+      "path": "candidate/agency_service_area_hash_index.jsonl",
+      "hash_field": "service_area_hash_sha256",
+      "record_count": 100,
+      "record_kind": "canonical",
+      "verification_status": "official_reference_unverified"
+    },
+    {
+      "dataset_id": "candidate-agency-incident-capability",
+      "path": "candidate/agency_incident_capability_hash_index.jsonl",
+      "hash_field": "capability_hash_sha256",
+      "record_count": 300,
+      "record_kind": "canonical",
+      "verification_status": "official_reference_unverified"
+    },
+    {
+      "dataset_id": "candidate-legal-reference",
+      "path": "candidate/legal_reference_hash_index.jsonl",
+      "hash_field": "legal_reference_hash_sha256",
+      "record_count": 8,
+      "record_kind": "canonical_reference_identity",
+      "verification_status": "reference_not_legal_reviewed"
+    },
+    {
+      "dataset_id": "candidate-district-agency-summary",
+      "path": "candidate/district_agency_responsibility_hash_index.jsonl",
+      "hash_field": "district_agency_responsibility_hash_sha256",
+      "record_count": 872,
+      "record_kind": "derived_summary",
+      "verification_status": "candidate_unverified"
+    },
+    {
+      "dataset_id": "evidence-official-document-registry",
+      "path": "evidence/official_document_registry.json",
+      "hash_field": "document_evidence_hash_sha256",
+      "record_count": 7,
+      "record_kind": "official_document_evidence",
+      "verification_status": "pending_legal_review"
+    },
+    {
+      "dataset_id": "evidence-mission-duty",
+      "path": "evidence/mission_duty_evidence_hash_index.jsonl",
+      "hash_field": "mission_duty_hash_sha256",
+      "record_count": 11,
+      "record_kind": "official_document_extraction",
+      "verification_status": "pending_legal_review"
+    },
+    {
+      "dataset_id": "evidence-sop-process",
+      "path": "evidence/sop_process_evidence_hash_index.jsonl",
+      "hash_field": "sop_process_hash_sha256",
+      "record_count": 7,
+      "record_kind": "official_document_extraction",
+      "verification_status": "pending_legal_review"
+    },
+    {
+      "dataset_id": "evidence-district-office-flood-process",
+      "path": "evidence/district_office_flood_process_hash_index.jsonl",
+      "hash_field": "district_process_hash_sha256",
+      "record_count": 50,
+      "record_kind": "derived_common_process_candidate",
+      "verification_status": "pending_district_confirmation"
+    },
+    {
+      "dataset_id": "evidence-data-source-registry",
+      "path": "evidence/data_source_registry_hash_index.jsonl",
+      "hash_field": "data_source_hash_sha256",
+      "record_count": 35,
+      "record_kind": "source_lineage",
+      "verification_status": "mixed_see_record"
+    },
+    {
+      "dataset_id": "review-unresolved-asset-owner",
+      "path": "review/unresolved_asset_owners.jsonl",
+      "hash_field": "review_hash_sha256",
+      "record_count": 247,
+      "record_kind": "manual_review",
+      "verification_status": "unresolved"
+    },
+    {
+      "dataset_id": "review-spatial-conflict",
+      "path": "review/spatial_conflicts.jsonl",
+      "hash_field": "review_hash_sha256",
+      "record_count": 171,
+      "record_kind": "manual_review",
+      "verification_status": "unresolved"
+    },
+    {
+      "dataset_id": "acquisition-source-evidence",
+      "path": "acquisition/source_evidence_hash_index.jsonl",
+      "hash_field": "acquired_source_hash_sha256",
+      "record_count": 7,
+      "record_kind": "official_public_source_evidence",
+      "verification_status": "mixed_see_record"
+    },
+    {
+      "dataset_id": "acquisition-asset-owner-status",
+      "path": "acquisition/asset_owner_resolution_status.jsonl",
+      "hash_field": "acquisition_resolution_hash_sha256",
+      "record_count": 247,
+      "record_kind": "gap_resolution_status",
+      "verification_status": "requires_agency_confirmation"
+    },
+    {
+      "dataset_id": "acquisition-spatial-conflict-status",
+      "path": "acquisition/spatial_conflict_resolution_status.jsonl",
+      "hash_field": "acquisition_resolution_hash_sha256",
+      "record_count": 171,
+      "record_kind": "gap_resolution_status",
+      "verification_status": "mixed_see_record"
+    },
+    {
+      "dataset_id": "acquisition-district-sop-availability",
+      "path": "acquisition/district_sop_availability.jsonl",
+      "hash_field": "district_sop_availability_hash_sha256",
+      "record_count": 50,
+      "record_kind": "district_sop_availability",
+      "verification_status": "mixed_see_record"
+    },
+    {
+      "dataset_id": "acquisition-gap-resolution",
+      "path": "acquisition/gap_resolution_registry.jsonl",
+      "hash_field": "gap_resolution_hash_sha256",
+      "record_count": 9,
+      "record_kind": "gap_resolution_summary",
+      "verification_status": "mixed_see_record"
+    },
+    {
+      "dataset_id": "legal-authority-source-registry",
+      "path": "legal_authority/source_registry.json",
+      "hash_field": "legal_source_hash_sha256",
+      "record_count": 2,
+      "record_kind": "checked_in_official_legal_document",
+      "verification_status": "pending_legal_review"
+    },
+    {
+      "dataset_id": "legal-authority-provisions",
+      "path": "legal_authority/authority_provisions_hash_index.jsonl",
+      "hash_field": "authority_hash_sha256",
+      "record_count": 15,
+      "record_kind": "curated_statutory_evidence",
+      "verification_status": "pending_legal_review"
+    },
+    {
+      "dataset_id": "legal-authority-district-candidates",
+      "path": "legal_authority/district_authority_candidates.jsonl",
+      "hash_field": "district_authority_hash_sha256",
+      "record_count": 50,
+      "record_kind": "district_statutory_role_candidate",
+      "verification_status": "pending_legal_review"
+    },
+    {
+      "dataset_id": "legal-authority-review-queue",
+      "path": "legal_authority/legal_review_queue.jsonl",
+      "hash_field": "legal_review_hash_sha256",
+      "record_count": 17,
+      "record_kind": "legal_review_task",
+      "verification_status": "open"
+    },
+    {
+      "dataset_id": "verified-legal-responsibility",
+      "path": "verified/legal_responsibility_hash_index.jsonl",
+      "csv_path": "verified/legal_responsibility_hash_index.csv",
+      "hash_field": "responsibility_hash_sha256",
+      "record_count": 0,
+      "record_kind": "verified",
+      "verification_status": "awaiting_verified_legal_inputs"
+    },
+    {
+      "dataset_id": "verified-dispatch-authorization",
+      "path": "verified/dispatch_authorization_hash_index.jsonl",
+      "csv_path": "verified/dispatch_authorization_hash_index.csv",
+      "hash_field": "authorization_hash_sha256",
+      "record_count": 0,
+      "record_kind": "verified",
+      "verification_status": "awaiting_verified_legal_inputs"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "schema_version": "1.2.0",
+    "generated_at": "2026-06-30T07:37:19Z",
+    "role_count": 6
+  },
+  "roles": [
+    {
+      "actor_role_code": "bangkok_metropolitan_administration",
+      "actor_role_name_th": "กรุงเทพมหานคร",
+      "agency_id": "bma",
+      "role_scope": "bangkok_citywide",
+      "authority_provision_hashes_sha256": [
+        "0efd2bf7bdfc26c6c0ae7fa51f202da7c2cd0456ebd861bc071f9c782ee8ff62",
+        "34297452b75f2f165e18decb4ce938bd3196b3fb83b03282db186ea2a7677e7d",
+        "7c3539350db40958bf6cce996f8aa2fe734773c877c761326848760d1020b329"
+      ],
+      "action_codes": [
+        "establish_bma_structure",
+        "maintain_waterways_and_drainage",
+        "perform_disaster_prevention"
+      ],
+      "verification_status": "pending_legal_review",
+      "requires_human_approval": true,
+      "may_auto_dispatch": false,
+      "authority_role_hash_sha256": "d429d7fb450f55c20158a632a4036a200eba2755c572587b47c49eaa97fbec28"
+    },
+    {
+      "actor_role_code": "bma_bureau_director",
+      "actor_role_name_th": "ผู้อำนวยการสำนักหรือส่วนราชการที่มีฐานะเป็นสำนัก",
+      "agency_id": "bma",
+      "role_scope": "assigned_bureau",
+      "authority_provision_hashes_sha256": [
+        "cbe0bc729cbe64129c763f4718e25ca168b11c9cef91010cbdb79063d9075733"
+      ],
+      "action_codes": [
+        "exercise_law_or_order_defined_bureau_duties",
+        "manage_bureau"
+      ],
+      "verification_status": "pending_legal_review",
+      "requires_human_approval": true,
+      "may_auto_dispatch": false,
+      "authority_role_hash_sha256": "f519a13d611b5b6959412a2b0b78f14763af8ab1331d84f9ba98c5b20ee2075e"
+    },
+    {
+      "actor_role_code": "bma_disaster_officer",
+      "actor_role_name_th": "เจ้าพนักงานป้องกันและบรรเทาสาธารณภัยที่ได้รับแต่งตั้ง",
+      "agency_id": "bma",
+      "role_scope": "appointment_defined",
+      "authority_provision_hashes_sha256": [],
+      "action_codes": [],
+      "verification_status": "pending_legal_review",
+      "requires_human_approval": true,
+      "may_auto_dispatch": false,
+      "authority_role_hash_sha256": "bf80e310cdfc83c84a919291e40448812ab0faaa82b087e770b389cf67dfedc0"
+    },
+    {
+      "actor_role_code": "bma_district_director_assistant_disaster_director",
+      "actor_role_name_th": "ผู้อำนวยการเขตในฐานะผู้ช่วยผู้อำนวยการกรุงเทพมหานคร",
+      "agency_id": null,
+      "role_scope": "district",
+      "authority_provision_hashes_sha256": [
+        "2a8f5a5ccd8ec410ae93de1c2941d25edfb7f9773cf5b672a7c67f79f6c6eb6d",
+        "6655f84f4eccffc23f6d06c4ae3185ebfbc8ba8ad9c9fd41c5a98171c43d39c4",
+        "7d43c0a60142963ef4b53f55aaefcedbf1de33975d8d9c4cc845162918f42495",
+        "cb9fec8c741f64f2feda20f742dfce91da144b02e08d79d4c7c2aeeb34572bb3",
+        "fde38490b183a94d394723f3f6c96fdf40abb620db03cbfe6578c06b9a9dbc0a"
+      ],
+      "action_codes": [
+        "assist_disaster_director",
+        "command_bma_disaster_personnel",
+        "command_bma_units_in_district",
+        "exercise_statutory_district_powers",
+        "initiate_disaster_response",
+        "manage_district_office",
+        "notify_bma_command",
+        "perform_district_disaster_response",
+        "receive_delegated_authority"
+      ],
+      "verification_status": "pending_legal_review",
+      "requires_human_approval": true,
+      "may_auto_dispatch": false,
+      "authority_role_hash_sha256": "56c4a9f3ec2e0503c2f9b86bad5b9936f837e737f05c220b507b53108e47f2d8"
+    },
+    {
+      "actor_role_code": "bma_governor_disaster_director",
+      "actor_role_name_th": "ผู้ว่าราชการกรุงเทพมหานครในฐานะผู้อำนวยการกรุงเทพมหานคร",
+      "agency_id": "bma",
+      "role_scope": "bangkok_citywide",
+      "authority_provision_hashes_sha256": [
+        "130bc2234b48da4d6753ca3ee78370dd191f5399407ad4d6b21f5b8c01581099",
+        "5c0363d4219704077593bb8f3bbd848f97df76f3638d56baaf9cc2169130ee6e",
+        "9ecc87327161fa6c56b6077ba7734cdead31d9dc8d9026386f912c497fbc57cb",
+        "aaa7de9db4e5407b98319da572f9672069b45acff4f7ae519d2a5f20e1b7e963",
+        "ede638c24686711a2022539f6ca32f71ba1163610cc5cc9afaefa16871bcd3ce"
+      ],
+      "action_codes": [
+        "administer_bma",
+        "appoint_disaster_officers",
+        "assign_cross_district_work",
+        "create_disaster_plan",
+        "issue_bma_orders",
+        "issue_bma_regulations",
+        "provide_disaster_resources",
+        "provide_initial_relief",
+        "request_state_agency_assistance",
+        "supervise_bma_disaster_response"
+      ],
+      "verification_status": "pending_legal_review",
+      "requires_human_approval": true,
+      "may_auto_dispatch": false,
+      "authority_role_hash_sha256": "8f7bd5b1a14785b5884e47995528fe96081343d4a38983170c130105ddd353ef"
+    },
+    {
+      "actor_role_code": "bma_permanent_secretary_deputy_disaster_director",
+      "actor_role_name_th": "ปลัดกรุงเทพมหานครในฐานะรองผู้อำนวยการกรุงเทพมหานคร",
+      "agency_id": "bma",
+      "role_scope": "bangkok_citywide",
+      "authority_provision_hashes_sha256": [
+        "911e3867349377b59a53314aa6a17ac5388d70cfe8b05dc5d2ded0ebbecec830"
+      ],
+      "action_codes": [
+        "assist_disaster_director",
+        "exercise_delegated_duties"
+      ],
+      "verification_status": "pending_legal_review",
+      "requires_human_approval": true,
+      "may_auto_dispatch": false,
+      "authority_role_hash_sha256": "79f940ada2aca7ce80777e9ffce5f0fe0fa18a1a3d73fcb24460a443ff04b5cc"
+    }
+  ]
+}
