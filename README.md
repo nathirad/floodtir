@@ -12,8 +12,6 @@ Floodtir is agentic by orchestration, not by uncontrolled autonomy: AI agents ca
 
 Built for BDI Hackathon 2026 OPEN, Challenge 3: Safety. The current pilot focuses on Lat Krabang District.
 
-![Floodtir system storyboard](system-storyboard-preview.png)
-
 ## Why Floodtir
 
 Public agencies already collect substantial weather, rainfall, water-level, infrastructure, and geographic data. These sources are often viewed independently, which makes it difficult to recognize a fast-changing local risk, communicate a consistent warning, and coordinate the right response across teams.
@@ -72,6 +70,10 @@ Every stage preserves provenance: where the information came from, who authorize
 - Bangkok canal, drainage, district, pump, gate, and water-level datasets
 - Legal-responsibility index with explicit candidate and verified states
 
+## Interface Status
+
+The frontend includes a Situation Map, Work Order workflow, and Accountability Board. Image files whose names end in `-preview` are historical design-demo references and should not be treated as authoritative screenshots of the current or production interface.
+
 ## Architecture
 
 | Layer | Technology |
@@ -94,16 +96,6 @@ AI is limited to three narrow roles:
 - **Narration:** summarize situations and proposed actions for human review.
 
 AI cannot select an agency or pump, change an order status, or dispatch work directly. Every operational dispatch requires human confirmation.
-
-## Screenshots
-
-### Operations dashboard
-
-![Floodtir operations dashboard](frontend-design-preview.png)
-
-### Accountability Board
-
-![Floodtir Accountability Board](accountability-board-preview.png)
 
 ## Requirements
 
